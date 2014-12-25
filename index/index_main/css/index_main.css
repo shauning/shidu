@@ -143,3 +143,6 @@ a:hover {color:#249ff1;}
 .entry {height:80px;background:url(../img/entry.png);margin-bottom:20px;overflow:hidden;}
 .entry a {display:block;height:73px;padding:10px 20px 0;font-size:18px;color:#fff;line-height:30px;cursor:pointer;}
 .entry strong {font-size:26px;}
+
+.tagname {height:60px;background:#f6f6f6;padding:0 20px;line-height:60px;border-top:solid #1c8dd5 2px;overflow:hidden;}
+.tagname h2 {font-size:24px;color:#333;font-family:"Microsoft Yahei";}
