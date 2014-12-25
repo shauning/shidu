@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- vinha
+ * @time   ------- 2014-12*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+address, cite, em {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1000px;height:100%;background:#fff;font:12px/1.8em "\5b8b\4f53","Arial Narrow";color:#999;}
+a {color:#444;outline:none;text-decoration:none;}
+a:hover {color:#0b68c8;text-decoration:underline;}
+
+.wrapper {width:557px;height:403px;background:#fff;padding:13px 0 0 13px;}
+.left {float:left;width:273px;}
+.right {float:right;width:273px;}
+/*slide*/
+.slidebox {position:relative;width:273px;height:180px;overflow:hidden;}
+.slidebox_list li {width:273px;height:180px;}
+.slidebox_list a {position:relative;display:block;height:180px;}
+.slidebox_list img {width:273px;height:180px;}
+.slidebox_list span {position:absolute;left:0;bottom:0;display:block;width:160px;height:28px;padding:0 108px 0 5px;font-size:14px;color:#fff;line-height:28px;font-weight:bold;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
+.slidebox_tigger {position:absolute;right:10px;bottom:11px;}
+.slidebox_tigger li {float:left;display:inline;width:10px;height:6px;background:#999;margin-left:4px;cursor:pointer;text-indent:-9999px;overflow:hidden;}
+.slidebox_tigger .on {background:#00ccff;}
+/*imglist*/
+.imglist {_float:left;margin:5px 0 0 -7px;overflow:hidden;zoom:1;}
+.imglist li {float:left;margin:5px 0 0 7px;font-size:13px;overflow:hidden;}
+.imglist .pic {display:block;margin-bottom:2px;}
+.imglist .pic, .imglist img {width:133px;height:75px;}
+.txtlist {margin-top:5px;}
+.txtlist li {height:25px;font-size:13px;line-height:25px;overflow:hidden;}
+
+.topnews h2 {height:20px;margin-bottom:5px;font-size:16px;font-weight:bold;overflow:hidden;}
+.topnews .last {padding-top:10px;margin-top:10px;border-top:solid #e4e4e4 1px;}
+.topnews h2 a {color:#0b68c8;}
+.topnews_ul li {height:20px;line-height:20px;overflow:hidden;}
+.topnews_ul span {margin:0 3px;}
+.tabbox {height:26px;background:#f2f2f2;margin-top:3px;line-height:26px;overflow:hidden;}
+.tabbox a {float:left;display:block;padding:0 8px;font-size:14px;}
+.tabbox .on, .tabbox .on:hover {background:#0b68c8;color:#fff;font-weight:bold;text-decoration:none;}

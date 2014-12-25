@@ -41,10 +41,10 @@ a:hover {color:#0073c6;}
 .navdrop_con {position:absolute;left:0;top:40px;display:none;width:282px;background:#fff;border:solid #ddd 1px;}
 .navdrop_list {padding:5px 10px 10px 0;overflow:hidden;zoom:1;}
 .navdrop_list li {float:left;display:inline;margin-left:30px;font-size:15px;font-family:"Microsoft Yahei";line-height:32px;}
-.navdrop_con .ico {left:20px;top:-9px;width:16px;height:9px;background-position:-42px -53px;}
 .navdrop_on .navdrop_tt {color:#0089d8;}
 .navdrop_on .navdrop_tt .ico {background-position:-21px -53px;}
 .navdrop_on .navdrop_con {display:block;}
+.navdrop_on .navdrop_con .ico {left:20px;top:-9px;width:16px;height:9px;background-position:-42px -53px;}
 .header_search {float:left;display:inline;width:381px;margin:10px 0 0 174px;}
 .header_search input {float:left;width:250px;height:18px;background:#fff;padding:6px 10px 6px 30px;font-size:14px;line-height:20px;border:solid #bec1c8 1px;border-right:none;}
 .header_search button {float:left;width:76px;height:32px;background:#0089d8;font-size:14px;color:#fff;border:none;}
@@ -76,5 +76,5 @@ h1 {font-size:25px;color:#333;font-family:"Microsoft Yahei";line-height:66px;}
 .share {float:left;}
 
 .bshare-custom{padding-top:10px;}
-.box2{height:460px;}
+.box2{height:460px;overflow:visible;}
 #drop_ico{background-position:-42px -53px;}
