@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- vinha
+ * @time   ------- 2014-10*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+address, cite, em {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1000px;height:100%;background:#fff;font:12px/1.8em "\5b8b\4f53","Arial Narrow";color:#999;}
+a {color:#333;outline:none;text-decoration:none;}
+a:hover {color:#249ff1;}
+/*globel*/
+.txtlist a, .ico {background:url(../img/sprite.png) no-repeat 0 0;}
+.wrapper {width:1000px;margin:35px auto 0;zoom:1;}
+.main {float:left;width:800px;}
+.side {float:right;width:160px;}
+.ff_yh {font-family:"Microsoft Yahei";}
+.wrapper:after {content:"";display:table;clear:both}
+.footer {width:1000px;padding-top:20px;margin:40px auto 0;color:#b1b1b1;font-family:"Arial";text-align:center;border-top:solid #f4f4f4 1px;}
+
+/*globelnav*/
+.globelnav_list .cur, .globelnav_logo a, .channelnav_list .cur {background:url(../img/globelnav.png) no-repeat 0 0;}
+.globelnav {height:48px;background:#0073c6;}
+.globelnav_con {position:relative;width:1000px;margin:0 auto;z-index:9999;}
+.globelnav_logo {float:left;width:125px;height:48px;overflow:hidden;}
+.globelnav_logo a {display:block;height:48px;background-position:0 -59px;text-indent:-9999px;}
+.globelnav_list {float:left;display:inline;margin-left:15px;}
+.globelnav_list li {float:left;}
+.globelnav_list a {display:block;height:48px;padding:0 10px;font-size:16px;color:#acd7f6;line-height:48px;overflow:hidden;}
+.globelnav_list a:hover, .globelnav_pannel .cur {background-color:#0083db;color:#fff;text-decoration:none;}
+.globelnav_list .cur, .globelnav_list .cur:hover {background-position:-283px 0;color:#fff;}
+.globelnav_pannel {float:right;width:100px;margin:0;}
+.globelnav_pannel a {float:left;font-size:15px;}
+.globelnav_pannel .cur {background:#0083db;}
+.globelnav_login {position:absolute;right:0;top:48px;width:242px;background:#fff;padding:15px 0 0 30px;border:solid #cdcdcd 1px;border-bottom:solid #379be9 3px;}
+.globelnav_login legend {font-size:15px;color:#333;}
+.globelnav_login .text {width:190px;height:16px;padding:6px 8px;margin-top:10px;line-height:16px;border:solid #ddd 1px;}
+.globelnav_login button {width:208px;height:33px;background:#379be9;margin-top:10px;font-size:15px;color:#fff;border:none;}
+.globelnav_login .checkbox {float:left;cursor:pointer;}
+.globelnav_login p {margin-top:10px;color:#a9a9a9;}
+.globelnav_login p a {margin-right:20px;color:#7aa8d9;}
+
+.ico {position:absolute;display:block;width:23px;height:23px;text-indent:-9999px;overflow:hidden;}
+.ico_comment {left:0;top:0;}
+
+.box {margin-bottom:20px;border-top:solid #379be9 3px;overflow:hidden;zoom:1;}
+.box_tt {height:30px;margin-top:10px;line-height:30px;}
+.box_tt h3 {font-size:18px;color:#333;font-family:"Microsoft Yahei";}
+.box_float {position:fixed;_position:static;top:0;width:275px;z-index:999;}
+.box_morenews {position:relative;height:388px;}
+
+.txtlist li {height:36px;font-size:13px;line-height:36px;overflow:hidden;}
+.txtlist a {padding-left:15px;background-position:-30px -4px;color:#666;}
+
+h1 {font-size:36px;color:#333;line-height:40px;}
+.share, .share span {float:left;}
+.artpannel {height:42px;margin-top:15px;}
+.artpannel_comment {position:relative;float:right;display:block;padding-left:28px;font-size:18px;color:#cc1b1b;font-family:"Microsoft Yahei";line-height:24px;}
+.artbox {margin:25px 0 0;}
+.artinfo {float:left;font-size:13px;font-family:"Microsoft Yahei";}
+.artbox_img {margin-bottom:30px;text-align:center;}
+.artbox_img img {display:block;max-width:800px;margin:0 auto;}
+.artbox p {margin-bottom:30px;font-size:16px;color:#333;font-family:"Microsoft Yahei";line-height:26px;}
+.artcomment {margin-top:30px;}
+.artpannel_top {border-bottom:solid #dadada 1px;}
+.artpannel_top .share {float:right;}
+
+.source {text-align:center;}
+.source h2 {font-size:14px;color:#333;}
+.source_info {margin:10px 0;line-height:46px;border-top:solid #e0e0e0 1px;border-bottom:solid #e0e0e0 1px;}
+
+/*imgLlist*/
+.imgLlist {_float:left;margin-left:-38px;overflow:hidden;zoom:1;}
+.imgLlist li {position:relative;float:left;width:380px;height:75px;margin:15px 0 0 38px;border-bottom:solid #e7e7e7 1px;overflow:hidden;}
+.imgLlist .pic {float:left;display:block;width:107px;height:60px;margin-right:10px;}
+.imgLlist .pic img {width:107px;height:60px;}
+.imgLlist .title {height:40px;margin-bottom:3px;font-size:15px;overflow:hidden;}
+
+#ckepop .jtico_tsina {background:#000;}
