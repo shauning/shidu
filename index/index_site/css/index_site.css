@@ -41,13 +41,14 @@ a:hover {color:#0073c6;}
 .ico_play {left:10px;bottom:10px;_display:none;width:28px;height:28px;background:url(../img/png24.png);}
 .hide {display:none;}
 .bannerbox {position:relative;width:1000px;margin:0 auto;overflow:hidden;zoom:1;}
-.bannerbox div {margin-top:20px;}
+.bannerbox div {margin-top:4px;}
 .bannerbox_side {width:275px;}
 .bannerbox .bannerbox_inner {height:60px;margin-top:20px;}
 .bannerbox_side .bannerbox_inner {height:275px;}
 .bannerbox a {position:absolute;left:0;top:0;display:block;}
-.bannerbox .bannerbox_L {float:left;margin:0;}
-.bannerbox .bannerbox_R {float:right;margin:0;}
+.bannerbox .bannerbox_L {float:left;height:60px;margin:4px 0 0;}
+.bannerbox .bannerbox_R {float:right;height:60px;margin:4px 0 0;}
+.bannerbox_col div {margin:10px 0}
 /*topbar*/
 .sitenav_more .ico, .sitenav_more li, .logo i {background:url(../img/sitenav.png) no-repeat 0 0;}
 .topbar {height:35px;background:#f6f6f6;overflow:hidden;}

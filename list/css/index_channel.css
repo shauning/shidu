@@ -147,8 +147,8 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 .tagname {height:60px;background:#f6f6f6;padding:0 20px;line-height:60px;border-top:solid #1c8dd5 2px;overflow:hidden;}
 .tagname h2 {font-size:24px;color:#333;font-family:"Microsoft Yahei";}
 
-/*.topbox {margin-bottom:25px;overflow:hidden;zoom:1;}
-slide
+/*slide*/
+.topbox {margin-bottom:25px;overflow:hidden;zoom:1;}
 .focus {float:left;width:646px;}
 .poster_wrap {position:relative;width:646px;height:335px;}
 .lis_poster {width:646px;height:335px;overflow:hidden;}
@@ -166,4 +166,4 @@ slide
 .focus_txt h2 .ico {position:static;float:left;width:47px;height:29px;background:url(../img/modslide.png) no-repeat 0 -131px;margin-right:10px;}
 .focus_txt p {font-size:13px;}
 .focus_num {position:absolute;right:10px;top:7px;font-size:20px;line-height:30px;}
-.focus_num em {font-size:30px;}*/
+.focus_num em {font-size:30px;}
