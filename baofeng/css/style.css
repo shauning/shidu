@@ -17,7 +17,7 @@ a:hover {color:#0b68c8;text-decoration:underline;}
 
 .wrapper {width:557px;height:403px;background:#fff;padding:13px 0 0 13px;}
 .left {float:left;width:273px;}
-.right {float:right;width:273px;overflow:hidden;}
+.right {float:right;width:273px;}
 /*slide*/
 .slidebox {position:relative;width:273px;height:180px;overflow:hidden;}
 .slidebox_list li {width:273px;height:180px;}
@@ -30,11 +30,10 @@ a:hover {color:#0b68c8;text-decoration:underline;}
 /*imglist*/
 .imglist {_float:left;margin:5px 0 0 -7px;overflow:hidden;zoom:1;}
 .imglist li {float:left;margin:5px 0 0 7px;font-size:13px;overflow:hidden;}
-.imglist .pic, .txtlist .imglist_li .pic {display:block;margin-bottom:2px;}
-.imglist .pic, .imglist img, .txtlist .imglist_li img {width:133px;height:75px;}
-.txtlist {width:280px;margin-top:5px;}
-.txtlist li {width:273px;height:25px;font-size:13px;line-height:25px;overflow:hidden;}
-.txtlist .imglist_li {float:left;width:133px;height:98px;margin:5px 7px 5px 0;line-height:15px;>line-height:22px;}
+.imglist .pic {display:block;margin-bottom:2px;}
+.imglist .pic, .imglist img {width:133px;height:75px;}
+.txtlist {_float:left;margin:5px 0 0 -7px;}
+.txtlist li {float:left;display:inline;width:133px;height:25px;margin-left:7px;font-size:13px;line-height:25px;overflow:hidden;}
 
 .topnews h2 {height:20px;margin-bottom:5px;font-size:16px;font-weight:bold;overflow:hidden;}
 .topnews .last {padding-top:10px;margin-top:10px;border-top:solid #e4e4e4 1px;}
