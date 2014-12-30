@@ -15,7 +15,7 @@ body {min-width:1000px;height:100%;background:#fff;font:12px/1.8em "\5b8b\4f53",
 a {color:#444;outline:none;text-decoration:none;}
 a:hover {color:#0b68c8;text-decoration:underline;}
 
-.wrapper {width:557px;height:403px;background:#fff;padding:13px 0 0 13px;}
+.wrapper {width:557px;height:403px;background:#fff;}
 .left {float:left;width:273px;}
 .right {float:right;width:273px;}
 /*slide*/
