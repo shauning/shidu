@@ -150,9 +150,9 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 /*slide*/
 .topbox {margin-bottom:25px;overflow:hidden;zoom:1;}
 .focus {float:left;width:646px;}
-.poster_wrap {position:relative;width:646px;height:430px;}
-.lis_poster {width:646px;height:430px;overflow:hidden;}
-.lis_poster li {position:absolute;left:0;top:0;width:646px;height:430px;opacity: 0;filter:alpha(opacity=0);-webkit-transition:opacity .2s ease-in;transition:opacity .2s ease-in;overflow:hidden;}
+.poster_wrap {position:relative;width:646px;height:430px;overflow: hidden;}
+.lis_poster {width:10000px;height:430px;overflow:hidden;}
+.lis_poster li {float:left;width:646px;height:430px;opacity: 0;filter:alpha(opacity=0);-webkit-transition:opacity .2s ease-in;transition:opacity .2s ease-in;overflow:hidden;}
 .lis_poster li .pic {display: block;width:646px;height:335px;overflow:hidden}
 .lis_poster img {max-width:646px;max-height:335px;}
 .lis_poster .on {opacity:1;filter:alpha(opacity=100);}
