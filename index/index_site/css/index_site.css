@@ -50,7 +50,7 @@ a:hover {color:#0073c6;}
 .bannerbox .bannerbox_R {float:right;height:60px;margin:4px 0 0;}
 .bannerbox_col div {margin:10px 0}
 /*topbar*/
-.sitenav_more .ico, .sitenav_more li, .logo i {background:url(../img/sitenav.png) no-repeat 0 0;}
+.sitenav_channel .hot .ico, .sitenav_more .ico, .sitenav_more li, .logo i {background:url(../img/sitenav.png) no-repeat 0 0;}
 .topbar {height:35px;background:#f6f6f6;overflow:hidden;}
 .topbar_con {width:1000px;margin:0 auto;}
 .topbar_city {float:left;font-size:14px;color:#333;line-height:35px;}
@@ -80,6 +80,8 @@ a:hover {color:#0073c6;}
 .sitenav_more .ico {right:-10px;top:8px;width:20px;height:11px;background-position:0 -47px;}
 .sitenav_channel {height:40px;line-height:40px;border:solid #ebebeb 1px;border-top:none;}
 .sitenav_channel a {margin:0 15px;font-size:14px;}
+.sitenav_channel .hot {position:relative;}
+.sitenav_channel .hot .ico {right:-19px;top:-8px;width:20px;height:11px;background-position:0 -47px;}
 /*slide*/
 .slidebox {position:relative;width:320px;height:210px;margin-bottom:20px;overflow:hidden;}
 .slidebox_list li {width:320px;height:210px;}
