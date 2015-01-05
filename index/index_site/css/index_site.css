@@ -193,3 +193,10 @@ a:hover {color:#0073c6;}
 .col3 .ico_v, .col3 .ico_m {margin-top:9px;}
 .box_cqyj {margin-top:6px;}
 .box_cqyj .txtlist_hot {margin-top:10px;}
+
+/*sc*/
+.sc_block .topnews {height:129px;margin:20px 0 11px;}
+.sc_block .slidebox {margin:0;}
+.sc_block .imglist_99x65  {margin-top:-15px;}
+.sc_block .slidebox_list span {width: 315px; padding-right: 0;}
+.sc_block_kkxm .txtlist_hot {margin-top:5px;}
