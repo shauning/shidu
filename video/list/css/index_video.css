@@ -22,7 +22,7 @@ a:hover {color:#0073c6;}
 .blue {color:#0073c6;}
 .ico {position:absolute;display:block;width:13px;height:13px;overflow:hidden;}
 /*topbar*/
-.sitenav_more .ico, .sitenav_more li, .logo i {background:url(../img/sitenav.png) no-repeat 0 0;}
+.sitenav_more .ico, .sitenav_more li, .logo i {background:url(http://misc.kankancity.com/station/img/sitenav.png) no-repeat 0 0;}
 .topbar {height:35px;background:#f6f6f6;overflow:hidden;}
 .topbar_con {width:1000px;margin:0 auto;}
 .topbar_city {float:left;font-size:14px;color:#333;line-height:35px;}
@@ -31,10 +31,15 @@ a:hover {color:#0073c6;}
 .topbar_pannel {float:right;font-size:14px;line-height:35px;}
 .topbar_pannel a {float:left;margin-left:10px;}
 .topbar_pannel img {float:right;display:inline;margin-left:10px;}
+.topbar .tel {float:left;display:inline;margin:0 0 0 70px;color:#666;line-height:35px;}
 .header {width:1000px;height:63px;margin:20px auto 0;}
 .logo {position:relative;float:left;width:280px;height:46px;}
 .logo a {display:block;height:46px;}
 .logo i {position:absolute;left:0;top:0;display:block;width:280px;height:46px;}
+.site_hb .logo i {background-position:0 -93px;}
+.site_hn .logo i {background-position:0 -140px;}
+.site_js .logo i {background-position:0 -187px;}
+.site_sc .logo i {background-position:0 -234px;}
 .headersearch {float:right;margin-top:10px;}
 .headersearch input {float:left;width:245px;height:16px;padding:8px 10px;font-size:14px;line-height:16px;font-family:"Microsoft Yahei";border:solid #ccc 1px;}
 .headersearch button {width:80px;height:34px;background:#f4f4f4;font-size:15px;color:#333;font-family:"Microsoft Yahei";border:solid #ccc 1px;border-left:none;}
