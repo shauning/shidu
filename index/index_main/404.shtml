@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>看看城事</title>
+<link rel="stylesheet" href="http://misc.kankancity.com/news/css/content_site.css?rd=beb89140" media="all">
+<link rel="shortcut icon" href="http://www.kankancity.com/favicon.ico" /> 
+<style type="text/css">
+	.main {float: none; width: 1000px; margin: 100px auto;}
+	dl {font-size: 16px; color: #333; text-align: center; line-height: 30px;}
+	dl a {color: #0073c6; text-decoration: underline;}
+</style>
+</head><body>
+<header class="globelnav">
+    <div class="globelnav_con">
+        <div class="globelnav_logo"><a href="/" title="看看城事">看看城事</a></div>
+        <nav class="globelnav_list ff_yh">
+            <ul>
+                <li><a href="/category/city/" target="_blank">城事</a></li>
+                <li><a href="/category/yule/" target="_blank">娱乐</a></li>
+                <li><a href="/category/sports/" target="_blank">体育</a></li>
+                <li><a href="/category/car/" target="_blank">汽车</a></li>
+                <li><a href="/category/travel/" target="_blank">旅游</a></li>
+                <li><a href="/category/cate/" target="_blank">美食</a></li>
+                <li><a href="/category/house/" target="_blank">房产</a></li>
+                <li><a href="/category/finance/" target="_blank">财经</a></li>
+                <li><a href="/category/tech/" target="_blank">科技</a></li>
+                <li><a href="/category/war/" target="_blank">军事</a></li>
+                            </ul>
+        </nav>
+        <div class="globelnav_list globelnav_pannel ff_yh" style="display:none;">
+            <a href="#">登录</a>
+            <a href="#">反馈</a>
+        </div>
+        <div class="globelnav_login" style="display:none;">
+            <fieldset>
+                <legend class="ff_yh">用户登录</legend>
+                <input type="text" placeholder="帐号" class="text">
+                <input type="password" placeholder="密码" class="text">
+                <p><input type="checkbox" class="checkbox"><label>10天内免登录</label></p>
+                <button type="submit" class="ff_yh">登录</button>
+                <p><a href="#">忘记密码</a><a href="#">立即注册</a></p>
+            </fieldset>
+        </div>
+    </div>
+</header>
+<div class="wrapper">
+	<div class="main">
+		<dl>
+			<dd><p>抱歉，该页面不存在，<span id="timer">5</span>秒之后自动返回首页</p>自动返回失败，请手动<a href="http://www.kankancity.com/" target="_self">点击此处</a>回到首页</dd>
+			<script>(function(){var i=5;setInterval(function(){if(i>0)i--;document.getElementById('timer').innerHTML=i;if(i==0){window.location="http://www.kankancity.com";}},1000);})();</script>
+		</dl>
+	</div>
+</div>
+<footer class="footer">Copyright © 2014 kankancity.com., Ltd. All rights reserved. 看看城事 版权所有 </footer>
+</body></html>
