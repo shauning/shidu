@@ -49,7 +49,7 @@ a:hover {color:#0073c6;}
 .header_search input {float:left;width:250px;height:18px;background:#fff;padding:6px 10px 6px 30px;font-size:14px;line-height:20px;border:solid #bec1c8 1px;border-right:none;}
 .header_search button {float:left;width:76px;height:32px;background:#0089d8;font-size:14px;color:#fff;border:none;}
 
-.player {margin-bottom:30px;}
+.player {position:relative;margin-bottom:30px;}
 .player_tt {height:66px;margin-top:10px;}
 h1 {font-size:25px;color:#333;font-family:"Microsoft Yahei";line-height:66px;}
 .box {margin-bottom:20px;border-top:solid #379be9 3px;overflow:hidden;zoom:1;height:400px;}
@@ -78,3 +78,10 @@ h1 {font-size:25px;color:#333;font-family:"Microsoft Yahei";line-height:66px;}
 .bshare-custom{padding-top:10px;}
 .box2{height:460px;overflow:visible;}
 #drop_ico{background-position:-42px -53px;}
+/*error*/
+.error {position:absolute;left:0;top:0;width:640px;height:520px;background:#000 url(http://img.kankan.xunlei.com/img/kankan/mp4/error.png) no-repeat center 200px;color:#fff;z-index:999;text-align:center;}
+.error p {padding:300px 0 20px;font-size:14px;line-height:24px;}
+.errortxt {position:absolute;left:0;top:0;width:100%;height:100%;background:#000;padding-top:200px;color:#fff;z-index:999;text-align:center;}
+.errortxt p {padding-bottom:20px;font-size:16px;font-family:"Microsoft YaHei";line-height:24px;}
+.errortxt a, .error a {color:#249FF1;text-decoration:underline;}
+.errortxt div {padding:20px 0 0 178px;text-align:left;}
