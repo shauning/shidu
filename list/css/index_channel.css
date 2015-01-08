@@ -155,8 +155,8 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 .lis_poster li {float:left;width:646px;height:430px;opacity: 0;filter:alpha(opacity=0);-webkit-transition:opacity .2s ease-in;transition:opacity .2s ease-in;overflow:hidden;}
 .lis_poster li .pic {display: block;width:646px;height:335px;overflow:hidden}
 .lis_poster img {max-width:646px;max-height:335px;}
-.lis_poster .on {opacity:1;filter:alpha(opacity=100);}
-.ico_prev, .ico_next {position:absolute;top:230px;display:block;width:45px;height:65px;background:url(../img/modslide.png);text-indent:-9999px;}
+.lis_poster .on {opacity:1;filter:alpha(opacity=100);z-index:999;}
+.ico_prev, .ico_next {position:absolute;top:230px;display:block;width:45px;height:65px;background:url(../img/modslide.png);text-indent:-9999px;z-index:1000;}
 .ico_prev {left:0;}
 .ico_prev:hover {background-position:0 -65px;}
 .ico_next {right:0;background-position:-46px 0;}
