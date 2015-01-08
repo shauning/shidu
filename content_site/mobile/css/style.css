@@ -33,11 +33,11 @@ a:hover{text-decoration:underline}
 .tigger_on .tiggerup {display: inline-block;}
 .channel {float: right; display: block; width: 22px; height: 16px; background: url(../images/icon.png) no-repeat; background-size: 119px 21px; margin: 15px 15px 0 0;}
 
-.newslist_div {padding:22px 15px 22px 0;border-bottom:dotted #e8e8e8 1px;}
+.newslist_div {padding:22px 5px 22px 0;border-bottom:dotted #e8e8e8 1px;}
 .newslist_div .pic {position:relative;float:left;display:inline;width:79px;height:44px;margin-right:20px;}
 .newslist_div img {width: 79px; height: 44px;}
 .newslist_div h3 {height:22px;margin:0 0 3px;font-size:1.33rem;font-weight:bold;overflow:hidden;}
-.newslist_div p {height:38px;color:#666;overflow:hidden;}
+.newslist_div p {height:38px;margin:3px 0 8px;color:#666;overflow:hidden;}
 .newslist_info_from {color: #999;}
 
 h1 {font-size: 2rem; font-weight: bold;}
