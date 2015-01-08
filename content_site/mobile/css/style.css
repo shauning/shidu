@@ -22,9 +22,9 @@ a:hover{text-decoration:underline}
 
 .header {height: 46px; border-bottom: solid #379be9 2px;}
 .logo {float: left; width: 160px;}
-.logo a {display: block; height: 46px; background: url(../images/logo_main.png) no-repeat center center; text-indent: -9999px;background-size: 130px 40px;}
-.sitenav {background: #0073c6; padding: 7px 0; overflow: hidden;}
-.sitenav li {float: left; width: 20%; font-size: 1.333rem; line-height: 30px; text-align: center;}
+.logo a {display: block; height: 46px; background: url(../images/logo.png); text-indent: -9999px;}
+.sitenav {background: #0073c6; padding: 10px 0; overflow: hidden;}
+.sitenav li {float: left; width: 20%; font-size: 1.166rem; line-height: 30px; text-align: center;}
 .sitenav a {color: #fff;}
 .tigger:after {position: absolute; display: inline-block; content: ""; width: 0; height: 0; line-height: 0; margin-top: 12px; font-size: 0; color: #0073c6; border-style: solid; border-color: #fff #0073c6 #0073c6 #0073c6; border-width: 5px;}
 .tiggerup {display: none;}
@@ -33,10 +33,10 @@ a:hover{text-decoration:underline}
 .tigger_on .tiggerup {display: inline-block;}
 .channel {float: right; display: block; width: 22px; height: 16px; background: url(../images/icon.png) no-repeat; background-size: 119px 21px; margin: 15px 15px 0 0;}
 
-.newslist_div {padding:10px 5px 10px 0;border-bottom:dotted #e8e8e8 1px;}
-.newslist_div .pic {position:relative;float:left;display:inline;width:93px;height:52px;margin-right:10px;}
-.newslist_div img {width: 93px; height: 52px;}
-.newslist_div h3 {height:40px;font-size:1.33rem; line-height: 1.2; font-weight:bold;overflow:hidden;}
+.newslist_div {padding:22px 5px 22px 0;border-bottom:dotted #e8e8e8 1px;}
+.newslist_div .pic {position:relative;float:left;display:inline;width:79px;height:44px;margin-right:20px;}
+.newslist_div img {width: 79px; height: 44px;}
+.newslist_div h3 {height:22px;margin:0 0 3px;font-size:1.33rem;font-weight:bold;overflow:hidden;}
 .newslist_div p {height:38px;margin:3px 0 8px;color:#666;overflow:hidden;}
 .newslist_info_from {color: #999;}
 
