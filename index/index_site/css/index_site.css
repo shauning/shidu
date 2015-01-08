@@ -80,6 +80,7 @@ a:hover {color:#0073c6;}
 .sitenav_more .ico {right:-10px;top:8px;width:20px;height:11px;background-position:0 -47px;}
 .sitenav_channel {height:40px;line-height:40px;border:solid #ebebeb 1px;border-top:none;}
 .sitenav_channel a {margin:0 15px;font-size:14px;}
+.sitenav_channel .on {color: #005ca2; font-weight: bold;}
 .sitenav_channel .hot {position:relative;}
 .sitenav_channel .hot .ico {right:-19px;top:-8px;width:20px;height:11px;background-position:0 -47px;}
 /*slide*/
