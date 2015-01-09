@@ -36,7 +36,7 @@ a:hover{text-decoration:underline}
 .newslist_div {padding:10px 5px 10px 0;border-bottom:dotted #e8e8e8 1px;}
 .newslist_div .pic {position:relative;float:left;display:inline;width:93px;height:52px;margin-right:10px;}
 .newslist_div img {width: 93px; height: 52px;}
-.newslist_div h3 {height:40px;font-size:1.33rem; line-height: 1.2; font-weight:bold;overflow:hidden;}
+.newslist_div h3 {max-height:38px;font-size:1.33rem; line-height: 1.2; font-weight:bold;overflow:hidden;}
 .newslist_div p {height:38px;margin:3px 0 8px;color:#666;overflow:hidden;}
 .newslist_info_from {color: #999;}
 
@@ -58,3 +58,8 @@ h1 {font-size: 2rem; font-weight: bold;}
 .imgLlist_150x85 .pic, .imgLlist_150x85 img {width:150px;height:85px;}
 .imgLlist_150x85 .title {height:20px;}
 .imgLlist_150x85 p {height:40px;overflow:hidden;}
+
+.imglist {overflow:hidden;}
+.imglist li {float:left;overflow:hidden;}
+.imglist_205x113 li {width:100px;height:55px;margin:10px 4% 0 0;}
+.imglist_205x113 img {width:100px;height:55px;}
