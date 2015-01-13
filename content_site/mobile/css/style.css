@@ -32,6 +32,9 @@ a:hover{text-decoration:underline}
 .tigger_on .tigger {display: none;}
 .tigger_on .tiggerup {display: inline-block;}
 .channel {float: right; display: block; width: 22px; height: 16px; background: url(../images/icon.png) no-repeat; background-size: 119px 21px; margin: 15px 15px 0 0;}
+.city {position: relative; float: left; margin: 10px 0 0 2px; z-index: 2;}
+.citylist {position: absolute; left: 0; top: 20px; width: 80px; background: #fff; border: solid #ccc 1px;}
+.citylist a {float: left; display: block; width: 40px; line-height: 22px; text-align: center;}
 
 .newslist_div {padding:10px 5px 10px 0;border-bottom:dotted #e8e8e8 1px;}
 .newslist_div .pic {position:relative;float:left;display:inline;width:93px;height:52px;margin-right:10px;}
