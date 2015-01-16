@@ -65,7 +65,11 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 .artinfo {float:left;font-size:13px;font-family:"Microsoft Yahei";}
 .artbox_img {margin-bottom:30px;text-align:center;}
 .artbox_img img {display:block;max-width:800px;margin:0 auto;}
-.artbox p {margin-bottom:30px;font-size:16px;color:#333;font-family:"Microsoft Yahei";line-height:26px;text-indent:2em;}
+.artbox p, .artbox div {margin-bottom:30px;font-size:16px;color:#333;font-family:"Microsoft Yahei";line-height:26px;text-indent:2em;}
+.artbox p a, .artbox div a {color: #249ff1; text-decoration: underline;}
+.artbox p em, .artbox div em {margin: 0 5px; font-style: italic;}
+.artbox ul, .artbox ol {margin-bottom: 25px; font-size:16px;color:#333;line-height:28px;font-family:"Microsoft Yahei";}
+.artbox table {font-size:16px;color:#333;font-family:"Microsoft Yahei";}
 .artcomment {margin-top:30px;}
 .artpannel_top {border-bottom:solid #dadada 1px;}
 .artpannel_top .share {float:right;}
