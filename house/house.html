@@ -14,7 +14,7 @@
 <body class="site_cq">
 <div class="topbar">
 	<div class="topbar_con">
-				<dl class="topbar_city ff_yh">
+		<dl class="topbar_city ff_yh">
 			<dt>切换城市：</dt>
 			<dd><a href="http://www.kankancity.com/">全国</a></dd>
 			<dd><a href="http://cq.kankancity.com/">重庆</a></dd>
@@ -83,7 +83,19 @@
 </div><!--sitenav  END-->
 
 <section class="wrapper topbox">
+	<div id="fade_focus">
+	    <div class="loading">加载中...</div>
+	    <ul>
+	      <li><a href="#" target="_blank"><img src="http://placehold.it/660x320" alt="展示图片1" /></a></li>
+	      <li><a href="#" target="_blank"><img src="http://placehold.it/660x320" alt="展示图片2" /></a></li>
+	      <li><a href="#" target="_blank"><img src="http://placehold.it/660x320" alt="展示图片3" /></a></li>
+	      <li><a href="#" target="_blank"><img src="http://placehold.it/660x320" alt="展示图片4" /></a></li>
+	      <li><a href="#" target="_blank"><img src="http://placehold.it/660x320" alt="展示图片5" /></a></li>
+	    </ul>
+	</div>
+
 	<div class="topnews">
+		<strong class="topnews_title">今日头条</strong>
 		<h2 class="first"><a href="#" title="">习近平会见安倍望日走和</a></h2>
 		<ul class="topnews_ul">
 			<li><a href="#">普京赠习近平智能手机安</a><span>|</span><a href="#">普京赠习近平智能手机安</a></li>
@@ -276,5 +288,138 @@
 <div class="floatpannel">
     <a href="javascript:void(0)" id="back-top" target="_self" style="display: block;" title="返回顶部" class="floatpannel_top">返回顶部</a>
 </div><!--floatpannel  END-->
+<script language="javascript" type="text/javascript">
+//主函数
+var picshow = function() {
+    var interv = 4000; //切换间隔时间
+    var interv2 = 10; //切换速速
+    var opac1 = 60; //文字背景的透明度
+    var source = "fade_focus" //焦点轮换图片容器的id名称
+    //获取对象
+    function getTag(tag, obj) {
+        if (obj == null) {
+            return document.getElementsByTagName(tag)
+        } else {
+            return obj.getElementsByTagName(tag)
+        }
+    }
+    function getid(id) {
+        return document.getElementById(id)
+    };
+    var opac = 0,
+    j = 0,
+    t = 63,
+    num, scton = 0,
+    timer, timer2, timer3;
+    var id = getid(source);
+    id.removeChild(getTag("div", id)[0]);
+    var li = getTag("li", id);
+    var div = document.createElement("div");
+    var title = document.createElement("div");
+    var span = document.createElement("span");
+    var button = document.createElement("div");
+    button.className = "button";
+    for (var i = 0; i < li.length; i++) {
+        var a = document.createElement("a");
+        a.innerHTML = i + 1;
+        a.onclick = function() {
+            clearTimeout(timer);
+            clearTimeout(timer2);
+            clearTimeout(timer3);
+            j = parseInt(this.innerHTML) - 1;
+            scton = 0;
+            t = 63;
+            opac = 0;
+            fadeon();
+        };
+        a.className = "b1";
+        a.onmouseover = function() {
+            this.className = "b2"
+        };
+        a.onmouseout = function() {
+            this.className = "b1";
+            sc(j)
+        };
+        button.appendChild(a);
+    }
+    //控制图层透明度
+    function alpha(obj, n) {
+        if (document.all) {
+            obj.style.filter = "alpha(opacity=" + n + ")";
+        } else {
+            obj.style.opacity = (n / 100);
+        }
+    }
+    //控制焦点按钮
+    function sc(n) {
+        for (var i = 0; i < li.length; i++) {
+            button.childNodes[i].className = "b1"
+        };
+        button.childNodes[n].className = "b2";
+    }
+    title.className = "num_list";
+    title.appendChild(span);
+    alpha(title, opac1);
+    id.className = "d1";
+    div.className = "d2";
+    id.appendChild(div);
+    id.appendChild(title);
+    id.appendChild(button);
+    //渐显
+    var fadeon = function() {
+        opac += 5;
+        div.innerHTML = li[j].innerHTML;
+        span.innerHTML = getTag("img", li[j])[0].alt;
+        alpha(div, opac);
+        if (scton == 0) {
+            sc(j);
+            num = -2;
+            scrolltxt();
+            scton = 1
+        };
+        if (opac < 100) {
+            timer = setTimeout(fadeon, interv2)
+        } else {
+            timer2 = setTimeout(fadeout, interv);
+        };
+    }
+    //渐隐
+    var fadeout = function() {
+        opac -= 5;
+        div.innerHTML = li[j].innerHTML;
+        alpha(div, opac);
+        if (scton == 0) {
+            num = 2;
+            scrolltxt();
+            scton = 1
+        };
+        if (opac > 0) {
+            timer = setTimeout(fadeout, interv2)
+        } else {
+            if (j < li.length - 1) {
+                j++
+            } else {
+                j = 0
+            };
+            fadeon()
+        };
+    }
+    //滚动文字
+    var scrolltxt = function() {
+        t += num;
+        span.style.marginTop = t + "px";
+        if (num < 0 && t > 3) {
+            timer3 = setTimeout(scrolltxt, interv2)
+        } else if (num > 0 && t < 62) {
+            timer3 = setTimeout(scrolltxt, interv2)
+        } else {
+            scton = 0
+        }
+    };
+    fadeon();
+}
+//初始化
+window.onload = picshow;
+</script>
 </body>
 </html>
