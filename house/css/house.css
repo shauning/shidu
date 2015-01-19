@@ -52,7 +52,7 @@ a:hover {color:#0073c6;}
 .bannerbox_inner div {margin-top: 20px;}
 .colbanner {float: right;margin: 0;}
 /*topbar*/
-.sitenav_channel .hot .ico, .sitenav_more .ico, .sitenav_more li, .logo i {background:url(../img/sitenav.png) no-repeat 0 0;}
+.sitenav_channel .hot .ico, .sitenav_more .ico, .sitenav_more li, .logo i {background:url(http://misc.kankancity.com/station/img/sitenav.png) no-repeat 0 0;}
 .topbar {height:35px;background:#f6f6f6;overflow:hidden;}
 .topbar_con {width:1000px;margin:0 auto;}
 .topbar_city {float:left;font-size:14px;color:#333;line-height:35px;}
