@@ -10,19 +10,34 @@
 <script src="http://misc.kankancity.com/www/js/htmlfive.js"></script>
 <![endif]-->
 <link href="css/index_site.css" rel="stylesheet" type="text/css" media="all" />
+<script src="http://misc.kankancity.com/lib/js/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('.topbar_city').mouseenter(function () {
+			$(".topbar_city_drop").addClass('pop_fadein');
+		});
+		$('.topbar_city').mouseleave(function () {
+			$('.topbar_city_drop').removeClass('pop_fadein');
+		});
+	});
+</script>
 </head>
 <body>
 <div class="topbar">
 	<div class="topbar_con">
-				<dl class="topbar_city ff_yh">
-			<dt>切换城市：</dt>
-			<dd><a href="http://www.kankancity.com/">全国</a></dd>
-			<dd><a href="http://cq.kankancity.com/">重庆</a></dd>
-			<dd><a href="http://hb.kankancity.com/">湖北</a></dd>
-			<dd><a href="http://sc.kankancity.com/">四川</a></dd>
-			<dd><a href="http://js.kankancity.com/">江苏</a></dd>
-			<dd><a href="http://hn.kankancity.com/">河南</a></dd>
-		</dl>
+		<a href="#" class="topbar_link">设为首页</a>
+		<div class="topbar_city">
+			<div class="topbar_city_tt">切换城市</div>
+			<div class="topbar_city_drop">
+				<i class="arrow"></i>
+				<a href="http://www.kankancity.com/">全国</a>
+				<a href="http://cq.kankancity.com/">重庆</a>
+				<a href="http://hb.kankancity.com/">湖北</a>
+				<a href="http://sc.kankancity.com/">四川</a>
+				<a href="http://js.kankancity.com/">江苏</a>
+				<a href="http://hn.kankancity.com/">河南</a>
+			</div>
+		</div>
 		<p class="tel">新闻热线：023-89161816 88103145&nbsp;&nbsp;&nbsp;&nbsp;广告热线：023-88665535</p>
 		<div class="topbar_pannel ff_yh">
 			<a href="#" style="display:none;">登录</a>
@@ -32,28 +47,9 @@
 	</div>
 </div><!--topbar  END-->
 
-<div class="banner_fix banner_fix_l" id="ad_124"><img src="http://placehold.it/80x80" alt=""></div>
-<div class="banner_fix banner_fix_r" id="ad_124"><img src="http://placehold.it/80x80" alt=""></div>
-
-<div class="bannerbox bannerbox_flag" id="ad_124" style="display: block;">
-	<div class="bannerbox_flag_l"><img src="http://placehold.it/165x60" alt=""></div>
-	<div class="bannerbox_flag_c"><img src="http://placehold.it/660x60" alt=""></div>
-	<div class="bannerbox_flag_r"><img src="http://placehold.it/165x60" alt=""></div>
-</div>
-<div class="bannerbox" id="ad_124" style="display: block;">
-	<div style="width: 1000px; height: 60px; overflow: hidden;"><img src="http://placehold.it/1000x60" alt=""></div>
-</div>
-<div class="bannerbox" id="ad_124" style="display: block;">
-	<div style="width: 1000px; height: 60px; overflow: hidden;"><img src="http://placehold.it/1000x60" alt=""></div>
-</div>
-
-<div class="bannerbox">
-	<div class="bannerbox_L" id="ad_124"><img src="http://placehold.it/497x60" alt=""></div>
-	<div class="bannerbox_R" id="ad_124"><img src="http://placehold.it/497x60" alt=""></div>
-</div>
-
 <header class="header">
 	<h1 class="logo"><a href="#" title="看看重庆">看看重庆 - 都是您的身边事<i></i></a></h1>
+	<div class="header_app"><a href="#" class="mobile">手机版</a></div>
 	<fieldset class="headersearch"><input type="text" placeholder="请输入关键字"/><button type="submit">搜 索</button></fieldset>
 </header><!--header  END-->
 <div class="sitenav">
@@ -81,6 +77,27 @@
 		<a href="#">热点</a><a href="#">国内</a><a href="#" class="hot">国际<sup class="ico">HOT</sup></a><a href="#">民生</a><a href="#">图说</a><a href="#">人物</a><a href="#">重庆晚报</a><span>|</span><a href="#">重庆印记</a><a href="#">全民神吐槽</a><a href="#">报料台</a><a href="#">专题</a>
 	</nav>                                                                                            
 </div><!--sitenav  END-->
+
+<div class="banner_fix banner_fix_l" id="ad_124"><img src="http://placehold.it/80x80" alt=""></div>
+<div class="banner_fix banner_fix_r" id="ad_124"><img src="http://placehold.it/80x80" alt=""></div>
+
+<div class="bannerbox bannerbox_flag" id="ad_124" style="display: block;">
+	<div class="bannerbox_flag_l"><img src="http://placehold.it/165x60" alt=""></div>
+	<div class="bannerbox_flag_c"><img src="http://placehold.it/660x60" alt=""></div>
+	<div class="bannerbox_flag_r"><img src="http://placehold.it/165x60" alt=""></div>
+</div>
+<div class="bannerbox" id="ad_124" style="display: block;">
+	<div style="width: 1000px; height: 60px; overflow: hidden;"><img src="http://placehold.it/1000x60" alt=""></div>
+</div>
+<div class="bannerbox" id="ad_124" style="display: block;">
+	<div style="width: 1000px; height: 60px; overflow: hidden;"><img src="http://placehold.it/1000x60" alt=""></div>
+</div>
+
+<div class="bannerbox">
+	<div class="bannerbox_L" id="ad_124"><img src="http://placehold.it/497x60" alt=""></div>
+	<div class="bannerbox_R" id="ad_124"><img src="http://placehold.it/497x60" alt=""></div>
+</div>
+
 <section class="wrapper wrapper_1 col3">
 	<div class="col_1">
 		<div class="slidebox">
@@ -250,6 +267,140 @@
 <div class="bannerbox bannerbox_col" id="ad_124" style="display: block;">
 	<div style="width: 1000px; height: 60px; overflow: hidden;"><img src="http://placehold.it/1000x60" alt=""></div>
 </div>
+
+<section class="wrapper wrapper_7 col3">
+	<div class="wrapper_tt">
+		<h2>本地原创</h2>
+		<div class="actlink ff_yh"><a href="#">娱乐</a><a href="#">电影</a><a href="#">体育</a></div>
+	</div>
+	<div class="box box_typeC col_1 box_zxrd">
+		<div class="box_tt"><h3>全民神吐槽</h3><div class="act ff_yh"><a href="#">更多&gt;</a></div></div>
+		<div class="slidebox slidebox_320x190">
+			<ul class="slidebox_list">
+				<li><a href="#" title=""><img src="http://placehold.it/320x190" alt="" /><span>终于等到你 剩斗士相亲男神很抢手</span></a></li>
+			</ul>
+		</div><!--slidebox 轮播 END-->
+		<ul class="txtlist txtlist_hot txtlist_H34">
+			<li><a href="#" title="">关注 | 女孩被醉汉调戏围殴申烨太阳城外墙渗水房受损</a></li>
+			<li><a href="#" title="">关注 | 女孩被醉汉调戏围殴渝高幸福九里变"暖男"完美置业</a></li>
+			<li><a href="#" title="">欠款 | 女孩被醉汉调戏围殴渝高幸福九里变"暖男"完美置业</a></li>
+			<li><a href="#" title="">欠款 | 女孩被醉汉调戏围殴渝高幸福九里变"暖男"完美置业</a></li>
+			<li><a href="#" title="">欠款 | 女孩被醉汉调戏围殴渝高幸福九里变"暖男"完美置业</a></li>
+			<li><a href="#" title="">欠款 | 女孩被醉汉调戏围殴渝高幸福九里变"暖男"完美置业</a></li>
+		</ul>
+	</div><!--box col_1 END-->
+	<div class="col_2">
+		<div class="box box_typeC">
+			<div class="box_tt"><h3>吃在重庆</h3><div class="act ff_yh"><a href="#">更多&gt;</a></div></div>
+			<ul class="imgLlist imgLlist_typeB">
+				<li>
+					<a href="#" title="" class="pic"><img src="http://placehold.it/150x85" alt=""></a>
+					<div class="title ff_yh"><a href="#" title="">艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</a></div>
+					<p>艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</p>
+				</li>
+				<li>
+					<a href="#" title="" class="pic"><img src="http://placehold.it/150x85" alt=""></a>
+					<div class="title ff_yh"><a href="#" title="">艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</a></div>
+					<p>艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</p>
+				</li>
+				<li>
+					<a href="#" title="" class="pic"><img src="http://placehold.it/150x85" alt=""></a>
+					<div class="title ff_yh"><a href="#" title="">艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</a></div>
+					<p>艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</p>
+				</li>
+				<li>
+					<a href="#" title="" class="pic"><img src="http://placehold.it/150x85" alt=""></a>
+					<div class="title ff_yh"><a href="#" title="">艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</a></div>
+					<p>艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</p>
+				</li>
+			</ul>
+		</div><!--box 吃在重庆 END-->
+	</div>
+	<div class="col_3 box_yl">
+		<div class="box box_typeC">
+			<div class="box_tt"><h3>看看新生</h3><div class="act ff_yh"><a href="#">更多&gt;</a></div></div>
+			<ul class="imgLlist imgLlist_typeB">
+				<li>
+					<a href="#" title="" class="pic"><img src="http://placehold.it/150x85" alt=""></a>
+					<div class="title ff_yh"><a href="#" title="">艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</a></div>
+					<p>艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</p>
+				</li>
+				<li>
+					<a href="#" title="" class="pic"><img src="http://placehold.it/150x85" alt=""></a>
+					<div class="title ff_yh"><a href="#" title="">艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</a></div>
+					<p>艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</p>
+				</li>
+			</ul>
+		</div><!--box 看看新生 END-->
+		<div class="box box_typeC">
+			<div class="box_tt"><h3>最美幼师</h3><div class="act ff_yh"><a href="#">更多&gt;</a></div></div>
+			<ul class="txtlist txtlist_hot txtlist_H34">
+				<li><a href="#" title="">关注 | 女孩被醉汉调戏围殴申烨太阳城外墙渗水房受损</a></li>
+				<li><a href="#" title="">关注 | 女孩被醉汉调戏围殴渝高幸福九里变"暖男"完美置业</a></li>
+				<li><a href="#" title="">欠款 | 女孩被醉汉调戏围殴渝高幸福九里变"暖男"完美置业</a></li>
+				<li><a href="#" title="">欠款 | 女孩被醉汉调戏围殴渝高幸福九里变"暖男"完美置业</a></li>
+				<li><a href="#" title="">欠款 | 女孩被醉汉调戏围殴渝高幸福九里变"暖男"完美置业</a></li>
+			</ul>
+		</div><!--box 最美幼师 END-->
+	</div><!--col_3 END-->
+</section><!--wrapper 本地原创 END-->
+
+<section class="wrapper wrapper_3 col3">
+	<div class="wrapper_tt">
+		<h2>娱乐·体育</h2>
+		<div class="actlink ff_yh"><a href="#">娱乐</a><a href="#">电影</a><a href="#">体育</a></div>
+		<div class="act ff_yh"><a href="#">更多&gt;</a></div>
+	</div>
+	<div class="box box_typeC col_1 box_zxrd">
+		<div class="box_tt"><h3>最新热点</h3><div class="act ff_yh"><a href="#">更多&gt;</a></div></div>
+		<div class="slidebox">
+			<ul class="slidebox_list">
+				<li><a href="#" title=""><img src="http://placehold.it/320x210" alt="" /><span>终于等到你 剩斗士相亲男神很抢手</span></a></li>
+			</ul>
+		</div><!--slidebox 轮播 END-->
+		<ul class="imglist imglist_150x85">
+			<li><a href="#" title="" class="pic"><img src="http://placehold.it/150x85" alt="" /></a><a href="#" title="">光棍节吐槽奇葩相亲史</a></li>
+			<li><a href="#" title="" class="pic"><img src="http://placehold.it/150x85" alt="" /></a><a href="#" title="">光棍节吐槽奇葩相亲史</a></li>
+		</ul>
+		<ul class="txtlist">
+			<li><a href="#" title="">关注 | 女孩被醉汉调戏围殴申烨太阳城外墙渗水房受损</a></li>
+			<li><a href="#" title="">关注 | 女孩被醉汉调戏围殴渝高幸福九里变"暖男"完美置业</a></li>
+			<li><a href="#" title="">欠款 | 女孩被醉汉调戏围殴渝高幸福九里变"暖男"完美置业</a></li>
+		</ul>
+	</div><!--box col_1 END-->
+	<div class="col_2">
+		<ul class="txtlist_typeA">
+			<li><div class="title"><a href="#">女孩被醉汉调戏围殴渝</a></div>变"暖男"完美置业</li>
+			<li><div class="title"><a href="#">女孩被醉汉调戏围殴渝</a></div>变"暖男"完美置业</li>
+			<li><div class="title"><a href="#">女孩被醉汉调戏围殴渝</a></div>变"暖男"完美置业</li>
+			<li><div class="title"><a href="#">女孩被醉汉调戏围殴渝</a></div>变"暖男"完美置业</li>
+			<li><div class="title"><a href="#">女孩被醉汉调戏围殴渝</a></div>变"暖男"完美置业</li>
+			<li><div class="title"><a href="#">女孩被醉汉调戏围殴渝</a></div>变"暖男"完美置业</li>
+		</ul>
+	</div>
+	<div class="col_3 box_yl">
+		<div class="box box_typeC">
+			<div class="box_tt"><h3>娱乐</h3><div class="act ff_yh"><a href="#">更多&gt;</a></div></div>
+			<ul class="imgLlist imgLlist_typeA">
+				<li>
+					<a href="#" title="" class="pic"><img src="http://placehold.it/150x85" alt=""></a>
+					<div class="title ff_yh"><a href="#" title="">艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</a></div>
+					<a href="#" class="blue">我要报名&gt;</a>
+				</li>
+				<li>
+					<a href="#" title="" class="pic"><img src="http://placehold.it/150x85" alt=""></a>
+					<div class="title ff_yh"><a href="#" title="">艺考直通车正式启动艺考直通车正式启动</a></div>
+					<a href="#" class="blue">我要报名&gt;</a>
+				</li>
+			</ul>
+		</div><!--box 娱乐 END-->
+		<div class="slidebox">
+			<ul class="slidebox_list">
+				<li><a href="#" title=""><img src="http://placehold.it/320x210" alt="" /><span>终于等到你 剩斗士相亲男神很抢手</span></a></li>
+			</ul>
+		</div><!--slidebox END-->
+	</div><!--col_3 END-->
+</section><!--wrapper 娱乐体育 END-->
 
 <section class="wrapper wrapper_3 col3">
 	<div class="wrapper_tt">
@@ -727,7 +878,51 @@
 		</ul>
 	</div>
 </section><!--wrapper 四川板块 END-->
-<footer class="footer">Copyright © 2014 kankancity.com., Ltd. All rights reserved. 看看城事 版权所有</footer>
+
+<section class="wrapper">
+	<div class="bottom_L">
+		<dl class="linkdl">
+			<dt>品牌栏目:</dt>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+		</dl>
+		<dl class="linkdl">
+			<dt>合作伙伴:</dt>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+		</dl>
+	</div>
+	<div class="bottom_R">
+		<dl class="linkdl">
+			<dt>友情链接:</dt>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+			<dd><a href="#">重庆日志</a></dd>
+		</dl>
+	</div>
+</section><!-- 底部 END-->
+
+<footer class="footer">
+	<p class="p_1"><a href="#">关于我们</a><a href="#">广告合作</a><a href="#">加入我们</a><a href="#">联系我们</a></p>
+	<p class="p_2">Copyright <span>©</span> 2014 kankancity.com., Ltd. All rights reserved. 看看城事 版权所有 <a class="sfooter-link" target="_blank" rel="nofollow" href="http://www.miibeian.gov.cn">渝ICP备14009957号</a></p>
+</footer>
 <div class="floatpannel">
     <a href="javascript:void(0)" id="back-top" target="_self" style="display: block;" title="返回顶部" class="floatpannel_top">返回顶部</a>
 </div><!--floatpannel  END-->
