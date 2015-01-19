@@ -199,7 +199,7 @@ a:hover {color:#0073c6;}
 .floatpannel a {display:block;width:50px;height:50px;margin-top:10px;text-indent:-9999px;overflow:hidden;}
 .floatpannel .floatpannel_top {background-position:-294px -74px;}
 
-.box_zxrd .slidebox_list span, .box_rmjd .slidebox_list span {width:315px;padding-right:0;}
+.box_zxrd .slidebox_list span, .box_rmjd .slidebox_list span, .box_yl .slidebox_list span {width:315px;padding-right:0;}
 .col3 .txtlist_hot li {height:30px;line-height:30px;}
 .col3 .ico_v, .col3 .ico_m {margin-top:9px;}
 .box_cqyj {margin-top:6px;}
