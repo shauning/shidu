@@ -66,12 +66,14 @@ a:hover {color:#249ff1;}
 
 .box {margin-bottom:20px;border-top:solid #379be9 3px;overflow:hidden;zoom:1;}
 .box_tt {height:30px;margin-top:10px;line-height:30px;}
-.box_tt h2, .box_tt h3 {font-size:18px;color:#333;font-family:"Microsoft Yahei";}
+.box_tt h2, .box_tt h3 {float: left; font-size:18px;color:#333;font-family:"Microsoft Yahei";}
 .box_float {position:fixed;_position:static;top:0;width:275px;z-index:999;}
 .box_morenews {height:388px;}
 .box_typeA {border:none;}
 .box_typeA .box_tt {height:35px;border-bottom:solid #379be9 2px;}
 .box_typeB .box_tt {height:35px;border-bottom:none;}
+.box_tt_fresh {position:relative;float:right;padding-left:20px;}
+.box_tt_fresh .ico_fresh {left: 0; top:9px;width:15px;height:14px;background-position:0 -104px;}
 
 .txtlist li {height:32px;font-size:13px;line-height:32px;overflow:hidden;}
 .txtlist a {padding-left:15px;background-position:-30px -4px;}
