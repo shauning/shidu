@@ -24,7 +24,7 @@ a:hover {color:#0b68c8;text-decoration:underline;}
 .slidebox_list a {position:relative;display:block;height:180px;cursor:pointer;}
 .slidebox_list a:hover {text-decoration:none;}
 .slidebox_list img {width:273px;height:180px;}
-.slidebox_list span {position:absolute;left:0;bottom:0;display:block;width:160px;height:28px;padding:0 108px 0 5px;font-size:14px;color:#fff;line-height:28px;font-weight:bold;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);overflow: hidden;}
+.slidebox_list span {position:absolute;left:0;bottom:0;display:block;width:268px;height:28px;padding:0 5px;font-size:14px;color:#fff;line-height:28px;font-weight:bold;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);overflow: hidden;}
 .slidebox_tigger {position:absolute;right:10px;bottom:11px;}
 .slidebox_tigger li {float:left;display:inline;width:10px;height:6px;background:#999;margin-left:4px;cursor:pointer;text-indent:-9999px;overflow:hidden;}
 .slidebox_tigger .on {background:#00ccff;}
