@@ -23,6 +23,11 @@ a:hover{text-decoration:underline}
 .header {height: 46px; border-bottom: solid #379be9 2px;}
 .logo {float: left; width: 160px;}
 .logo a {display: block; height: 46px; background: url(../images/logo_main.png) no-repeat center center; text-indent: -9999px;background-size: 130px 40px;}
+.site_cq .logo a {background-image: url(../images/logo_main_cq.png);}
+.site_hn .logo a {background-image: url(../images/logo_main_hn.png);}
+.site_hb .logo a {background-image: url(../images/logo_main_hb.png);}
+.site_js .logo a {background-image: url(../images/logo_main_js.png);}
+.site_sc .logo a {background-image: url(../images/logo_main_sc.png);}
 .sitenav {background: #0073c6; padding: 7px 0; overflow: hidden;}
 .sitenav li {float: left; width: 20%; font-size: 1.333rem; line-height: 30px; text-align: center;}
 .sitenav a {color: #fff;}
