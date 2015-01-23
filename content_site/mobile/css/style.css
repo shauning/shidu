@@ -42,7 +42,7 @@ a:hover{text-decoration:underline}
 .newslist_div h3 {max-height:38px;font-size:1.33rem; line-height: 1.2; font-weight:bold;overflow:hidden;}
 .newslist_div p {height:38px;margin:3px 0 8px;color:#666;overflow:hidden;}
 .newslist_info_from {color: #999;}
-.loading {background: url(../images/loading.gif) no-repeat 30% center; margin-top: 20px; font-size: 1.33rem; line-height: 32px; text-align: center;}
+.loading, .ui-refresh-down {background: url(../images/loading.gif) no-repeat 30% center; margin-top: 20px; font-size: 1.33rem; line-height: 32px; text-align: center;}
 
 h1 {font-size: 2rem; font-weight: bold;}
 .wrapper {padding:10px;}
