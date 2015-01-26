@@ -41,7 +41,7 @@ a:hover{text-decoration:underline}
 .citylist {position: absolute; left: 0; top: 20px; width: 100px; background: #fff; border: solid #ccc 1px;}
 .citylist a {float: left; display: block; width: 50px; font-size: 1.16rem; line-height: 24px; text-align: center;}
 
-.newslist_div {padding:10px 5px 10px 0;border-bottom:dotted #e8e8e8 1px;}
+.newslist_div {min-height: 52px; padding:10px 5px 10px 0;border-bottom:dotted #e8e8e8 1px;}
 .newslist_div .pic {position:relative;float:left;display:inline;width:93px;height:52px;margin-right:10px;}
 .newslist_div img {width: 93px; height: 52px;}
 .newslist_div h3 {max-height:38px;font-size:1.33rem; line-height: 1.2; font-weight:bold;overflow:hidden;}
