@@ -21,7 +21,7 @@ ins,a{ color: #333; text-decoration:none;}
 a:hover{text-decoration:underline}
 
 .header {height: 46px; border-bottom: solid #379be9 2px;}
-.logo {float: left; width: 160px;}
+.logo {float: left; width: 150px;}
 .logo a {display: block; height: 46px; background: url(../images/logo_main.png) no-repeat center center; text-indent: -9999px;background-size: 130px 40px;}
 .site_cq .logo a {background-image: url(../images/logo_main_cq.png);}
 .site_hn .logo a {background-image: url(../images/logo_main_hn.png);}
@@ -37,7 +37,7 @@ a:hover{text-decoration:underline}
 .tigger_on .tigger {display: none;}
 .tigger_on .tiggerup {display: inline-block;}
 .channel {float: right; display: block; width: 22px; height: 16px; background: url(../images/icon.png) no-repeat; background-size: 119px 21px; margin: 15px 15px 0 0;}
-.city {position: relative; float: left; margin: 10px 0 0 2px; z-index: 2;}
+.city {position: relative; float: left; margin: 13px 0 0 2px; z-index: 2;}
 .citylist {position: absolute; left: 0; top: 20px; width: 100px; background: #fff; border: solid #ccc 1px;}
 .citylist a {float: left; display: block; width: 50px; font-size: 1.16rem; line-height: 24px; text-align: center;}
 
@@ -57,11 +57,11 @@ h1 {font-size: 2rem; font-weight: bold;}
 .artbox p {margin-bottom: 22px; font-size: 1.33rem; color: #333; text-indent: 2em;}
 .statement {color: #666; text-align: center;}
 
-.title_h3 {margin-top: 20px; padding-top: 10px; font-size: 1.33rem; border-top: solid #379be9 3px;}
+.title_h3, .box_tt h3 {margin-top: 20px; padding-top: 10px; font-size: 1.33rem; border-top: solid #379be9 3px;}
 .imgLlist li {height:75px;margin:15px 0 0 0;border-bottom:solid #e7e7e7 1px;overflow:hidden;}
 .imgLlist .pic {float:left;display:block;width:107px;height:60px;margin-right:10px;}
 .imgLlist img {width:107px;height:60px;}
-.imgLlist p {color: #999;}
+.imgLlist p {height: 18px; color: #999; overflow: hidden;}
 .imgLlist .title {height:40px;margin-bottom:3px;font-size:14px;overflow:hidden;}
 .imgLlist_150x85 li {width:auto;height:85px;border-bottom:none;}
 .imgLlist_150x85 .pic, .imgLlist_150x85 img {width:150px;height:85px;}
@@ -70,5 +70,5 @@ h1 {font-size: 2rem; font-weight: bold;}
 
 .imglist {overflow:hidden;}
 .imglist li {float:left;overflow:hidden;}
-.imglist_205x113 li {width:100px;height:55px;margin:10px 4% 0 0;}
+.imglist_205x113 li {width:86px;height:47px;margin:10px 4% 0 0;}
 .imglist_205x113 img {width:100px;height:55px;}
