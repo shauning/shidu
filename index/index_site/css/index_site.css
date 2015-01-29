@@ -67,7 +67,7 @@ a:hover {color:#0073c6;}
 .topbar_city_drop .arrow, .topbar_city_tt, .header_app .mobile, .sitenav, .sitenav_channel .hot .ico, .sitenav_more .ico, .sitenav_more li, .logo i {background:url(../img/sitenav.png) no-repeat 0 0;}
 .topbar {height:35px;background:#f6f6f6;}
 .topbar_con {width:1000px;margin:0 auto;}
-.topbar_city {position: relative; float:left; display: inline; margin-left: 25px; font-size:14px;color:#333;z-index: 9;}
+.topbar_city {position: relative; float:left; display: none; margin-left: 25px; font-size:14px;color:#333;z-index: 9;}
 .topbar_city_tt {background-position: 60px -58px; padding-right: 18px; line-height: 35px; cursor: pointer;}
 .topbar_city_drop {position: absolute; left: 0; top: 35px; display: none; width: 180px; background: #fff; padding: 5px 0; border: 1px #ddd solid;}
 .topbar_city_drop a {float: left; display: block; width: 60px; font-size: 14px; line-height: 30px; text-align: center;}

@@ -54,7 +54,11 @@ h1 {font-size: 2rem; font-weight: bold;}
 .artinfo {margin: 1em 0 3em}
 .artbox_img {text-align: center;}
 .artbox_img img {width:100%;height:100%;}
-.artbox p {margin-bottom: 22px; font-size: 1.33rem; color: #333; text-indent: 2em;}
+.artbox p, .artbox .div_p {margin-bottom: 22px; font-size: 1.33rem; color: #333; text-indent: 2em;}
+.artbox p a, .artbox .div_p a {color: #249ff1; text-decoration: underline;}
+.artbox p em, .artbox .div_p em {margin: 0 5px; font-style: italic;}
+.artbox ul, .artbox ol {margin-bottom: 22px; font-size:1.33rem;color:#333;}
+.artbox table {font-size:1.33rem;color:#333;}
 .statement {color: #666; text-align: center;}
 
 .title_h3, .box_tt h3 {margin-top: 20px; padding-top: 10px; font-size: 1.33rem; border-top: solid #379be9 3px;}
