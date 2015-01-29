@@ -11,7 +11,7 @@ li {list-style-type:none;}
 fieldset, img {border:0;}
 label,button {cursor: pointer;}
 select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
-body {min-width:1000px;height:100%;background:#fff;font:12px/1.8em "\5b8b\4f53","Arial Narrow";color:#999;}
+body {min-width:1000px;height:100%;background:#fff;font:12px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
 a {color:#333;outline:none;text-decoration:none;}
 a:hover {color:#0073c6;}
 /*globel*/
@@ -49,7 +49,7 @@ a:hover {color:#0073c6;}
 .header_app {float: left; display: inline; margin: 10px 0 0 30px; font-size: 14px; line-height: 26px;}
 .header_app a {display: inline-block;}
 .header_app .mobile {background-position: -254px -47px; padding-left: 30px;}
-.sitenav {background-position: 0 -281px; background-repeat: repeat-x; margin:0 auto 20px;}
+.sitenav {background-position: 0 -281px; background-repeat: repeat-x; margin:0 auto;}
 .sitenav_list {width: 1000px; height:50px;background:#1887d0; margin: 0 auto;}
 .sitenav ul, .sitenav li {float:left;}
 .sitenav_list a {position:relative;display:block;width:68px;height:50px;font-size:17px;color:#fff;font-family:"Microsoft Yahei";line-height:50px;text-align:center;}
