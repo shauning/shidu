@@ -25,16 +25,16 @@ a:hover {color:#0073c6;}
 .topbar_city_drop .arrow, .topbar_city_tt, .header_app .mobile, .sitenav, .sitenav_channel .hot .ico, .sitenav_more .ico, .sitenav_more li, .logo i {background:url(http://misc.kankancity.com/station/img/sitenav.png) no-repeat 0 0;}
 .topbar {height:35px;background:#f6f6f6;}
 .topbar_con {width:1000px;margin:0 auto;}
-.topbar_city {position: relative; float:left; display: inline; margin-left: 25px; font-size:14px;color:#333;z-index: 9;}
-.topbar_city_tt {background-position: 60px -58px; padding-right: 18px; line-height: 35px; cursor: pointer;}
+.topbar_city {position: relative; float:left; display: inline; margin-left: 25px;color:#333;z-index: 9;}
+.topbar_city_tt {background-position: 55px -58px; padding-right: 18px; line-height: 35px; cursor: pointer;}
 .topbar_city_drop {position: absolute; left: 0; top: 35px; display: none; width: 180px; background: #fff; padding: 5px 0; border: 1px #ddd solid;}
 .topbar_city_drop a {float: left; display: block; width: 60px; font-size: 14px; line-height: 30px; text-align: center;}
 .topbar_city_drop .arrow {position:absolute;left:18px;top:-8px;width:20px;height:14px;background-position:-21px -47px;}
 .topbar_pannel {float:right;font-size:14px;line-height:35px;}
 .topbar_pannel a {float:left;margin-left:10px;}
 .topbar_pannel img {float:right;display:inline;margin-left:10px;}
-.topbar_link {float: left; font-size: 14px; line-height: 35px;}
-.topbar .tel {float:left;display:inline;margin:0 0 0 70px;color:#666;line-height:35px;}
+.topbar_link {float: left;line-height: 35px;}
+.topbar .tel {float:left;display:inline;margin:0 0 0 175px;color:#666;line-height:35px;}
 .header {width:1000px;height:63px;margin:20px auto 0;}
 .logo {position:relative;float:left;width:280px;height:46px;}
 .logo a {display:block;height:46px;}
