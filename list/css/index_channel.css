@@ -16,7 +16,7 @@ a {color:#333;outline:none;text-decoration:none;}
 a:hover {color:#0073c6;}
 /*globel*/
 .txtlist_hot a, .channelnav_list .cur, .floatpannel a, .ico {background:url(../img/sitelist_sprite.png) no-repeat 0 0;}
-.wrapper {width:1000px;margin:0 auto;zoom:1;}
+.wrapper {width:1000px;margin:15px auto 0;zoom:1;}
 .wrapper:after {content:"";display:table;clear:both}
 .main {float:left;width:646px;}
 .side {float:right;width:320px;}
@@ -64,7 +64,7 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 .header_app {float: left; display: inline; margin: 10px 0 0 30px; font-size: 14px; line-height: 26px;}
 .header_app a {display: inline-block;}
 .header_app .mobile {background-position: -254px -47px; padding-left: 30px;}
-.sitenav {background-position: 0 -281px; background-repeat: repeat-x; margin:0 auto 20px;}
+.sitenav {background-position: 0 -281px; background-repeat: repeat-x; margin:0 auto;}
 .sitenav_list {width: 1000px; height:50px;background:#1887d0; margin: 0 auto;}
 .sitenav ul, .sitenav li {float:left;}
 .sitenav_list a {position:relative;display:block;width:68px;height:50px;font-size:17px;color:#fff;font-family:"Microsoft Yahei";line-height:50px;text-align:center;}
