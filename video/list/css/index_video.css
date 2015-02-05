@@ -86,3 +86,7 @@ a:hover {color:#0073c6;}
 .floatpannel {position:fixed;_position:absolute;right:10px;bottom:46px;z-index:999;}
 .floatpannel a {display:block;width:50px;height:50px;margin-top:10px;text-indent:-9999px;overflow:hidden;}
 .floatpannel .floatpannel_top {background-position:-294px -74px;}
+/*noresult*/
+.noresult {background:#fafafa;margin:15px 0 40px;line-height:28px;border:solid #ededed 1px;border-top:none;}
+.noresult p {background:url(../img/ico_1.png) no-repeat 295px center;padding:30px 0 30px 350px;font-size:14px;color:#333;}
+.noresult p a {margin-left:5px;color:#0073c6;}
