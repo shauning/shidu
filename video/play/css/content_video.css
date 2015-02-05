@@ -48,6 +48,9 @@ a:hover {color:#0073c6;}
 .header_search {float:left;display:inline;width:381px;margin:10px 0 0 174px;}
 .header_search input {float:left;width:250px;height:18px;background:#fff;padding:6px 10px 6px 30px;font-size:14px;line-height:20px;border:solid #bec1c8 1px;border-right:none;}
 .header_search button {float:left;width:76px;height:32px;background:#0089d8;font-size:14px;color:#fff;border:none;}
+.sitenav {float: left; display: inline; margin: 12px 0 0 10px; font-size: 15px; font-family:"Microsoft Yahei";}
+.sitenav a {float: left; display: inline; margin: 0 0 0 20px;}
+.sitenav .on {color: #0073c6;}
 
 .player {position:relative;margin-bottom:30px;}
 .player_tt {height:66px;margin-top:10px;}

@@ -47,7 +47,7 @@ a:hover {color:#249ff1;}
 .site_sc .globelnav_logo a {background-position:0 -255px;}
 .globelnav_list {float:left;display:inline;margin-left:15px;}
 .globelnav_list li {float:left;}
-.globelnav_list a {display:block;height:48px;padding:0 10px;font-size:16px;color:#acd7f6;line-height:48px;overflow:hidden;}
+.globelnav_list a {display:block;height:48px;padding:0 10px;font-size:16px;color:#fff;line-height:48px;overflow:hidden;}
 .globelnav_list a:hover, .globelnav_pannel .cur {background-color:#0083db;color:#fff;text-decoration:none;}
 .globelnav_list .cur, .globelnav_list .cur:hover {background-position:-283px 0;color:#fff;}
 .globelnav_pannel {float:right;width:100px;margin:0;}
