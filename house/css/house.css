@@ -97,7 +97,7 @@ a:hover {color:#0073c6;}
 .d1 {position:relative; float: left; width:660px;height:auto;overflow:hidden;background:#000000;}
 .loading{width:660px;color:#999;font-size:16px;height:220px;text-align:center;padding-top:100px;font-weight:bold;}
 .d2{width:100%;height:320px;overflow:hidden;}
-.num_list{position:absolute;width:100%;left:0px;bottom:-1px;background-color:#000000;color:#FFFFFF;font-size:20px;padding:4px 0px;height:36px; line-height: 26px; overflow:hidden;}
+.num_list{position:absolute;width:100%;left:0px;bottom:-1px;background: rgba(0,0,0,0.6); color:#FFFFFF;font-size:20px;padding:4px 0px;height:36px; line-height: 32px; overflow:hidden;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');}
 .num_list span{display:inline-block;height:16px;padding-left:6px;}
 #fade_focus img{display:block;}
 #fade_focus ul{display:none;}

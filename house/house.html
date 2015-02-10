@@ -14,15 +14,19 @@
 <body class="site_cq">
 <div class="topbar">
 	<div class="topbar_con">
-		<dl class="topbar_city ff_yh">
-			<dt>切换城市：</dt>
-			<dd><a href="http://www.kankancity.com/">全国</a></dd>
-			<dd><a href="http://cq.kankancity.com/">重庆</a></dd>
-			<dd><a href="http://hb.kankancity.com/">湖北</a></dd>
-			<dd><a href="http://sc.kankancity.com/">四川</a></dd>
-			<dd><a href="http://js.kankancity.com/">江苏</a></dd>
-			<dd><a href="http://hn.kankancity.com/">河南</a></dd>
-		</dl>
+		<a href="#" class="topbar_link">设为首页</a>
+		<div class="topbar_city">
+			<div class="topbar_city_tt">切换城市</div>
+			<div class="topbar_city_drop">
+				<i class="arrow"></i>
+				<a href="http://www.kankancity.com/">全国</a>
+				<a href="http://cq.kankancity.com/">重庆</a>
+				<a href="http://hb.kankancity.com/">湖北</a>
+				<a href="http://sc.kankancity.com/">四川</a>
+				<a href="http://js.kankancity.com/">江苏</a>
+				<a href="http://hn.kankancity.com/">河南</a>
+			</div>
+		</div>
 		<p class="tel">新闻热线：023-89161816 88103145&nbsp;&nbsp;&nbsp;&nbsp;广告热线：023-88665535</p>
 		<div class="topbar_pannel ff_yh">
 			<a href="#" style="display:none;">登录</a>
@@ -32,28 +36,9 @@
 	</div>
 </div><!--topbar  END-->
 
-<div class="banner_fix banner_fix_l" id="ad_124"><img src="http://placehold.it/80x80" alt=""></div>
-<div class="banner_fix banner_fix_r" id="ad_124"><img src="http://placehold.it/80x80" alt=""></div>
-
-<div class="bannerbox bannerbox_flag" id="ad_124" style="display: block;">
-	<div class="bannerbox_flag_l"><img src="http://placehold.it/165x60" alt=""></div>
-	<div class="bannerbox_flag_c"><img src="http://placehold.it/660x60" alt=""></div>
-	<div class="bannerbox_flag_r"><img src="http://placehold.it/165x60" alt=""></div>
-</div>
-<div class="bannerbox" id="ad_124" style="display: block;">
-	<div style="width: 1000px; height: 60px; overflow: hidden;"><img src="http://placehold.it/1000x60" alt=""></div>
-</div>
-<div class="bannerbox" id="ad_124" style="display: block;">
-	<div style="width: 1000px; height: 60px; overflow: hidden;"><img src="http://placehold.it/1000x60" alt=""></div>
-</div>
-
-<div class="bannerbox">
-	<div class="bannerbox_L" id="ad_124"><img src="http://placehold.it/497x60" alt=""></div>
-	<div class="bannerbox_R" id="ad_124"><img src="http://placehold.it/497x60" alt=""></div>
-</div>
-
 <header class="header">
 	<h1 class="logo"><a href="#" title="看看重庆">看看重庆 - 都是您的身边事<i></i></a></h1>
+	<div class="header_app"><a href="#" class="mobile">手机版</a></div>
 	<fieldset class="headersearch"><input type="text" placeholder="请输入关键字"/><button type="submit">搜 索</button></fieldset>
 </header><!--header  END-->
 <div class="sitenav">
@@ -293,7 +278,7 @@
 var picshow = function() {
     var interv = 4000; //切换间隔时间
     var interv2 = 10; //切换速速
-    var opac1 = 60; //文字背景的透明度
+    var opac1 = 100; //文字背景的透明度
     var source = "fade_focus" //焦点轮换图片容器的id名称
     //获取对象
     function getTag(tag, obj) {
