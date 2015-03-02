@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<!-- 
+<meta name="apple-mobile-web-app-title" content="标题">
+<link rel="apple-touch-icon" href="#" />
+<link rel="apple-touch-icon" sizes="72x72" href="#" />
+<link rel="apple-touch-icon" sizes="114x114" href="#" /> 57 72 114 桌面图标
+-->
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>播放页</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<div class="header">
+	<h1 class="logo"><a href="看看城市">看看城市</a></h1>
+	<span id="channel" class="channel" onclick="navShow();"></span>
+</div>
+<div id="sitenav" class="sitenav" style="display:none;">
+	<ul>
+		<li><a href="http://cq.kankancity.com/" class="cur">城事</a></li>
+		<li><a href="/category/city/">本地</a></li>
+		<li><a href="/category/yule/">原创</a></li>
+		<li><a href="/category/sports/">资讯</a></li>
+		<li><a href="/category/car/">娱乐</a></li>
+		<li><a href="/category/travel/">体育</a></li>
+		<li><a href="/category/cate/">汽车</a></li>
+		<li><a href="/category/house/">房产</a></li>
+		<li><a href="/category/finance/">美食</a></li>
+		<li><a href="/category/tech/">搞笑</a></li>
+		<li><a href="/category/tech/">旅游</a></li>
+		<li><a href="/category/war/">数码</a></li>
+	</ul>                                                                                        
+</div>
+
+<section class="wrapper">
+	<h1>泰国三名男子因太相爱结婚 婚纱照看晕网友</h1>
+	<div class="artbox">
+		<div class="player">
+			<video src="http://video.kankancity.com/20150301/7927b2e3349a774e8767b616438b14b7.mp4" controls="controls" width="100%"></video>
+		</div>
+	</div>
+	<h3 class="title_h3">热门推荐</h3>
+	<ul class="imgLlist">
+		<li>
+			<div class="title"><a href="#" title="">艺考直通车正式启动艺考直通车正式启动通车正式启动通车正式启动</a></div>
+		</li>
+		<li>
+			<a href="#" title="" class="pic"><img src="http://placehold.it/107x60" alt=""></a>
+			<div class="title"><a href="#" title="">艺考直通车正式启动艺考直通车正式启动</a></div>
+		</li>
+		<li>
+			<a href="#" title="" class="pic"><img src="http://placehold.it/107x60" alt=""></a>
+			<div class="title"><a href="#" title="">艺考直通车正式启动艺考直通车正式启动</a></div>
+		</li>
+		<li>
+			<a href="#" title="" class="pic"><img src="http://placehold.it/107x60" alt=""></a>
+			<div class="title"><a href="#" title="">艺考直通车正式启动艺考直通车正式启动</a></div>
+		</li>
+	</ul>
+</section>
+
+<div class="box artcomment"></div>
+
+</body>
+<script type="text/javascript">
+var channel = document.getElementById('channel');
+var sitenav = document.getElementById('sitenav');
+function navShow () {
+	if (sitenav.style.display == 'none') {
+		sitenav.style.display = 'block';
+	}else{
+		sitenav.style.display = 'none'
+	};
+}
+</script>
+</html>
