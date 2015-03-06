@@ -100,7 +100,8 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 .artpannel_top {border-bottom:solid #dadada 1px;}
 .artpannel_top .share {float:right;}
 .statement {font-size:14px;font-family:"Microsoft Yahei";text-align:center;}
-.statement_qcode {height: 180px; margin-top: 20px;}
+.statement_qcode {position:relative;height: 180px; margin-top: 20px;}
+.statement_qcode_link {position: absolute; right: 0; top: 0; display: block; width: 175px; height: 180px; text-indent: -9999px;}
 .artbox_player {margin-bottom:30px;}
 .artbox_playerbox {position:relative;width:660px;height:540px;background:#000;}
 .artbox_playertt {display:block;height:40px;background:#f3f3f3;padding:0 10px;font-size:15px;color:#333;font-family:"Microsoft Yahei";line-height:40px;overflow:hidden;}
