@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- chris
+ * @time   ------- 2014-10*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+address, cite, em {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1000px;height:100%;background:#fff;font:12px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
+a {color:#333;outline:none;text-decoration:none;}
+a:hover {color:#0073c6;}
+/*globel*/
+.txtlist a, .floatpannel a {background:url(../img/sprite.png) no-repeat 0 0;}
+.footer {width:1000px;height:60px;padding-top:20px;margin:40px auto 0;color:#b1b1b1;text-align:center;border-top:solid #f4f4f4 1px;}
+.footer span {font-family:"Arial";}
+.footer .p_1 a {margin: 0 10px; font-size: 14px;}
+.footer .p_2 a {color: #999;}
+.blue {color:#0073c6;}
+.hide {display:none;}
+.ico {position:absolute;display:block;width:13px;height:13px;text-indent:-9999px;overflow:hidden;}
+.wrapper {width:1160px;margin:0 auto 40px;overflow:hidden;zoom:1;}
+.main {float: left; width: 950px;}
+.side {float: right; width: 190px;}
+.l320r820 .main {float: right; width: 820px;}
+.l320r820 .side {float: left; width: 320px;}
+/*topbar*/
+.topbar_city_drop .arrow, .topbar_city_tt, .header_app .mobile, .sitenav, .sitenav_channel .hot .ico, .sitenav_more .ico, .sitenav_more li, .logo i {background:url(http://misc.kankancity.com/station/img/sitenav.png) no-repeat 0 0;}
+.topbar {height:35px;background:#f6f6f6;}
+.topbar_con {width:1160px;margin:0 auto;}
+.topbar_city {position: relative; float:left; display: inline; margin-left: 25px;color:#333;z-index: 9;}
+.topbar_city_tt {background-position: 55px -58px; padding-right: 18px; line-height: 35px; cursor: pointer;}
+.topbar_city_drop {position: absolute; left: 0; top: 35px; display: none; width: 180px; background: #fff; padding: 5px 0; border: 1px #ddd solid;}
+.topbar_city_drop a {float: left; display: block; width: 60px; font-size: 14px; line-height: 30px; text-align: center;}
+.topbar_city_drop .arrow {position:absolute;left:18px;top:-8px;width:20px;height:14px;background-position:-21px -47px;}
+.topbar_pannel {float:right;font-size:14px;line-height:35px;}
+.topbar_pannel a {float:left;margin-left:10px;}
+.topbar_pannel img {float:right;display:inline;margin-left:10px;}
+.topbar_link {float: left;line-height: 35px;}
+.topbar .tel {float:left;display:inline;margin:0 0 0 175px;color:#666;line-height:35px;}
+.header {width:1160px;height:63px;margin:20px auto 0;}
+.logo {position:relative;float:left;width:280px;height:46px;}
+.logo a {display:block;height:46px;}
+.logo i {position:absolute;left:0;top:0;display:block;width:280px;height:46px;}
+.site_hb .logo i {background-position:0 -93px;}
+.site_hn .logo i {background-position:0 -140px;}
+.site_js .logo i {background-position:0 -187px;}
+.site_sc .logo i {background-position:0 -234px;}
+.headersearch {float:right;margin-top:10px;}
+.headersearch input {float:left;width:215px;height:16px;padding:8px 10px;font-size:14px;line-height:16px;font-family:"Microsoft Yahei";border:solid #ccc 1px;}
+.headersearch button {width:80px;height:34px;background:#f4f4f4;font-size:15px;color:#333;font-family:"Microsoft Yahei";border:solid #ccc 1px;border-left:none;}
+.header_app {float: left; display: inline; margin: 10px 0 0 30px; font-size: 14px; line-height: 26px;}
+.header_app a {display: inline-block;}
+.header_app .mobile {background-position: -254px -47px; padding-left: 30px;}
+.sitenav {background-position: 0 -281px; background-repeat: repeat-x; margin:0 auto 20px;}
+.sitenav_list {width: 1160px; height:50px;background:#1887d0; margin: 0 auto;}
+.sitenav ul, .sitenav li {float:left;}
+.sitenav_list a {position:relative;display:block;width:68px;height:50px;font-size:17px;color:#fff;font-family:"Microsoft Yahei";line-height:50px;text-align:center;}
+.sitenav_list .cur, .sitenav_list a:hover {background:#136daa;text-decoration:none;}
+.sitenav_more li {background-position:0 -372px;padding-left:10px;}
+.sitenav_more .ico {right:-10px;top:8px;width:20px;height:11px;background-position:0 -47px;}
+.sitenav_channel {width: 1160px; height:40px; background: #f6f6f6; margin: 0 auto; line-height:40px;}
+.sitenav_channel a {margin:0 15px;font-size:14px;}
+.sitenav_channel .on {color: #005ca2; font-weight: bold;}
+.sitenav_channel .hot {position:relative;}
+.sitenav_channel .hot .ico {right:-19px;top:-8px;width:20px;height:11px;background-position:0 -47px;}
+.pop_fadein {display:block;-webkit-animation:pop_fadein .5s alternate ease-in-out;-moz-animation:pop_fadein .5s alternate linear;-ms-animation:pop_fadein .5s alternate linear;animation:pop_fadein .5s alternate ease-in-out;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;}@-webkit-keyframes pop_fadein{0%{opacity:0;-webkit-transform:translateY(-50px);}50%{opacity:1;-webkit-transform:translateY(4px);}80%{-webkit-transform:translateY(-2px);}100%{-webkit-transform:translateY(0);}}@-moz-keyframes pop_fadein{0%{opacity:0;-moz-transform:translateY(-50px);}50%{opacity:1;-moz-transform:translateY(4px);}80%{-moz-transform:translateY(-2px);}100%{-moz-transform:translateY(0);}}@-ms-keyframes pop_fadein{0%{opacity:0;-ms-transform:translateY(-50px);}50%{opacity:1;-ms-transform:translateY(4px);}80%{-ms-transform:translateY(-2px);}100%{-ms-transform:translateY(0);}}@keyframes pop_fadein{0%{opacity:0;transform:translateY(-50px);}50%{opacity:1;transform:translateY(4px);}80%{transform:translateY(-2px);}100%{transform:translateY(0);}}
+/*floatpannel*/
+.floatpannel {position:fixed;_position:absolute;right:10px;bottom:46px;z-index:999;}
+.floatpannel a {display:block;width:50px;height:50px;margin-top:10px;text-indent:-9999px;overflow:hidden;}
+/*topnews*/
+.topnews {height: 325px; overflow: hidden;}
+.topnews_img {float: left; width: 625px;}
+.topnews_img a {float: left; display: block; width: 340px; height: 325px; overflow: hidden;}
+.topnews_img .topnews_img_s {float: right; width: 280px; height: 160px; margin-bottom: 5px;}
+.topnews_txt {float:right;width:305px;height:325px;background:#f6f6f6;padding:0 10px;}
+.topnews_txt h2 {height:20px;padding-top:11px;margin:8px 0 5px;font-size:18px;overflow:hidden;}
+.topnews_txt .first {margin-top: 15px;}
+.topnews_txt h2 a {color:#0073c6;}
+.topnews_txt h2 a:hover {text-decoration: underline;}
+.topnews_ul li {height:26px;font-size:13px;line-height:26px;overflow:hidden;}
+.topnews_ul span {margin:0 3px;}
+.topnews_txt_2 {float: left; width: 610px; height: auto; background: none; padding: 0;}
+.topnews_txt_2 li a {margin-right: 5px;}
+.topnews_txt_2 .first {margin-top: 10px;}
+.topnews_txt_2 h2 {padding-top: 7px;}
+.hottag {float: right; width: 188px; height: 323px; border: #ddd 1px solid;}
+.hottag strong {display: block; margin: 10px 0 0 10px; font-size: 16px; color: #333; font-weight: normal;}
+.hottag li {float:left;display:inline;margin:10px 0 0 10px;}
+.hottag a {display:block;background:#e2f0fc;padding:0 12px;font-size:14px;line-height:30px;white-space: nowrap;}
+/*box*/
+.box {overflow: hidden; zoom:1;}
+.box_tt {height: 28px; line-height: 28px; overflow: hidden;}
+.box_tt h3 {float: left; margin-right: 25px; font-size: 26px; color: #333;}
+.act {font-size: 16px; color: #ccc; line-height: 34px;}
+.act a {margin: 0 5px;}
+.act .on {color: #0073c6;}
+.yyst {margin-top: 50px;}
+/*imglist*/
+.imglistA {>float: left; margin-left: -20px;}
+.imglistA li {float: left; display: inline; width: 190px; height: 260px; margin: 20px 0 0 20px;}
+.imglistA a {position: relative; display: block; height: 260px;}
+.imglistA span {position: absolute; left: 0; bottom: 0; width: 190px; height: 26px; font-size: 14px; color: #fff; line-height: 26px; text-align: center;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6); cursor: pointer;}
+.imglistB {>float: left; margin-left: -20px;}
+.imglistB li {float: left; display: inline; width: 190px; height: 160px; margin: 20px 0 0 20px;}
+.imglistB img {display: block; width: 190px; height: 106px;}
+.imglistB span {display: block; height: 50px; background: #f5f5f5; padding: 4px 10px 0; font-size: 14px; cursor: pointer;}
+/*txtlist*/
+.txtlist {float: right; width: 190px; margin-top: 10px;}
+.txtlist li {height: 30px; line-height: 30px; overflow: hidden;}
+.txtlist a {background-position: -51px 7px; padding-left: 12px; font-size: 14px;}
+/*dep*/
+.dep {height: 453px; background: #fcfcfc; margin-top: 20px; border: #ddd 1px solid;}
+.dep dl {height: 112px; padding: 0 20px; border-bottom: #eee 1px solid; overflow: hidden;}
+.dep dt {margin: 20px 0 15px; font-size: 18px; color:#0073c6;}
+.dep dd {float: left; display: inline; margin-right: 10px; font-size: 14px; white-space: nowrap;}
+.dep .last {border: none;}
+/*doctor*/
+.doctor li {position: relative; height: 90px; padding-left: 110px; margin-top: 20px; color: #333;}
+.doctor img {position: absolute; left: 0; top: 0;}
+.doctor h4 {font-size: 18px;}
+.doctor h4 span {background: #66bc21; padding: 0 5px; margin-left: 10px; font-size: 12px; color: #fff;}
+.doctor p {margin-top: 10px;}
+/*piclist*/
+.piclist {position: relative; height: 395px; margin-top: 20px;}
+.piclist li {position: absolute; width: 320px; height: 195px;}
+.piclist span {position: absolute; left: 0; bottom: 0; width: 100%; height: 40px; font-size: 16px; color: #fff; line-height: 40px; text-indent: 10px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
+.piclist .li1 {left: 0; top: 0;}
+.piclist .li2 {left: 0; bottom: 0;}
+.piclist .li3 {left: 325px; top: 0; width: 205px; height: 395px;}
+.piclist .li4 {left: 535px; top: 0; width: 205px; height: 195px;}
+.piclist .li5 {left: 745px; top: 0; width: 205px; height: 195px;}
+.piclist .li6 {left: 535px; bottom: 0; width: 205px; height: 195px;}
+.piclist .li7 {left: 745px; bottom: 0; width: 205px; height: 195px;}
+.piclist .li8 {right: 0; top: 0; width: 205px; height: 395px;}
