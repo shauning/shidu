@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- vinha
+ * @time   ------- 2015-03-24*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+address, cite, em {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1000px;height:100%;background:#fff;font:12px/1.6em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
+a {color:#333;outline:none;text-decoration:none;}
+a:hover {color:#309de7;}
+/*globel*/
+.wrapper {width: 1000px; margin: 0 auto; zoom:1;}
+.wrapper:after {content:""; display:table; clear:both}
+.main {float: left; width: 670px;}
+.side {float: right; width: 286px;}
+.pic {display: block; overflow: hidden;}
+/*header*/
+h2 {position: absolute; left: -9999px;}
+.header {background: url(../img/bg_header_repeat.png); margin-bottom: 20px;}
+.header_con {position: relative; height: 258px; background: url(../img/bg_header.jpg);}
+h1 {position: absolute; left: 618px; top: 44px; font-size: 18px; color: #ff4800;}
+.nav {width: 1000px; height: 38px; margin: 0 auto;}
+.nav li {float: left;}
+.nav a {float: left; display: block; padding: 0 15px; font-size: 15px; color: #fff; line-height: 38px;}
+.nav .on, .nav a:hover {background: #0073c6;}
+/*box*/
+.box_tt {height: 38px; border-bottom: 2px #eaeaea solid;}
+.box_tt h3 {float: left; font-size: 21px; color: #333; line-height: 38px; border-bottom: 2px #0d8be5 solid;}
+/*clublist*/
+.clublist li {height: 145px; padding-right: 15px; margin-top: 20px; font-size: 13px; color: #666; overflow: hidden;}
+.clublist .pic {float: left; width: 253px; height: 145px; margin-right: 20px;}
+.clublist h4 {height: 20px; margin: 10px 0 5px; font-size: 16px; font-weight: bold; overflow: hidden;}
+.clublist span {color: #309de7;}
+.clublist .info {margin: 5px 0 10px; overflow: hidden; zoom:1;}
+.clublist .info p {float: left; width: 230px;}
+.clublist .info .info_r {width: 150px;}

@@ -17,8 +17,8 @@ a:hover {color:#0073c6;}
 /*globel*/
 .floatpannel a, .onmask, .icon {background:url(../img/sprite.png) no-repeat 0 0;}
 .wrapper {width:1170px;margin:0 auto;overflow:hidden;zoom:1;}
-.main {float: left; width: 830px;}
-.side {float: right; width: 320px;}
+.main {float: left; width: 660px;}
+.side {float: right; width: 490px;}
 .footer {width:1000px;height:40px;padding-top:20px;margin:40px auto 0;color:#b1b1b1;font-family:"Arial";text-align:center;border-top:solid #f4f4f4 1px;}
 .blue {color:#0073c6;}
 .ico {position:absolute;display:block;width:13px;height:13px;overflow:hidden;}
@@ -121,3 +121,8 @@ h1 {font-size:20px;color:#333;line-height:60px;}
 .errortxt p {padding-bottom:20px;font-size:16px;font-family:"Microsoft YaHei";line-height:24px;}
 .errortxt a, .error a {color:#249FF1;text-decoration:underline;}
 .errortxt div {padding:20px 0 0 178px;text-align:left;}
+/*other*/
+.box_guess {height: 296px;}
+.w1000 .wrapper, .w1000 .globelnav_con {width: 1000px;}
+.w1000 .side {width: 320px;}
+.w1000 .player, .w1000 .error, .w1000 .playerbox {width: 680px;}

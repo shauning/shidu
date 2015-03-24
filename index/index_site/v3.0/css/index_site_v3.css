@@ -135,6 +135,7 @@ a:hover {color:#309de7;}
 .txtlist_center li {margin-top: 10px;}
 .pic {position: relative; display: block; overflow: hidden;}
 .movtxt {position: absolute; right: 0; bottom: 0; padding: 0 5px; color: #fff; line-height: 21px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6); cursor: pointer;}
+.ico_play {position: absolute; left: 5px; bottom: 5px; width: 28px; height: 28px; background: url(../img/png24.png);}
 .imglist {>float: left; margin-left: -20px; overflow: hidden; zoom:1;}
 .imglist li {float: left; width: 190px; height: 150px; background: #f5f5f5; margin: 0 0 0 20px; font-size: 14px; overflow: hidden;}
 .imglist div, .imgtxt div {padding: 0 10px;}
