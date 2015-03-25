@@ -97,6 +97,8 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 .artbox ul, .artbox ol {margin-bottom: 25px; font-size:16px;color:#333;line-height:28px;font-family:"Microsoft Yahei";}
 .artbox table {font-size:16px;color:#333;font-family:"Microsoft Yahei";}
 .artcomment {margin-top:30px;}
+.artcomment .box_tt span {margin-left: 10px; font-size: 16px;}
+.artcomment .box_tt span em {color: #249ff1;}
 .artpannel_top {border-bottom:solid #dadada 1px;}
 .artpannel_top .share {float:right;}
 .statement {font-size:14px;font-family:"Microsoft Yahei";text-align:center;}
@@ -140,9 +142,18 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 
 #ckepop .jtico_tsina {background:#000;}
 /*floatpannel*/
-.floatpannel {position:fixed;_position:absolute;right:10px;bottom:46px;z-index:999;}
-.floatpannel a {display:block;width:50px;height:50px;margin-top:10px;text-indent:-9999px;overflow:hidden;}
-.floatpannel .floatpannel_top {background-position:0 -53px;}
+.floatpannel {position:fixed;_position:absolute;right:10px;bottom:120px;z-index:999;}
+.floatpannel a {display:block;width:48px;height:48px;margin-top:2px;text-indent:-9999px;overflow:hidden;}
+.floatpannel .floatpannel_top {background-position:0 -282px;}
+.floatpannel .floatpannel_top:hover {background-position:-49px -282px;}
+.floatpannel .floatpannel_share {background-position:0 -132px;}
+.floatpannel .floatpannel_share:hover {background-position:-49px -132px;}
+.floatpannel .floatpannel_code {background-position:0 -182px;}
+.floatpannel .floatpannel_code:hover {background-position:-49px -182px;}
+.floatpannel .floatpannel_comment {background-position:0 -232px; color: #fff; text-indent: 0; text-align: center; line-height: 75px;}
+.floatpannel .floatpannel_comment:hover {background-position:-49px -232px;}
+.floatpannel_tip {position: relative;}
+.floatpannel_tip_box {position: absolute; right: 0; top: 100%;}
 /*slide*/
 .mod_slide {margin-bottom:30px;}
 .poster_wrap {position:relative;width:660px;height:435px;}
@@ -183,3 +194,24 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 .hottag {_float:left;background:#fff;margin-left:-12px;overflow:hidden;zoom:1;}
 .hottag li {float:left;display:inline;margin:12px 0 0 12px;}
 .hottag a {display:block;background:#e2f0fc;padding:0 12px;font-size:14px;line-height:40px;font-family:"Microsoft Yahei";}
+/*commentlist*/
+.comment_input {margin-top: 20px;}
+.t_box {overflow: hidden; zoom:1;}
+.t_box textarea {float: left; width: 538px; height: 36px; border: 1px #dfdfdf solid;}
+.t_box button {float: right; width: 105px; height: 42px; background: #3697e4; font-size: 16px; color: #fff; border: none;}
+.t_funbox {margin-top: 10px; font-size: 14px; color: #ccc;}
+.t_funbox a {margin-right: 10px;}
+.t_funbox .user {color: #249ff1;}
+.commentlist li {position: relative; padding:0 0 20px 50px; margin-top: 20px; border-bottom: 1px #d8d8d8 solid;}
+.commentlist .pic {position: absolute; left: 0; top: 0;}
+.commentlist .user a {margin-right: 10px; color: #249ff1;}
+.commentlist .user .quote {position: relative; padding-left: 18px;}
+.commentlist .txt {margin: 8px 0 5px; font-size: 15px; color: #333; line-height: 24px;}
+.commentlist_funbox a {position: relative; padding-left:18px; margin-right: 10px}
+.commentlist_funbox .ico, .commentlist .user .quote .ico {left: 0; top: 2px; width: 15px; height: 12px;}
+.ico_fav {background-position: 0 -119px;}
+.ico_reply {background-position: -16px -119px;}
+.quote .ico_reply {background-position: -32px -119px;}
+.commentlist li li {padding-bottom: 0; padding-top: 20px; border-bottom: none; border-top: 1px #c7c7c7 dotted;}
+.commentlist li li .pic {top: 20px;}
+.morebtn {position: relative; display: block; height: 40px; background: #ececec; margin-top: 20px; font-size: 14px; color: #999; line-height: 40px; text-align: center;}

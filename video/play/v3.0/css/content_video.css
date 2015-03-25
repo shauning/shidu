@@ -90,16 +90,18 @@ h1 {font-size:20px;color:#333;line-height:60px;}
 .likebtn .icon {left: 0; top: 0; width: 22px; height: 22px; background-position: -51px -69px;}
 /*box*/
 .box {margin-bottom:30px;overflow:hidden;zoom:1;}
-.box_tt {height:20px;line-height:20px;}
-.box_tt h2 {font-size: 20px; color: #333;}
+.box_tt {height:24px;line-height:24px;}
+.box_tt h2 {float: left; font-size: 20px; color: #333;}
+.box_tt .tabbox a {height: 20px; font-size: 13px;}
+.box_tt .tabbox .cur {border-bottom:solid #379be9 3px;}
 /*imglist*/
-.mask {position:absolute;right:0;bottom:0;padding:0 5px;color:#fff;font-size:12px;line-height:16px;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
+.mask, .imgLlist p {position:absolute;right:0;bottom:0;padding:0 5px;color:#fff;font-size:12px;line-height:16px;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
 .onmask {position:absolute;left:-9999px;top:0;display:block;width:120px;height:73px;zoom:1;}
 .imglist {overflow:hidden;zoom:1;}
-.imglist li {float:left;display:inline;margin-top:20px;font-size:14px;overflow:hidden;>line-height: 20px;}
-.imglist .pic {position:relative;display:block;margin-bottom:5px;}
-.imglist_150x85 {margin-left:-20px;}
-.imglist_150x85 li {width:150px;height:128px;margin-left:20px;}
+.imglist li, .imgLlist li {float:left;display:inline;margin-top:20px;font-size:14px;overflow:hidden;>line-height: 20px;}
+.imglist .pic, .imgLlist .pic {position:relative;display:block;margin-bottom:5px;}
+.imglist_150x85, .imgLlist {margin-left:-20px;}
+.imglist_150x85 li, .imgLlist li {width:150px;height:128px;margin-left:20px;}
 .imglist_150x85 .pic, .imglist_150x85 img {width:150px;height:85px;}
 .imglist_120x68 {overflow:hidden;zoom;1;}
 .imglist_120x68 li {position:relative;float:none;display:block;height:68px;padding:8px 4px 8px 140px;margin:0;}
@@ -114,6 +116,10 @@ h1 {font-size:20px;color:#333;line-height:60px;}
 .imglist_120x68 .on .onmask {left:0;color:#fff;line-height:116px;text-indent:20px;}
 .imglist_120x68 .on .mask {bottom:2px;display:block;width:108px;line-height:19px;text-indent:-9999px;}
 .imglist_120x68 .on .title {color:#3CA0FF;}
+
+.imgLlist li {position: relative;}
+.imgLlist p {bottom: 43px;}
+.imgLlist .pic, .imgLlist img {width:150px;height:85px;}
 /*error*/
 .error {position:absolute;left:0;top:0;width:850px;height:520px;background:#000 url(http://img.kankan.xunlei.com/img/kankan/mp4/error.png) no-repeat center 200px;color:#fff;z-index:999;text-align:center;}
 .error p {padding:300px 0 20px;font-size:14px;line-height:24px;}
@@ -122,7 +128,7 @@ h1 {font-size:20px;color:#333;line-height:60px;}
 .errortxt a, .error a {color:#249FF1;text-decoration:underline;}
 .errortxt div {padding:20px 0 0 178px;text-align:left;}
 /*other*/
-.box_guess {height: 296px;}
+.box_guess {height: 325px;}
 .w1000 .wrapper, .w1000 .globelnav_con {width: 1000px;}
 .w1000 .side {width: 320px;}
 .w1000 .player, .w1000 .error, .w1000 .playerbox {width: 680px;}

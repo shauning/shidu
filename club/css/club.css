@@ -15,11 +15,13 @@ body {min-width:1000px;height:100%;background:#fff;font:12px/1.6em "Microsoft Ya
 a {color:#333;outline:none;text-decoration:none;}
 a:hover {color:#309de7;}
 /*globel*/
+.pannel_btn, .txtlist a, .morebtn .ico {background: url(../img/sprite.png) no-repeat 0 0;}
 .wrapper {width: 1000px; margin: 0 auto; zoom:1;}
 .wrapper:after {content:""; display:table; clear:both}
 .main {float: left; width: 670px;}
 .side {float: right; width: 286px;}
 .pic {display: block; overflow: hidden;}
+.footer {width:1000px;padding-top:20px;margin:40px auto 0;color:#b1b1b1;font-family:"Arial";text-align:center;border-top:solid #f4f4f4 1px;}
 /*header*/
 h2 {position: absolute; left: -9999px;}
 .header {background: url(../img/bg_header_repeat.png); margin-bottom: 20px;}
@@ -30,13 +32,57 @@ h1 {position: absolute; left: 618px; top: 44px; font-size: 18px; color: #ff4800;
 .nav a {float: left; display: block; padding: 0 15px; font-size: 15px; color: #fff; line-height: 38px;}
 .nav .on, .nav a:hover {background: #0073c6;}
 /*box*/
+.box {margin-bottom: 25px; overflow: hidden; zoom:1;}
 .box_tt {height: 38px; border-bottom: 2px #eaeaea solid;}
-.box_tt h3 {float: left; font-size: 21px; color: #333; line-height: 38px; border-bottom: 2px #0d8be5 solid;}
+.box_tt h3, .box_tt h4 {float: left; font-size: 21px; color: #333; line-height: 38px; border-bottom: 2px #0d8be5 solid;}
+.box_tt .more {float: right; margin-top: 10px; font-size: 16px; color: #999;}
+.box_bottom .box_tt {margin-bottom: 20px; border-bottom: none;border-top: 2px #eaeaea solid;}
+.box_tt h4 {border: none;}
 /*clublist*/
-.clublist li {height: 145px; padding-right: 15px; margin-top: 20px; font-size: 13px; color: #666; overflow: hidden;}
+.clublist li {height: 145px; background: #f4f4f4; padding-right: 15px; margin-top: 20px; font-size: 13px; color: #666; line-height: 22px; overflow: hidden;}
 .clublist .pic {float: left; width: 253px; height: 145px; margin-right: 20px;}
-.clublist h4 {height: 20px; margin: 10px 0 5px; font-size: 16px; font-weight: bold; overflow: hidden;}
+.clublist h4 {height: 20px; margin: 8px 0; font-size: 16px; font-weight: bold; overflow: hidden;}
 .clublist span {color: #309de7;}
 .clublist .info {margin: 5px 0 10px; overflow: hidden; zoom:1;}
 .clublist .info p {float: left; width: 230px;}
 .clublist .info .info_r {width: 150px;}
+.clublist em {color: #ee4901;}
+/*imglist*/
+.imglist {>float: left; margin:10px 0 0 -17px;}
+.imglist li {float: left; _display: inline; width: 134px; margin: 10px 0 0 17px; font-size: 14px; text-align: center;}
+.imglist img, .imglist a {display: block; width: 134px; overflow: hidden;}
+.imglist img {margin-bottom: 3px;}
+.imglist_134x189 img {height: 189px;}
+.imglist_134x189 a {height: 215px;}
+.imglist_134x88 img {height: 88px;}
+.imglist_134x88 a {height: 110px;}
+
+.txtlist {margin-top: 10px;}
+.txtlist li {height: 34px; font-size: 14px; line-height: 34px; overflow: hidden;}
+.txtlist a {background-position: -17px 7px; padding-left: 12px;}
+/*partner*/
+.partner {_float:left;margin-left:-9px;overflow:hidden;zoom;1;}
+.partner li {float:left;display:inline;width:102px;height:63px;margin:0 0 10px 9px;border:solid #a5a5a5 1px;}
+
+.morebtn {position: relative; display: block; height: 40px; background: #f4f4f4; margin-top: 20px; font-size: 14px; line-height: 40px; text-align: center;}
+.morebtn .ico {position: absolute; left: 370px; top: 15px; width: 16px; height: 10px;}
+/*content*/
+.navbar {height:39px;margin-left:-5px; font-size: 15px;line-height:39px;}
+.navbar a {margin:0 5px;}
+.box_intro {background:#ebf7ff;padding:20px; margin: 0; border-top:solid #379be9 3px;}
+.box_intro h3 {font-size:22px;color:#333;font-weight:bold; border: none;}
+.box_intro .box_tt {border: none;}
+.intro_p {margin-top:20px;font-size: 16px; font-family:"Microsoft Yahei"; color:#333; line-height:28px;}
+.intro_p span {color:#b1b9bf;}
+.detail {float:left;width:420px;margin-top:15px;font-size:14px;line-height:30px;}
+.detail dt {float:left;display:inline;width:88px;height:30px;background:#238bdc;margin:5px 12px 0 0;color:#fff;text-align:center;}
+.detail dd {float:left;width:320px;margin-top:5px;color:#333;}
+.detail dd em {margin:0 5px;color:#eb0000;}
+.pannel {float:right;width:151px;margin-top:20px;}
+.pannel p {margin-top:15px;color:#666;}
+.pannel em {color:#eb0000;}
+.pannel_btn {display:block;width:151px;height:47px;background-position:0 -21px;font-size:24px;color:#fff;line-height:47px;text-indent:20px;}
+.pannel_btn:hover {color:#fff;text-decoration:none;}
+.pannel_btn_disabled {background-position:0 -69px;}
+.editor {background: #fbfbfb; padding:0 20px 20px; overflow: hidden;}
+.editor p {margin-top:25px;font-size:14px;color:#333;line-height:26px;}

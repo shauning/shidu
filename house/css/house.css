@@ -15,10 +15,12 @@ body {min-width:1000px;height:100%;background:#fff;font:12px/1.8em "Microsoft Ya
 a {color:#333;outline:none;text-decoration:none;}
 a:hover {color:#0073c6;}
 /*globel*/
-.floatpannel a {background:url(../img/sprite.png) no-repeat 0 0;}
+.txtlist_2 a, .txtlist_3 a, .floatpannel a {background:url(../img/sprite.png) no-repeat 0 0;}
 .wrapper {width:1000px;margin:15px auto 0;overflow:hidden;zoom:1;}
 .main {float: left; width: 660px;}
 .side {float: right; width: 320px;}
+.col_L {float: left; width: 320px;}
+.col_R {float: right; width: 320px; margin-top: 5px;}
 .footer {width:1000px;height:40px;padding-top:20px;margin:40px auto 0;color:#b1b1b1;font-family:"Arial";text-align:center;border-top:solid #f4f4f4 1px;}
 .ff_yh {font-family:"Microsoft Yahei";}
 .blue {color:#0073c6;}
@@ -140,10 +142,16 @@ a:hover {color:#0073c6;}
 .imgtxt .pic {position: absolute; left: 0; top: 0; display: block; width: 150px; height: 85px;}
 .imgtxt .title {height: 40px; font-size: 15px; overflow: hidden;}
 .imgtxt p {margin-top: 6px; line-height: 18px;}
+.imgtxt2 {margin-top: 15px;}
+.imgtxt2 p {margin-top: 20px;}
 .txtlist {margin-top: 15px;}
 .txtlist li {height: 28px; font-size: 14px; line-height: 28px; overflow: hidden;}
-.imglink {margin-top: 20px;}
-.imglink img {width: 320px; height: 85px;}
+.txtlist_2 a {background-position: -51px 4px; padding-left: 18px;}
+.txtlist_3 {margin-top: 7px;}
+.txtlist_3 a {background-position: -51px -26px; padding-left: 12px;}
+.imglink {margin-top: 20px; font-size: 14px;}
+.imglink img {display: block; width: 320px; height: 85px;}
+.imglink2 img {margin-bottom: 5px;}
 
 .houselist {>float: left; margin-left: -20px; overflow: hidden; zoom:1;}
 .houselist li {float: left; display: inline; width: 150px; margin: 20px 0 0 20px; font-size: 13px;}
@@ -153,5 +161,16 @@ a:hover {color:#0073c6;}
 .houselist .title {height: 20px; margin: 5px 0 3px; font-size: 14px; overflow: hidden;}
 .houselist span {display: block;}
 .houselist em {color: #f37e21;}
+.houselist_3 li {margin-top: 15px;}
 
 .wrapper_1 .newslist {height: 483px; overflow: hidden;}
+
+.bigpic {width: 320px; margin-top: 20px; font-size: 14px;}
+.bigpic img {display: block; width: 320px; height: 200px; margin-bottom: 5px;}
+
+.bottom {background: #f9f9f9; padding: 25px 0;}
+.bottom_L {float: left; display: inline; width: 460px; margin-left: 30px;}
+.bottom_R {float: right; width: 470px; padding-left: 35px; border-left: 1px #e4e4e4 solid; }
+.linkdl { line-height: 34px; overflow: hidden; zoom:1;}
+.linkdl dt {font-size: 15px; color: #333; font-weight: bold;}
+.linkdl dd {float: left; display: inline; margin-right: 15px; font-size: 14px; white-space: nowrap;}
