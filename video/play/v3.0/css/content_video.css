@@ -11,7 +11,7 @@ li {list-style-type:none;}
 fieldset, img {border:0;}
 label,button {cursor: pointer;}
 select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
-body {min-width:1000px;height:100%;background:#f6f6f6;font:12px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
+body {min-width:1000px;height:100%;background:#f6f6f6;font:12px/1.6em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
 a {color:#333;outline:none;text-decoration:none;}
 a:hover {color:#0073c6;}
 /*globel*/
@@ -38,7 +38,8 @@ a:hover {color:#0073c6;}
 .navdrop {position:relative;float:left;display:inline;height:40px;margin:12px 0 0 25px;}
 .navdrop_tt {height:40px;padding-left:25px;font-size:15px;color:#333;font-family:"Microsoft Yahei";line-height:22px;cursor:pointer;}
 .navdrop_tt .ico {position:absolute;left:0px;top:5px;width:20px;height:14px;background-position:0 -53px;}
-.navdrop_con {position:absolute;left:0;top:40px;display:none;width:282px;background:#fff;border:solid #ddd 1px;}
+.navdrop_con {position:absolute;left:0;top:40px;display:none;width:282px;background:#fff;border:solid #ddd 1px; z-index: 2;}
+.navdrop_iframe {position:absolute;left:0;top:40px;display:none;width:284px;height:113px;background:#fff; z-index: 1;}
 .navdrop_list {padding:5px 10px 10px 0;overflow:hidden;zoom:1;}
 .navdrop_list li {float:left;display:inline;margin-left:30px;font-size:15px;font-family:"Microsoft Yahei";line-height:32px;}
 .navdrop_on .navdrop_tt {color:#0089d8;}
@@ -130,5 +131,5 @@ h1 {font-size:20px;color:#333;line-height:60px;}
 /*other*/
 .box_guess {height: 325px;}
 .w1000 .wrapper, .w1000 .globelnav_con {width: 1000px;}
-.w1000 .side {width: 320px;}
+.w1000 .side {position: relative; width: 320px; overflow: hidden;}
 .w1000 .player, .w1000 .error, .w1000 .playerbox {width: 680px;}
