@@ -35,7 +35,7 @@ a:hover {color:#249ff1;}
 .bannerbox .bannerbox_L {float:left;height:60px;margin:4px 0 0;}
 .bannerbox .bannerbox_L div, .bannerbox .bannerbox_R div {margin-top: 0;}
 .bannerbox .bannerbox_R {float:right;height:60px;margin:4px 0 0;}
-.contentbanner {float: left; _display: inline; width: 300px; height: 250px; margin-right: 20px; text-indent: 0;}
+.contentbanner {float: left; _display: inline; width: 300px; height: 200px; margin-right: 20px; text-indent: 0;}
 /*globelnav*/
 .globelnav_list .cur, .globelnav_logo a, .channelnav_list .cur {background:url(../img/globelnav_site.png) no-repeat 0 0;}
 .globelnav {height:48px;background:#0073c6;}
