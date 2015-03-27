@@ -130,6 +130,7 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 .txtlist_hot li {height:32px;font-size:13px;line-height:32px;}
 .txtlist_hot a {background-position:-165px 6px;padding-left:15px;}
 /*imglist*/
+.mask {position: absolute; right: 0; bottom: 0; padding: 0 3px; color: #fff; line-height: 18px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6); cursor: pointer;}
 .imglist {_float:left;overflow:hidden;zoom:1;}
 .imglist li {float:left;_display:inline;overflow:hidden;}
 .imglist .pic {position:relative;display:block;margin-bottom:5px;}
@@ -137,6 +138,8 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 .imglist_150x85 {margin-left:-20px;}
 .imglist_150x85 li {width:150px;height:110px;margin:15px 0 0 20px;}
 .imglist_150x85 .pic, .imglist_150x85 img {width:150px;height:85px;}
+.imglist_150x85_2 {margin-left: -15px;}
+.imglist_150x85_2 li {height: 130px; margin-left: 15px;}
 .imglist_320x100 li {width:320px;height:125px;margin-top:15px;font-size:14px;}
 .imglist_320x100 .pic {width:320px;height:100px;}
 .imglist_205x113 {>float:left;margin-left:-7px;}
