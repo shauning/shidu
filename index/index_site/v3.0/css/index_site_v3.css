@@ -21,9 +21,9 @@ a:hover {color:#309de7;}
 .bannerbox_flag_l {float: left; width: 160px; height: 60px; overflow: hidden; zoom:1;}
 .bannerbox_flag_c {float: left; display: inline; width: 610px; height: 60px; margin-left: 10px; overflow: hidden; zoom:1;}
 .bannerbox_flag_r {float: right; width: 160px; height: 60px; overflow: hidden; zoom:1;}
-.bannerbox .bannerbox_L {float:left;height:60px;margin:4px 0 0;}
+.bannerbox .bannerbox_L {float:left;width:470px;height:60px;margin:4px 0 0;overflow: hidden;}
 .bannerbox .bannerbox_L div, .bannerbox .bannerbox_R div {margin-top: 0;}
-.bannerbox .bannerbox_R {float:right;height:60px;margin:4px 0 0;}
+.bannerbox .bannerbox_R {float:right;width:470px;height:60px;margin:4px 0 0;overflow: hidden;}
 .banner_fix {position: fixed; _position: absolute; bottom: 400px; width: 90px; height: 120px; z-index: 10000;}
 .banner_fix_l {left: 10px;}
 .banner_fix_r {right: 10px;}
@@ -97,9 +97,15 @@ a:hover {color:#309de7;}
 .w1160 .wrapper, .w1160 .header, .w1160 .sitenav_list, .w1160 .sitenav_channel {width: 1160px;}
 .w1160 .main {width: 820px;}
 .w1160 .wrapper .bannerbox {float: left;}
+.w1160 .bannerouter .bannerbox {width: 1160px;}
+.w1160 .bannerbox_flag_c {width: 820px;}
+.w1160 .bannerbox .bannerbox_L, .w1160 .bannerbox .bannerbox_R {width: 575px;}
 .w1370 {min-width: 1370px;}
 .w1370 .bannerbox_more, .w1160 .bannerbox_more {display: block;}
 .w1370 .wrapper .bannerbox {float: left;}
+.w1370 .bannerouter .bannerbox {width: 1160px;}
+.w1370 .bannerbox_flag_c {width: 820px;}
+.w1370 .bannerbox .bannerbox_L, .w1370 .bannerbox .bannerbox_R {width: 575px;}
 /*box*/
 .box {zoom:1;}
 .box_tt {position: relative; height: 28px; margin-bottom: 20px; line-height:28px;}
