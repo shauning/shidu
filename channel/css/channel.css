@@ -115,7 +115,7 @@ a:hover {color:#309de7;}
 .box_side h3 {float: left; font-size: 18px; color: #333;}
 .box_side .bannerbox_btn {top: -5px;}
 .box_side_marginB {margin-bottom: 30px;}
-.act {float: right; font-size: 14px;}
+.act {float: right; _display: inline; margin-right: 330px; font-size: 14px;}
 .act a {margin: 0 10px; color: #666;}
 .more {position: relative; padding-right: 10px;}
 .more .ico {right: 0; top: 6px; width: 4px; height: 7px; background-position: -41px -23px;}
@@ -190,7 +190,5 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 .newslist_more {position:relative;display:block;height:40px;background:#f4f4f4;margin:20px 0 0;font-size:14px;color:#9a9a9a;line-height:40px;text-align:center;}
 .newslist_more:hover {background:#379be9;color:#fff;text-decoration:none;}
 .newslist_more:hover .ico_more {background-position:-128px -47px;}
-.tagname {height:60px;background:#f6f6f6;padding:0 20px;line-height:60px;border-top:solid #1c8dd5 2px;overflow:hidden;}
-.tagname h2 {font-size:24px;color:#333;font-family:"Microsoft Yahei";}
 /*other*/
 .imgtxt_marginT {margin-top: 15px;}

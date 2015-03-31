@@ -154,7 +154,7 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 .floatpannel .floatpannel_comment {background-position:0 -232px; color: #fff; text-indent: 0; text-align: center; line-height: 75px;}
 .floatpannel .floatpannel_comment:hover {background-position:-49px -232px;}
 .floatpannel_tip {position: relative;}
-.floatpannel_tip_box {position: absolute; right: 0; top: 100%;}
+.floatpannel_tip_box {position: absolute; right: 48px; top: -50px;}
 /*slide*/
 .mod_slide {margin-bottom:30px;}
 .poster_wrap {position:relative;width:660px;height:435px;}
