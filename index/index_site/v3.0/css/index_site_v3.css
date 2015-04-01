@@ -166,7 +166,7 @@ a:hover {color:#309de7;}
 .imgtxt .pic, .imgtxt img {width: 320px; height: 106px;}
 .imgtxt .pic {position: relative; margin-bottom: 3px;}
 .imgtxt_s {height: 135px;}
-.imgtxt_125x65 {height: 65px; margin-top: 5px;}
+.imgtxt_125x65 {height: 65px; margin-top: 5px; line-height: 20px;}
 .imgtxt_125x65 div {margin-top: 13px;}
 .imgtxt_125x65 .pic {float: left; margin: 0 10px 0 0;}
 .imgtxt_125x65 .pic, .imgtxt_125x65 img {width: 125px; height: 65px;}
