@@ -15,7 +15,7 @@ body {min-width:1000px;height:100%;background:#fff;font:12px/1.8em "Microsoft Ya
 a {color:#333;outline:none;text-decoration:none;}
 a:hover {color:#249ff1;}
 /*globel*/
-.floatpannel a, .txtlist a, .ico {background:url(../img/sprite_site.png) no-repeat 0 0;}
+.floatpannel a, .floatpannel .floatpannel_share, .txtlist a, .ico {background:url(../img/sprite_site.png) no-repeat 0 0;}
 .wrapper {width:1000px;margin:25px auto 0;zoom:1;}
 .main {float:left;width:660px;}
 .side {float:right;width:300px;}
@@ -144,7 +144,7 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 #ckepop .jtico_tsina {background:#000;}
 /*floatpannel*/
 .floatpannel {position:fixed;_position:absolute;right:10px;bottom:120px;z-index:999;}
-.floatpannel a {display:block;width:48px;height:48px;margin-top:2px;text-indent:-9999px;overflow:hidden;}
+.floatpannel a, .floatpannel .floatpannel_share {display:block;width:48px;height:48px;margin-top:2px;text-indent:-9999px;overflow:hidden;cursor: pointer;}
 .floatpannel .floatpannel_top {background-position:0 -282px;}
 .floatpannel .floatpannel_top:hover {background-position:-49px -282px;}
 .floatpannel .floatpannel_share {background-position:0 -132px;}
