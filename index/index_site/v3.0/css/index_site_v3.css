@@ -30,9 +30,10 @@ a:hover {color:#309de7;}
 .bannerbox_btn {position: absolute; right: 0; top: 0; width: 150px;}
 .bannerbox_btn div {margin: 0;}
 .wrapper .bannerbox div {margin: 0;}
+.wrapper_ad .bannerbox {margin-bottom: 30px; >padding-bottom: 30px;}
 .bannerbox_more {float: left; display: none; width: 190px; margin-left: 20px; _margin-left: 10px;}
 /*header*/
-.sitenav, .logo i, .sitenav_more li, .areabox_city_drop .arrow, .areabox_city_tt, .header_app a, .hico {background: url(../img/sitenav.png) no-repeat 0 0;}
+.sitenav, .logo i, .sitenav_more li, .areabox_city_drop .arrow, .areabox_city_tt, .header_app a, .hico, .hot .ico {background: url(../img/sitenav.png) no-repeat 0 0;}
 .header {width:1370px; height:63px; margin:20px auto 0;}
 .hico {position: absolute; display: block;}
 .logo {position:relative; float:left; width:160px; height:46px;}
@@ -69,11 +70,14 @@ a:hover {color:#309de7;}
 .sitenav_drop_tigger .hico {right: 8px; top: 22px; width: 11px; height: 6px; background-position: -38px -47px;}
 .sitenav_drop_con {position: absolute; left: 0; top: 50px; display: none; width: 80px; background: #3aa5eb;}
 .sitenav_drop_con a {width: 80px;}
+.hot {position:relative;}
+.hot .ico {right:-5px;top:4px;width:20px;height:11px;background-position:0 -47px;}
 .pop_fadein {display:block;-webkit-animation:pop_fadein .5s alternate ease-in-out;-moz-animation:pop_fadein .5s alternate linear;-ms-animation:pop_fadein .5s alternate linear;animation:pop_fadein .5s alternate ease-in-out;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;}@-webkit-keyframes pop_fadein{0%{opacity:0;-webkit-transform:translateY(-30px);}50%{opacity:1;-webkit-transform:translateY(4px);}80%{-webkit-transform:translateY(-2px);}100%{-webkit-transform:translateY(0);}}@-moz-keyframes pop_fadein{0%{opacity:0;-moz-transform:translateY(-30px);}50%{opacity:1;-moz-transform:translateY(4px);}80%{-moz-transform:translateY(-2px);}100%{-moz-transform:translateY(0);}}@-ms-keyframes pop_fadein{0%{opacity:0;-ms-transform:translateY(-30px);}50%{opacity:1;-ms-transform:translateY(4px);}80%{-ms-transform:translateY(-2px);}100%{-ms-transform:translateY(0);}}@keyframes pop_fadein{0%{opacity:0;transform:translateY(-30px);}50%{opacity:1;transform:translateY(4px);}80%{transform:translateY(-2px);}100%{transform:translateY(0);}}
 /*globel*/
 .floatpannel a, .ico, .txtlist li {background: url(../img/sprite.png) no-repeat 0 0;}
 .wrapper {width: 1370px; margin: 0 auto 30px; zoom:1;}
 .wrapper:after, .box:after {content:""; display:table; clear:both}
+.wrapper_ad { margin-bottom: 0;}
 .main {position: relative; float: left; width: 1030px; overflow: hidden;}
 .side {float: right; width: 320px;}
 .contain {width: 1030px;}
@@ -148,7 +152,7 @@ a:hover {color:#309de7;}
 .movtxt {position: absolute; right: 0; bottom: 0; padding: 0 5px; color: #fff; line-height: 21px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6); cursor: pointer;}
 .ico_play {position: absolute; left: 5px; bottom: 5px; width: 28px; height: 28px; background: url(../img/png24.png);}
 .imglist {>float: left; margin-left: -20px; overflow: hidden; zoom:1;}
-.imglist li {float: left; width: 190px; height: 150px; background: #f5f5f5; margin: 0 0 0 20px; font-size: 14px; overflow: hidden;}
+.imglist li {float: left; width: 190px; height: 150px; background: #f5f5f5; margin: 0 0 0 20px; font-size: 14px; line-height: 22px; overflow: hidden;}
 .imglist div, .imgtxt div {padding: 0 10px;}
 .imglist .pic, .imglist img {width: 190px; height: 106px;}
 .imglist .pic {margin-bottom: 3px;}
@@ -158,7 +162,7 @@ a:hover {color:#309de7;}
 .imglist_a li {margin-bottom: 10px;}
 .center .imglist_a {float: left; width: 420px; margin: 0;}
 .ico_flag {right: 0; top: 0; width: 62px; height: 62px; background-position: 0 -41px; cursor: pointer;}
-.imgtxt {width: 320px; height: 150px; background: #f5f5f5; font-size: 14px; overflow: hidden;}
+.imgtxt {width: 320px; height: 150px; background: #f5f5f5; font-size: 14px; line-height: 22px; overflow: hidden;}
 .imgtxt .pic, .imgtxt img {width: 320px; height: 106px;}
 .imgtxt .pic {position: relative; margin-bottom: 3px;}
 .imgtxt_s {height: 135px;}
@@ -195,7 +199,7 @@ a:hover {color:#309de7;}
 .bottom_R {float: right; width: 480px; padding-left: 35px; border-left: 1px #e4e4e4 solid; }
 .linkdl { line-height: 34px; overflow: hidden; zoom:1;}
 .linkdl dt {font-size: 15px; color: #333; font-weight: bold;}
-.linkdl dd {float: left; display: inline; margin-right: 15px; font-size: 14px; white-space: nowrap;}
+.linkdl dd {float: left; display: inline; margin-right: 15px; font-size: 14px; color: #333; white-space: nowrap;}
 /*other*/
 .side .txtlist {margin: 15px 0 16px;}
 .act a:hover, .gray:hover {color: #309de7;}
