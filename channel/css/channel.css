@@ -90,6 +90,10 @@ a:hover {color:#309de7;}
 .floatpannel {position:fixed;_position:absolute;right:10px;bottom:46px;z-index:999;}
 .floatpannel a {display:block;width:50px;height:50px;margin-top:10px;text-indent:-9999px;overflow:hidden;}
 .floatpannel .floatpannel_top {background-position:0 -104px;}
+.floatpannel .floatpannel_code {background-position:0 -185px;}
+.floatpannel .floatpannel_code:hover {background-position:-50px -185px;}
+.floatpannel_tip {position: relative;}
+.floatpannel_tip_box {position: absolute; right: 48px; top: -56px;}
 /*floatsize*/
 .w950 .wrapper, .w950 .header, .w950 .sitenav_list, .w950 .sitenav_channel {width: 950px;}
 .w950 .main {width: 610px;}
