@@ -143,7 +143,7 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 
 #ckepop .jtico_tsina {background:#000;}
 /*floatpannel*/
-.floatpannel {position:fixed;_position:absolute;left:50%;bottom:50px;margin-left:500px;z-index:999;}
+.floatpannel {position:fixed;_position:absolute;left:50%;bottom:50px;margin-left:510px;z-index:999;}
 .floatpannel a, .floatpannel .floatpannel_share {display:block;width:48px;height:48px;margin-top:2px;text-indent:-9999px;overflow:hidden;cursor: pointer;}
 .floatpannel .floatpannel_top {background-position:0 -282px;}
 .floatpannel .floatpannel_top:hover {background-position:-49px -282px;}
