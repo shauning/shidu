@@ -149,6 +149,7 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 .floatpannel .floatpannel_top:hover {background-position:-49px -282px;}
 .floatpannel .floatpannel_share {background-position:0 -132px;}
 .floatpannel .floatpannel_share:hover {background-position:-49px -132px;}
+.floatpannel .floatpannel_share .bds_more {display: block; width: 48px; height: 48px; background: none !important; margin: 0;}
 .floatpannel .floatpannel_code {background-position:0 -182px;}
 .floatpannel .floatpannel_code:hover {background-position:-49px -182px;}
 .floatpannel .floatpannel_comment {background-position:0 -232px; color: #fff; text-indent: 0; text-align: center; line-height: 75px;}
