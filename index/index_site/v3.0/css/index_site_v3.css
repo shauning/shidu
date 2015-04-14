@@ -103,7 +103,7 @@ a:hover {color:#309de7;}
 .w950 .bottom_R {width: 450px;}
 .w1160 .wrapper, .w1160 .header, .w1160 .sitenav_list, .w1160 .sitenav_channel {width: 1160px;}
 .w1160 .main {width: 820px;}
-.w1160 .wrapper .bannerbox {float: left;}
+.w1160 .wrapper .bannerbox {width: 1160px;}
 .w1160 .bannerouter .bannerbox {width: 1160px;}
 .w1160 .bannerbox_flag_c {width: 820px;}
 .w1160 .bannerbox .bannerbox_L, .w1160 .bannerbox .bannerbox_R {width: 575px;}
