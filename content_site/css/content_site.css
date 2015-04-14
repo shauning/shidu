@@ -87,7 +87,7 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 .share, .share span {float:left;}
 .artpannel {height:42px;margin-top:15px;}
 .artpannel_comment {position:relative;float:right;display:block;padding-left:28px;font-size:18px;color:#cc1b1b;font-family:"Microsoft Yahei";line-height:24px;}
-.artbox {margin:25px 0 0;}
+.artbox {min-height:200px;margin:25px 0 0;}
 .artinfo {float:left;font-size:13px;font-family:"Microsoft Yahei";}
 .artbox_img {margin-bottom:30px;text-align:center;}
 .artbox_img img {display:block;max-width:660px;_width:660px;margin:0 auto;}
@@ -102,7 +102,7 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 .artcomment .box_tt span em {color: #249ff1;}
 .artpannel_top {border-bottom:solid #dadada 1px;}
 .artpannel_top .share {float:right;}
-.statement {font-size:14px;font-family:"Microsoft Yahei";text-align:center;}
+.statement {margin-bottom:10px;font-size:14px;font-family:"Microsoft Yahei";text-align:center;}
 .statement_qcode {position:relative;height: 180px; margin-top: 20px;}
 .statement_qcode_link {position: absolute; right: 0; top: 0; display: block; width: 175px; height: 180px; text-indent: -9999px;}
 .artbox_player {margin-bottom:30px;}

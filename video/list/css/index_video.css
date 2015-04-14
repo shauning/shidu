@@ -36,13 +36,13 @@ a:hover {color:#0073c6;}
 .topbar_link {float: left;line-height: 35px;}
 .topbar .tel {float:left;display:inline;margin:0 0 0 175px;color:#666;line-height:35px;}
 .header {width:1000px;height:63px;margin:20px auto 0;}
-.logo {position:relative;float:left;width:280px;height:46px;}
+.logo {position:relative;float:left;width:318px;height:46px;}
 .logo a {display:block;height:46px;}
-.logo i {position:absolute;left:0;top:0;display:block;width:280px;height:46px;}
-.site_hb .logo i {background-position:0 -93px;}
-.site_hn .logo i {background-position:0 -140px;}
-.site_js .logo i {background-position:0 -187px;}
-.site_sc .logo i {background-position:0 -234px;}
+.logo i {position:absolute;left:0;top:0;display:block;width:318px;height:52px;background: url(http://misc.kankancity.com/www/img/globelnav.png);}
+.site_hb .logo i {width:280px;height:46px;background:url(http://misc.kankancity.com/station/img/sitenav.png) 0 -93px;}
+.site_hn .logo i {width:280px;height:46px;background:url(http://misc.kankancity.com/station/img/sitenav.png) 0 -140px;}
+.site_js .logo i {width:280px;height:46px;background:url(http://misc.kankancity.com/station/img/sitenav.png) 0 -187px;}
+.site_sc .logo i {width:280px;height:46px;background:url(http://misc.kankancity.com/station/img/sitenav.png) 0 -234px;}
 .headersearch {float:right;margin-top:10px;}
 .headersearch input {float:left;width:215px;height:16px;padding:8px 10px;font-size:14px;line-height:16px;font-family:"Microsoft Yahei";border:solid #ccc 1px;}
 .headersearch button {width:80px;height:34px;background:#f4f4f4;font-size:15px;color:#333;font-family:"Microsoft Yahei";border:solid #ccc 1px;border-left:none;}
