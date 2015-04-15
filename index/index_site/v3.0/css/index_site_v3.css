@@ -107,12 +107,12 @@ a:hover {color:#309de7;}
 .w1160 .bannerouter .bannerbox {width: 1160px;}
 .w1160 .bannerbox_flag_c {width: 820px;}
 .w1160 .bannerbox .bannerbox_L, .w1160 .bannerbox .bannerbox_R {width: 575px;}
-.w1370 {min-width: 1370px;}
+/*.w1370 {min-width: 1370px;}
 .w1370 .bannerbox_more, .w1160 .bannerbox_more {display: block;}
 .w1370 .wrapper .bannerbox {float: left;}
 .w1370 .bannerouter .bannerbox {width: 1160px;}
 .w1370 .bannerbox_flag_c {width: 820px;}
-.w1370 .bannerbox .bannerbox_L, .w1370 .bannerbox .bannerbox_R {width: 575px;}
+.w1370 .bannerbox .bannerbox_L, .w1370 .bannerbox .bannerbox_R {width: 575px;}*/
 /*box*/
 .box {zoom:1;}
 .box_tt {position: relative; height: 28px; margin-bottom: 20px; line-height:28px;}
