@@ -198,3 +198,9 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 .newslist_more:hover .ico_more {background-position:-128px -47px;}
 /*other*/
 .imgtxt_marginT {margin-top: 15px;}
+
+.fresh {position:relative;padding-left:25px;font-size:13px;line-height:20px;}
+.fresh strong, .fresh a {color:#e40000;}
+.fresh strong {font-family:"Arial";}
+.loader {height:32px;margin:20px 0;text-align:center;}
+.ico_fresh {left:-0;top:0;width:20px;height:20px;background-position:-63px -41px;}

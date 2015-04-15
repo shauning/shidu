@@ -15,7 +15,7 @@ body {min-width:1000px;height:100%;background:#fff;font:12px/1.6em "Microsoft Ya
 a {color:#333;outline:none;text-decoration:none;}
 a:hover {color:#309de7;}
 /*globle*/
-h1, h2 {position: absolute; left: -9999px;}
+h2 {position: absolute; left: -9999px;}
 .wrapper {width:1000px;margin:15px auto 0;hidden;zoom:1;}
 .wrapper:after {content:"";display:table;clear:both}
 .main {float:left;width:660px;}
@@ -29,14 +29,15 @@ h1, h2 {position: absolute; left: -9999px;}
 /*header*/
 .header {background: url(../img/bg.png) no-repeat center top;}
 .header_con {width: 1000px; height: 225px; margin: 0 auto;}
-.sitenav {background:#1887d0;}
-.sitenav_list {width: 1000px; height:50px;background:#1887d0; margin: 0 auto;}
+h1 {float: left; display: inline; margin-right: 45px;}
+.sitenav {background:#0561ad;}
+.sitenav_list {width: 1000px; height:48px;background:#0561ad; margin: 0 auto; overflow: hidden;}
 .sitenav ul, .sitenav li {float:left;}
-.sitenav_list a {position:relative;display:block;width:68px;height:50px;font-size:17px;color:#fff;line-height:50px;text-align:center;}
-.sitenav_list .cur, .sitenav_list a:hover {background:#0266a8;text-decoration:none;}
-.topbar {background: #f6f6f6; color: #666;}
+.sitenav_list li a {position:relative;display:block;width:68px;height:48px;font-size:17px;color:#fff;line-height:48px;text-align:center;}
+.sitenav_list .cur, .sitenav_list li a:hover {background:#00549a;text-decoration:none;}
+.topbar {background: #000; color: #ccc;}
 .topbar_con {width: 1000px; height: 30px; margin: 0 auto; font-style: 14px; line-height: 30px;}
-.topbar_con a {margin-right: 10px; color: #666;}
+.topbar_con a {margin-right: 10px; color: #fff;}
 .topbar_con span {margin-left: 10px;}
 /*topbox*/
 .d1 {position:relative; float: left; width:660px;height:auto;overflow:hidden;background:#000000;}
