@@ -82,7 +82,7 @@ a:hover {color:#309de7;}
 .wrapper_ad { margin-bottom: 0;}
 .main {position: relative; float: left; width: 1030px; overflow: hidden;}
 .side {float: right; width: 320px;}
-.contain {width: 1030px;}
+.contain {width: 820px;}
 .fs14 {font-size: 14px;}
 .ico {position: absolute; display: block; overflow: hidden;}
 .gray {color: #999;}
@@ -104,6 +104,7 @@ a:hover {color:#309de7;}
 .w1160 .wrapper, .w1160 .header, .w1160 .sitenav_list, .w1160 .sitenav_channel {width: 1160px;}
 .w1160 .main {width: 820px;}
 .w1160 .wrapper .bannerbox {width: 1160px;}
+.w1160 .wrapper .bannerbox_btn {width: 150px;}
 .w1160 .bannerouter .bannerbox {width: 1160px;}
 .w1160 .bannerbox_flag_c {width: 820px;}
 .w1160 .bannerbox .bannerbox_L, .w1160 .bannerbox .bannerbox_R {width: 575px;}
@@ -164,7 +165,7 @@ a:hover {color:#309de7;}
 .imglist_s {margin: 0;}
 .imglist_s li {height: 135px; margin-bottom: 20px;}
 .imglist_a li {margin-bottom: 10px;}
-.center .imglist_a {float: left; width: 420px; margin: 0;}
+.center .imglist_a {float: left; width: 210px; height: 310px; margin: 0;}
 .ico_flag {right: 0; top: 0; width: 62px; height: 62px; background-position: 0 -41px; cursor: pointer;}
 .imgtxt {width: 320px; height: 150px; background: #f5f5f5; font-size: 14px; overflow: hidden;}
 .imgtxt .pic, .imgtxt img {width: 320px; height: 106px;}
@@ -181,7 +182,7 @@ a:hover {color:#309de7;}
 .piclist li {position: relative; height: 200px; margin-bottom: 5px; overflow: hidden;}
 .piclist span {position: absolute; left: 0; bottom: 0; display: block; width: 100%; height: 35px; font-size: 15px; color: #fff; line-height: 35px; text-indent: 10px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6); cursor: pointer;}
 .piclist_400x200 li {width: 400px;}
-.piclist_205x200 {width: 615px; padding-left: 15px;}
+.piclist_205x200 {width: 410px; padding-left: 10px;}
 .piclist_205x200 li {float: left; display: inline; width: 200px; margin-left: 5px;}
 .piclist_320x200 li {width: 320px;}
 /*topnews*/
