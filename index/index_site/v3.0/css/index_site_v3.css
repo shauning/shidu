@@ -45,6 +45,7 @@ a:hover {color:#309de7;}
 .site_sc .logo i {background-position:0 -234px;}
 .areabox {float: left; height: 36px; padding-left: 15px; margin: 7px 0 0 15px; font-size: 14px; border-left: #f3f3f3 1px solid;}
 .header_pannel {float: right; display: inline; margin: 15px 0 0 30px;}
+.header_banner {float: left; _display: inline; width: 300px; margin: 0 0 0 30px;}
 .header_app {font-size: 14px; line-height: 26px;}
 .header_app a {display: inline-block; color: #999;}
 .header_app .mobile {background-position: -254px -47px; padding-left: 30px;}
@@ -108,6 +109,7 @@ a:hover {color:#309de7;}
 .w1160 .bannerouter .bannerbox {width: 1160px;}
 .w1160 .bannerbox_flag_c {width: 820px;}
 .w1160 .bannerbox .bannerbox_L, .w1160 .bannerbox .bannerbox_R {width: 575px;}
+.w1160 .header_banner {margin: 0 0 0 140px;}
 /*.w1370 {min-width: 1370px;}
 .w1370 .bannerbox_more, .w1160 .bannerbox_more {display: block;}
 .w1370 .wrapper .bannerbox {float: left;}
