@@ -52,6 +52,11 @@ a:hover {color:#0073c6;}
 .sitenav {float: left; display: inline; margin: 13px 0 0 10px; font-size: 15px; font-family:"Microsoft Yahei";}
 .sitenav a {float: left; display: inline; margin: 0 0 0 20px;}
 .sitenav .on {color: #0073c6;}
+
+.globelnav_list {float:left;display:inline;margin-left:15px;}
+.globelnav_list li {float:left;}
+.globelnav_list a {display:block;height:47px;padding:0 10px;font-size:16px;line-height:47px;overflow:hidden;}
+.globelnav_mainsite {background:#fff url(../img/bg_mainnav.png) repeat-x center bottom; padding-bottom: 3px; border-bottom: none;}
 /*player*/
 h1 {font-size:20px;color:#333;line-height:60px;}
 .player_outer {margin-bottom: 20px;}
