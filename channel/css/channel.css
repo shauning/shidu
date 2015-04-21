@@ -183,7 +183,7 @@ a:hover {color:#309de7;}
 .imgtxt_125x65 .pic {float: left; margin: 0 10px 0 0;}
 .imgtxt_125x65 .pic, .imgtxt_125x65 img {width: 125px; height: 65px;}
 /*newslist*/
-.ico_zt, .ico_rm, .ico_tt, .ico_tj {left:-5px;top:-1px;width:39px;height:28px;background-position:0 -155px; text-indent: -999px;}
+.ico_zt, .ico_rm, .ico_tt, .ico_tj {left:-2px;top:-1px;width:39px;height:23px;background-position:0 -155px; text-indent: -999px;}
 .ico_rm {background-position:-40px -155px;}
 .ico_tt {background-position:-81px -155px;}
 .ico_tj {background-position:-121px -155px;}
