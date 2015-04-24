@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- chris
+ * @time   ------- 2015-04-24*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+address, cite, em {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1160px;height:100%;background:#fff;font:12px/1.6em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
+a {color:#333;outline:none;text-decoration:none;}
+a:hover {color:#309de7;}
+
+/*globel*/
+.onmask {background: url(../img/sprite.png) no-repeat 0 0;}
+.wrapper {position: relative; width: 1160px; margin: 0 auto; zoom:1;}
+.wrapper:after {content:""; display:table; clear:both}
+.main {float: left; width: 820px;}
+.side {float: right; width: 320px; padding-top: 26px;}
+.side_nopadding {padding: 0;}
+.bannerbox {position:relative;width:950px;margin:0 auto;overflow:hidden;zoom:1;}
+.bannerbox_sidebtn {position: absolute; right: 0; top: 46px; width: 320px; height: 150px;}
+.footer {width:1160px;height:40px;padding-top:20px;margin:40px auto 0;color:#b1b1b1;font-family:"Arial";text-align:center;border-top:solid #f4f4f4 1px;}
+
+h1 {position: absolute; left: -9999px;}
+.header {height: 204px; background: #000 url(../img/bg_header.png) no-repeat center top;}
+.header_con {width: 1160px; height: 150px; background: url(../img/header.png); margin: 0 auto;}
+.nav {width: 1160px; height: 54px; margin: 0 auto;}
+.nav li {float: left; width: 114px; font-size: 16px;}
+.nav li a {display: block; color: #fff; line-height: 54px; text-align: center;}
+.nav li a:hover, .nav li .on {background: #0dad51;}
+/*box*/
+.box {margin-bottom:30px;overflow:hidden;zoom:1;}
+.box_tt {height:26px;line-height:26px;}
+.box_tt h3 {float: left; padding-left: 5px; font-size: 24px; color: #333; border-left: #0dad51 3px solid;}
+/*player*/
+.player_tt h2 {font-size:20px;color:#333;line-height:60px;}
+.player_outer {margin-bottom: 40px;}
+.player_tt {height:60px;}
+.player_contain {height: 565px;}
+.player {position:relative; float: left; width: 840px; height: 520px;}
+.playerbox {width:840px;height:520px;background:#000;}
+.playerbar {width:320px;height:565px;background:#303030;overflow:hidden;}
+.playerbar_tt {height:40px;padding:0 10px 0 20px;background:#292929;overflow:hidden;}
+.playerbar_con {float:left;width:320px;height:565px;}
+.playerbar_contain {position:relative;width:310px;height:515px;margin:10px 0 0 10px;overflow:hidden;_overflow:auto;SCROLLBAR-FACE-COLOR:#616161;SCROLLBAR-HIGHLIGHT-COLOR:#616161;SCROLLBAR-SHADOW-COLOR:#3C3C3C;SCROLLBAR-3DLIGHT-COLOR:#3C3C3C;SCROLLBAR-ARROW-COLOR:#4a4e51;SCROLLBAR-TRACK-COLOR:#3C3C3C;SCROLLBAR-DARKSHADOW-COLOR:#3C3C3C;}
+.playerbar_contain .act {line-height:40px;text-align:right;}
+.playerbar_contain .act a {font-size:14px;color:#999;}
+.mCustomScrollBox {position:relative;width:285px;height:465px;padding-right:22px;overflow:hidden;zoom:1;}
+.mCSB_container {position:relative;zoom:1;}
+.mCSB_scrollTools {position:absolute;right:8px;top:0;width:6px;height:500px;}
+.mCSB_draggerContainer {position:absolute;right:0;top:0;width:6px;height:500px;}
+.mCSB_dragger {position:absolute;right:0;top:0;display:block;width:6px;overflow:hidden;}
+.mCSB_dragger_bar {width:6px;height:100%;background:#616161;cursor:pointer;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.mCSB_draggerRail {width:6px;height:500px;background:#3c3c3c;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.mCSB_dragger_bar:hover {background:#999;}
+.mCSB_draggerRail:hover {background:#3c3c3c;}
+.tabbox {>float:left;margin-left:-10px;}
+.tabbox li, .box_comment .tabbox span, #vod_comment .tabbox span {float:left;display:inline;height:29px;font-size:16px;font-family:"Microsoft Yahei";color:#ccc;line-height:20px;cursor:pointer;}
+.tabbox span {float:left;display:inline;margin:1px 0 0 10px;color:#ccc;font-family:"\5b8b\4f53";}
+.tabbox a {float:left;display:inline;height:29px;margin-left:10px;font-family:"Microsoft Yahei";}
+.tabbox .on, .box_comment .tabbox .on {background-position:-84px -5px;color:#249ff1;}
+.tabbox_playerbar {float:left;margin:0;}
+.tabbox_playerbar li {margin:10px 0 0 0;}
+.tabbox_playerbar a {margin:0 20px 0 0;font-size:16px;color:#999;font-family:"Microsoft Yahei";}
+.tabbox_playerbar .on {color:#999}
+/*error*/
+.error {position:absolute;left:0;top:0;width:840px;height:520px;background:#000 url(http://img.kankan.xunlei.com/img/kankan/mp4/error.png) no-repeat center 200px;color:#fff;z-index:999;text-align:center;}
+.error p {padding:300px 0 20px;font-size:14px;line-height:24px;}
+.errortxt {position:absolute;left:0;top:0;width:100%;height:100%;background:#000;padding-top:200px;color:#fff;z-index:999;text-align:center;}
+.errortxt p {padding-bottom:20px;font-size:16px;font-family:"Microsoft YaHei";line-height:24px;}
+.errortxt a, .error a {color:#249FF1;text-decoration:underline;}
+.errortxt div {padding:20px 0 0 178px;text-align:left;}
+/*imglist*/
+.mask, .imgLlist p {position:absolute;right:0;bottom:0;padding:0 5px;color:#fff;font-size:12px;line-height:16px;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
+.onmask {position:absolute;left:-9999px;top:0;display:block;width:120px;height:73px;zoom:1;}
+.imglist {overflow:hidden;zoom:1;}
+.imglist li, .imgLlist li {float:left;display:inline;margin-top:20px;font-size:14px;overflow:hidden;>line-height: 20px;}
+.imglist .pic, .imgLlist .pic {position:relative;display:block;margin-bottom:5px;}
+.imglist_150x85, .imgLlist {margin-left:-20px;}
+.imglist_150x85 li, .imgLlist li {width:150px;height:128px;margin-left:20px;}
+.imglist_150x85 .pic, .imglist_150x85 img {width:150px;height:85px;}
+.imglist_120x68 {overflow:hidden;zoom;1;}
+.imglist_120x68 li {position:relative;float:none;display:block;height:68px;padding:8px 4px 8px 140px;margin:0;}
+.imglist_120x68 li:hover, .imglist_120x68 .on {background:#4f4f4f;}
+.imglist_120x68 .pic {position:absolute;left:10px;top:8px;width:120px;height:68px;overflow:hidden;}
+.imglist_120x68 img {width:120px;height:68px;}
+.imglist_120x68 p {margin-top:5px;}
+.imglist_120x68 a {color:#ccc;}
+.imglist_120x68 .title {display:block;height:39px;overflow:hidden;}
+.imglist_120x68 .title:hover {text-decoration:none;}
+.imglist_120x68 .mask {bottom:0;height:16px;}
+.imglist_120x68 .on .onmask {left:0;color:#fff;line-height:116px;text-indent:20px;}
+.imglist_120x68 .on .mask {bottom:2px;display:block;width:108px;line-height:19px;text-indent:-9999px;}
+.imglist_120x68 .on .title {color:#3CA0FF;}
+.list {>float: left; margin-left: -20px;}
+.list li {float: left; width: 190px; margin: 20px 0 0 20px; font-size: 14px;}
+.list .pic {display: block; width: 190px; height: 106px; margin-bottom: 5px;}
+.list .title {display: block;}
+.imgtxt {width: 320px; margin-top: 20px; font-size: 18px;}
+.imgtxt .pic {display: block; height: 106px; margin-bottom: 8px;}
+/*floatcomment*/
+.floatcomment li {position:relative;height:36px;padding-right:65px;font-size:14px;color:#ccc;line-height:36px;overflow:hidden;}
+.floatcomment span {margin-right:10px;font-family:"Arial";color:#999;}
+.floatcomment em {position:absolute;left:242px;top:0px;line-height:32px;}
+.floatcomment_area {position:relative;float:left;width:840px;height:45px;background:#1a1a1a;z-index:11;}
+.floatcomment_input {float:left;display:inline;width:607px;height:16px;background:#ccc;padding:9px 110px 9px 10px;margin:5px 0 0 15px;line-height:16px;border:none;}
+.floatcomment_postcon {position:relative;float:left;display:inline;width:88px;height:34px;margin:5px 0 0 5px;z-index:2;}
+.floatcomment_btn {float:left;width:88px;height:34px;background:#0286f6;font-size:14px;color:#fff;font-family:"Microsoft Yahei";border:none;}
+.floatcomment_btn_type {float:right;display:block;width:16px;height:34px;text-indent:-9999px;overflow:hidden;}
+.floatcomment_postcon .viewpoint_entertype {top:36px;}
+.floatcomment_openarea .mCSB_scrollTools, .floatcomment_openarea .mCSB_draggerContainer {height:520px;}
+.floatcomment_none {padding-top:190px;font-size:16px;color:#999;font-family:"Microsoft Yahei";text-align:center;}
+.floatcomment_area_wide .floatcomment_area {width:1150px;}
+.floatcomment_area_wide .floatcomment_input {width:1007px;background-position:0 -36px;}
+.floatcomment_tip {position:absolute;right:145px;top:9px;padding:0 10px;color:#f60;line-height:24px;}
+.floatcomment_tt {font-size:16px;color:#249ff1;font-family:"Microsoft Yahei";font-weight:normal;}
+
+.replay .box {position: relative; height: 218px; padding: 20px; border: #ccc 1px solid;}
+.txtlist {margin-top: 10px;}
+.txtlist li {height: 34px; font-size: 16px; line-height: 34px; overflow: hidden;}
+.replay_img {position: absolute; right: 20px; top: 15px; width: 190px;}
+
+.pandalist {>float: left; margin-left: -40px;}
+.pandalist li {float: left; display: inline; width: 200px; margin: 20px 0 0 40px; font-size: 14px; }
+.pandalist img {display: block; width: 200px; height: 200px; margin-bottom: 10px;}
+.pandalist a {display: block; font-size: 18px; text-align: center;}
+.pandalist p {line-height: 22px;}
+
+.imgbox {float: left; display: inline; width: 610px; height: 214px; margin: 20px 20px 0 0; overflow: hidden;}
+.imgbox a {float: right; display: block; height: 106px; margin-bottom: 2px;}
+.imgbox .imgbox_big {float: left; width: 418px; height: 214px;}
+.imgbox_txt {margin: 20px 0 0 0; font-size: 16px; color: #333; line-height: 24px;}
+.imgbox_txt strong {display: block; margin-bottom: 10px; font-size: 30px; font-weight: normal; line-height: 40px;}
+
+.focus {position: relative; height: 360px; background: #222; margin-bottom: 45px; overflow: hidden;}
+.focus_con {position: relative; width: 1160px; height: 360px; margin: 0 auto;}
+.focus_ul {position: absolute; left: 0; top: 0; width: 6000px;}
+.focus_ul li {float: left; display: inline; width: 800px; margin: 0 10px;}
+.focus_tigger {position: absolute; top: 145px; width: 46px; height: 70px; background: url(../img/focus.png); text-indent: -9999px;}
+.focus_tigger_R {right: 0; background-position: -47px 0;}
