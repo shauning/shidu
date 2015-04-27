@@ -26,6 +26,8 @@ h1, h2 {position: absolute; left: -9999px;}
 .footer p {font-family:"Arial";}
 .W320_L {float: left; width: 320px;}
 .W320_R {float: right; width: 320px;}
+.bannerbox {width: 1000px; margin: 0 auto;}
+.bannerbox div {margin-top: 15px;}
 /*header*/
 .header {background: url(../img/bg.png) no-repeat center top;}
 .header_con {width: 1000px; height: 225px; margin: 0 auto;}
