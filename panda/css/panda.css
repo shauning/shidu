@@ -39,26 +39,26 @@ h1 {position: absolute; left: -9999px;}
 .box_tt h3 {float: left; padding-left: 5px; font-size: 24px; color: #333; border-left: #0dad51 3px solid;}
 /*player*/
 .player_tt h2 {float: left; width: 700px; font-size:20px;color:#333;line-height:60px;}
-.weather {float: right;}
+.weather {float: right; margin-top: 20px;}
 .share {position: absolute; right: -25px; top: 50px; width: 25px;}
 .player_outer {margin-bottom: 40px;}
 .player_tt {height:60px;}
-.player_contain {height: 565px;}
+.player_contain {height: 520px;}
 .player {position:relative; float: left; width: 840px; height: 520px;}
 .playerbox {width:840px;height:520px;background:#000;}
-.playerbar {width:320px;height:565px;background:#303030;overflow:hidden;}
+.playerbar {width:320px;height:520px;background:#303030;overflow:hidden;}
 .playerbar_tt {height:40px;padding:0 10px 0 20px;background:#292929;overflow:hidden;}
-.playerbar_con {float:left;width:320px;height:565px;}
-.playerbar_contain {position:relative;width:310px;height:515px;margin:10px 0 0 10px;overflow:hidden;_overflow:auto;SCROLLBAR-FACE-COLOR:#616161;SCROLLBAR-HIGHLIGHT-COLOR:#616161;SCROLLBAR-SHADOW-COLOR:#3C3C3C;SCROLLBAR-3DLIGHT-COLOR:#3C3C3C;SCROLLBAR-ARROW-COLOR:#4a4e51;SCROLLBAR-TRACK-COLOR:#3C3C3C;SCROLLBAR-DARKSHADOW-COLOR:#3C3C3C;}
+.playerbar_con {float:left;width:320px;height:520px;}
+.playerbar_contain {position:relative;width:310px;height:470px;margin:10px 0 0 10px;overflow:hidden;_overflow:auto;SCROLLBAR-FACE-COLOR:#616161;SCROLLBAR-HIGHLIGHT-COLOR:#616161;SCROLLBAR-SHADOW-COLOR:#3C3C3C;SCROLLBAR-3DLIGHT-COLOR:#3C3C3C;SCROLLBAR-ARROW-COLOR:#4a4e51;SCROLLBAR-TRACK-COLOR:#3C3C3C;SCROLLBAR-DARKSHADOW-COLOR:#3C3C3C;}
 .playerbar_contain .act {line-height:40px;text-align:right;}
 .playerbar_contain .act a {font-size:14px;color:#999;}
 .mCustomScrollBox {position:relative;width:285px;height:465px;padding-right:22px;overflow:hidden;zoom:1;}
 .mCSB_container {position:relative;zoom:1;}
-.mCSB_scrollTools {position:absolute;right:8px;top:0;width:6px;height:500px;}
-.mCSB_draggerContainer {position:absolute;right:0;top:0;width:6px;height:500px;}
+.mCSB_scrollTools {position:absolute;right:8px;top:0;width:6px;height:460px;}
+.mCSB_draggerContainer {position:absolute;right:0;top:0;width:6px;height:460px;}
 .mCSB_dragger {position:absolute;right:0;top:0;display:block;width:6px;overflow:hidden;}
 .mCSB_dragger_bar {width:6px;height:100%;background:#616161;cursor:pointer;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
-.mCSB_draggerRail {width:6px;height:500px;background:#3c3c3c;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.mCSB_draggerRail {width:6px;height:460px;background:#3c3c3c;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
 .mCSB_dragger_bar:hover {background:#999;}
 .mCSB_draggerRail:hover {background:#3c3c3c;}
 .tabbox {>float:left;margin-left:-10px;}
