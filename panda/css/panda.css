@@ -38,7 +38,9 @@ h1 {position: absolute; left: -9999px;}
 .box_tt {height:26px;line-height:26px;}
 .box_tt h3 {float: left; padding-left: 5px; font-size: 24px; color: #333; border-left: #0dad51 3px solid;}
 /*player*/
-.player_tt h2 {font-size:20px;color:#333;line-height:60px;}
+.player_tt h2 {float: left; width: 700px; font-size:20px;color:#333;line-height:60px;}
+.weather {float: right;}
+.share {position: absolute; right: -25px; top: 50px; width: 25px;}
 .player_outer {margin-bottom: 40px;}
 .player_tt {height:60px;}
 .player_contain {height: 565px;}
