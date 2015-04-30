@@ -23,7 +23,12 @@ a:hover {color:#309de7;}
 .box {zoom:1;}
 .footer {margin: 50px auto; color: #ccc; text-align: center;}
 .ico {position:absolute;display:block;width:13px;height:13px;text-indent:-9999px;overflow:hidden;}
-.ico_play {left:10px;bottom:10px;_display:none;width:28px;height:28px;background:url(../img/png24.png);}
+.ico_play {left:10px;top:40px;_display:none;width:28px;height:28px;background:url(../img/png24.png);}
+.ico_zt, .ico_rm, .ico_tt, .ico_tj {left:-5px;top:-1px;width:39px;height:28px;background: url(http://misc.kankancity.com/news/img/sitelist_sprite.png) 0 -87px;}
+.ico_rm {background-position:-40px -87px;}
+.ico_tt {background-position:-81px -87px;}
+.ico_tj {background-position:-121px -87px;}
+h3 .ico {position:static;float:left;margin-right:10px;}
 /*header*/
 .logo i, .areabox_city_drop .arrow, .areabox_city_tt, .hico {background: url(../img/sitenav.png) no-repeat 0 0;}
 .header {width:1000px; height:80px; margin:25px auto 0;}
@@ -49,11 +54,11 @@ a:hover {color:#309de7;}
 .sitenav_list a:hover {background:#e7f5fd;}
 .sitenav_list .cur, .sitenav_list .cur:hover {background:#0c93e1; color: #fff;}
 /*newslist*/
-.newslist_con {height:106px; background: #fff; padding-right: 10px; margin:20px 0 0; overflow: hidden;}
+.newslist_con {height:106px; background: #fff; padding-right: 10px; margin:20px 0 0;}
 .newslist_div .pic {position:relative;float:left;display:inline;width:190px;height:106px;margin-right:20px;}
-.newslist_div h3 {height:22px;margin:10px 0 5px;font-size:18px;line-height:22px;font-family:"Microsoft Yahei";font-weight:bold;overflow:hidden;}
-.newslist_div p {height:40px;color:#767676;overflow:hidden;}
-.newslist_info {height:21px;margin-top:5px;overflow: hidden;}
+.newslist_div h3 {height:22px;padding-top:10px;margin:0 0 5px 20px;font-size:18px;line-height:22px;font-family:"Microsoft Yahei";font-weight:bold;overflow:hidden;}
+.newslist_div p {height:40px;color:#767676;margin-left:20px;overflow:hidden;}
+.newslist_info {height:21px;margin:5px 0 0 20px;overflow: hidden;}
 .newslist_info_from {float:left;}
 .newslist_div_first .newslist_con {border-top:none;}
 .newslist_div_type1 .newslist_con {height:185px;}
@@ -70,10 +75,18 @@ a:hover {color:#309de7;}
 .imglist .pic {position:relative;display:block;margin-bottom:5px;}
 .imglist .title {height:18px;overflow:hidden;}
 .imglist_132x75 li {width:132px;height:100px;margin:15px 0 0 18px;}
+.imglist_132x75 a {position: relative; display: block; height: 100px;}
 .imglist_132x75 .pic, .imglist_132x75 img {width:132px;height:75px;}
+.imglist_205x113 li {width:205px;height:113px;margin:5px 0 0 11px;}
+.imglist_205x113 img {width:205px;height:113px;}
 /*box*/
 .box {padding-bottom: 10px; margin-bottom: 20px;}
 .box_side {background: #fff;}
 .box_tt {height: 40px; background: #fff; padding: 0 15px; border-bottom: #f3f3f3 3px solid;}
 .box_tt h2 {float: left; font-size: 18px; color: #333; line-height: 40px;}
 .box_main .box_tt {background:#fff url(../img/box_main.png) no-repeat left bottom; padding-bottom: 3px; border-bottom: none;}
+
+/*floatpannel*/
+.floatpannel {position:fixed;_position:absolute;right:10px;bottom:46px;z-index:999;}
+.floatpannel a {display:block;width:50px;height:50px;margin-top:10px;text-indent:-9999px;overflow:hidden;}
+.floatpannel .floatpannel_top {background: url(http://misc.kankancity.com/news/img/sitelist_sprite.png) 0 -36px;}
