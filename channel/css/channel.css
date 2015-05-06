@@ -64,7 +64,7 @@ a:hover {color:#309de7;}
 .sitenav_channel {width: 1370px; height:40px; background: #f6f6f6; margin: 0 auto; font-size: 15px; line-height:40px;}
 .sitenav_channel a {margin:0 15px; color: #666;}
 .sitenav_channel .on {color: #005ca2; font-weight: bold;}
-.sitenav_drop {position: relative; float: left; z-index: 10;}
+.sitenav_drop {position: relative; float: left; display: none; z-index: 10;}
 .sitenav_list .sitenav_drop_tigger {width: 80px;}
 .sitenav_drop_tigger .hico {right: 8px; top: 22px; width: 11px; height: 6px; background-position: -38px -47px;}
 .sitenav_drop_con {position: absolute; left: 0; top: 50px; display: none; width: 80px; background: #3aa5eb;}
@@ -97,6 +97,8 @@ a:hover {color:#309de7;}
 .floatpannel_tip_box {position: absolute; right: 48px; top: -56px;}
 /*floatsize*/
 .w950 .wrapper, .w950 .header, .w950 .sitenav_list, .w950 .sitenav_channel {width: 950px;}
+.w950 .sitenav ul {width: 816px; height: 50px; overflow: hidden;}
+.w950 .sitenav_drop {display: block;}
 .w950 .main {width: 610px;}
 .w950 .bottom_L {width: 430px; margin-left: 30px;}
 .w950 .bottom_R {width: 450px;}
@@ -208,3 +210,7 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 .fresh strong {font-family:"Arial";}
 .loader {height:32px;margin:20px 0;text-align:center;}
 .ico_fresh {left:-0;top:0;width:20px;height:20px;background-position:-63px -41px;}
+
+
+.tagname {height:60px;background:#f6f6f6;padding:0 20px;line-height:60px;border-top:solid #1c8dd5 2px;overflow:hidden;margin-top:25px}
+.tagname h2 {font-size:24px;color:#333;font-family:"Microsoft Yahei";}
