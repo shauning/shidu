@@ -235,6 +235,7 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 .fullscreen .poster_wrap {margin: 0 auto;}
 .fullscreen .lis_poster {position: absolute;left: 0; top: 0; width: 100%; overflow: visible;}
 .fullscreen .lis_poster li {width: 100%; height: 100%; text-align: center;}
+.fullscreen .lis_poster li .pic {width: 100%; height: 100%;}
 .fullscreen .lis_poster span {bottom: -63px; width: 90%; padding: 0; text-align: left;}
 .fullscreen .lis_poster img {width: 100%; height: 100%; max-width: none; max-height: none;}
 .fullscreen .slideNav_wr {width: auto; padding: 0 60px;}
@@ -243,6 +244,6 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 .fullscreen .mCSB_dragger_bar {background: #656565;}
 .fullscreen .mCSB_draggerRail {background: #2a2a2a;}
 .fullscreen .mCSB_scrollTools, .fullscreen .mCSB_draggerContainer, .fullscreen .mCSB_draggerRail {width: 1800px;}
-.fullscreen .ico_prev, .fullscreen .ico_next {top: 50%; margin-top: -40px;}
+.fullscreen .ico_prev, .fullscreen .ico_next {top: 50%; display: block; margin-top: -40px;}
 .fullscreen_close {position: absolute; right: 10px; top: 10px; width: 38px; height: 38px; background: url(../img/fullscreen_close.png); text-indent: -9999px;}
 .fullscreen_close:hover {background-position: 0 -39px;}
