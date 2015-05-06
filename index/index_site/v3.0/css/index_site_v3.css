@@ -67,7 +67,7 @@ a:hover {color:#309de7;}
 .sitenav_channel a {margin:0 15px; color: #666;}
 .sitenav_channel a:hover {color:#309de7;}
 .sitenav_channel .on {color: #005ca2; font-weight: bold;}
-.sitenav_drop {position: relative; float: left; z-index: 10;}
+.sitenav_drop {position: relative; float: left; display: none; z-index: 10;}
 .sitenav_list .sitenav_drop_tigger {width: 80px;}
 .sitenav_drop_tigger .hico {right: 8px; top: 22px; width: 11px; height: 6px; background-position: -38px -47px;}
 .sitenav_drop_con {position: absolute; left: 0; top: 50px; display: none; width: 80px; background: #3aa5eb;}
@@ -100,6 +100,8 @@ a:hover {color:#309de7;}
 .floatpannel .floatpannel_top {background-position:0 -104px;}
 /*floatsize*/
 .w950 .wrapper, .w950 .header, .w950 .sitenav_list, .w950 .sitenav_channel {width: 950px;}
+.w950 .sitenav ul {width: 816px;}
+.w950 .sitenav_drop {display: block;}
 .w950 .main {width: 610px;}
 .w950 .bottom_L {width: 430px; margin-left: 30px;}
 .w950 .bottom_R {width: 450px;}
