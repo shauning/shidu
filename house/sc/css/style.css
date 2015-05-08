@@ -16,11 +16,11 @@ a:hover {color:#c00;}
 .bannerbox {position:relative;width:1160px;margin:0 auto;overflow:hidden;zoom:1;}
 .bannerbox div {margin-top:4px;}
 .bannerbox_flag_l {float: left; width: 160px; height: 60px; overflow: hidden; zoom:1;}
-.bannerbox_flag_c {float: left; display: inline; width: 610px; height: 60px; margin-left: 10px; overflow: hidden; zoom:1;}
+.bannerbox_flag_c {float: left; display: inline; width: 820px; height: 60px; margin-left: 10px; overflow: hidden; zoom:1;}
 .bannerbox_flag_r {float: right; width: 160px; height: 60px; overflow: hidden; zoom:1;}
-.bannerbox .bannerbox_L {float:left;width:470px;height:60px;margin:4px 0 0;overflow: hidden;}
+.bannerbox .bannerbox_L {float:left;width:575px;height:60px;margin:4px 0 0;overflow: hidden;}
 .bannerbox .bannerbox_L div, .bannerbox .bannerbox_R div {margin-top: 0;}
-.bannerbox .bannerbox_R {float:right;width:470px;height:60px;margin:4px 0 0;overflow: hidden;}
+.bannerbox .bannerbox_R {float:right;width:575px;height:60px;margin:4px 0 0;overflow: hidden;}
 .banner_fix {position: fixed; _position: absolute; bottom: 400px; width: 90px; height: 120px; z-index: 10000;}
 .banner_fix_l {left: 10px;}
 .banner_fix_r {right: 10px;}
@@ -141,17 +141,18 @@ a:hover {color:#c00;}
 .imgtxt_320x370 {height: 370px;}
 .imgtxt_320x370 em {position: absolute; left: 0; top: 100px; width: 280px; height: 128px; background: url(../img/png24_1.png); padding: 20px 20px 0; font-size: 25px; color: #fff; line-height: 40px;}
 .imgtxt_320x370 em b {float: right; font-size: 18px; font-weight: normal;}
-.imgtxt_910x335 {height: 335px;}
-.imgtxt_910x335 span {height: 74px; padding: 10px 20px 0; line-height: 36px; text-align: left;}
-.imgtxt_910x335 span em {font-size: 16px;}
-.imgtxt_910x335 .text {position: absolute; right: 20px; top: 20px;}
+.imgtxt_1160x545 {height: 545px;}
+.imgtxt_1160x545 span {left: 250px; bottom: 210px; width: 870px; height: 74px; padding: 10px 20px 0; line-height: 36px; text-align: left;}
+.imgtxt_1160x545 span em {font-size: 16px;}
+.imgtxt_1160x545 .text {position: absolute; right: 20px; top: 20px;}
 .imgtxt_300x210 {float: left; display: inline; width: 300px; height: 210px; margin: 0 0 0 5px;}
 .imgtxt_300x210 .text {position: absolute; left: 10px; top: 10px;}
+.imgtxt_300x210_con {position: absolute; left: 250px; bottom: 0; height: 210px;}
 .imgtxt_580x307 {width: 580px; height: 307px;}
 .imgtxt_278x146 {width: 278px; height: 146px; margin-left: 12px;}
 /*video*/
-.video {position: relative; height: 545px; padding-left: 250px;}
-.video_search {position: absolute; left: 0; top: 0; width: 250px; height: 545px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6); }
+.video {position: relative; height: 545px;}
+.video_search {position: absolute; left: 0; top: 0; width: 250px; height: 545px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6); z-index: 2;}
 .video_search dt {background: url(../img/video_search.png) no-repeat center center; margin: 30px 0 20px; font-size: 22px; color: #fff; line-height: 30px; text-align: center;}
 .video_search dd {font-size: 18px; line-height: 30px; text-align: center;}
 .video_search dd a {margin:0 5px; color: #fff;}

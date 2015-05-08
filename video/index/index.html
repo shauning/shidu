@@ -10,14 +10,26 @@
 <script src="http://misc.kankancity.com/www/js/htmlfive.js"></script>
 <![endif]-->
 <link href="css/index_video.css" rel="stylesheet" type="text/css" media="all" />
+<script src="http://misc.kankancity.com/lib/js/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('.areabox_city').mouseenter(function () {
+			$(".areabox_city_drop").addClass('pop_fadein');
+		});
+		$('.areabox_city').mouseleave(function () {
+			$('.areabox_city_drop').removeClass('pop_fadein');
+		});
+	});
+</script>
 </head>
 <body>
-<div class="topbar">
-	<div class="topbar_con">
-		<a href="#" class="topbar_link">设为首页</a>
-		<div class="topbar_city">
-			<div class="topbar_city_tt">切换城市</div>
-			<div class="topbar_city_drop">
+<header class="header">
+	<h1 class="logo"><a href="#" title="看看重庆">看看重庆 - 都是您的身边事<i></i></a></h1>
+	<div class="areabox">
+		<p class="slogn">关注您的身边事</p>
+		<div class="areabox_city">
+			<div class="areabox_city_tt">切换城市</div>
+			<div class="areabox_city_drop">
 				<i class="arrow"></i>
 				<a href="http://www.kankancity.com/">全国</a>
 				<a href="http://cq.kankancity.com/">重庆</a>
@@ -27,20 +39,9 @@
 				<a href="http://hn.kankancity.com/">河南</a>
 			</div>
 		</div>
-		<p class="tel">新闻热线：023-89161816 88103145&nbsp;&nbsp;&nbsp;&nbsp;广告热线：023-88665535</p>
-		<div class="topbar_pannel ff_yh">
-			<a href="#" style="display:none;">登录</a>
-			<a href="#" style="display:none;">反馈</a>
-			<img src="http://misc.kankancity.com/station/img/sitenav_mlogo.png" alt="重庆晚报官方平台">
-		</div>
 	</div>
-</div><!--topbar  END-->
-
-<header class="header">
-	<h1 class="logo"><a href="#" title="看看重庆">看看重庆 - 都是您的身边事<i></i></a></h1>
-	<div class="header_app"><a href="#" class="mobile">手机版</a></div>
-	<fieldset class="headersearch"><input type="text" placeholder="请输入关键字"/><button type="submit">搜 索</button></fieldset>
-</header><!--header  END-->
+	<fieldset class="headersearch"><input type="text" placeholder="请输入关键字"><button type="submit">搜 索</button></fieldset>
+</header>
 <div class="sitenav">
 	<nav class="sitenav_list">
 		<ul>
@@ -52,20 +53,24 @@
 			<li><a href="#">汽车</a></li>
 			<li><a href="#">旅游</a></li>
 			<li><a href="#">美食</a></li>
-			<li><a href="#">房产</a></li>
-			<li><a href="#">财经</a></li>
-			<li><a href="#">科技</a></li>
 			<li><a href="#">军事</a></li>
 			<li><a href="#">社区</a></li>
 		</ul>
-		<ul class="sitenav_more">
-			<li><a href="#">观影团<sup class="ico">HOT</sup></a></li>
-		</ul>
-	</nav>
-	<nav class="sitenav_channel ff_yh">
-		<a href="#">热点</a><a href="#">国内</a><a href="#" class="hot">国际<sup class="ico">HOT</sup></a><a href="#">民生</a><a href="#">图说</a><a href="#">人物</a><a href="#">重庆晚报</a><span>|</span><a href="#">重庆印记</a><a href="#">全民神吐槽</a><a href="#">报料台</a><a href="#">专题</a>
-	</nav>                                                                                            
+	</nav>                                                                                          
 </div><!--sitenav  END-->
+<nav class="sitenav_channel ff_yh">
+	<a target="_blank" href="/vod/list/all,new/">全部</a>
+	<a target="_blank" href="/vod/list/2,new/">原创</a>
+	<a target="_blank" href="/vod/list/3,new/">资讯</a>
+	<a target="_blank" href="/vod/list/4,new/">娱乐</a>
+	<a target="_blank" href="/vod/list/5,new/">体育</a>
+	<a target="_blank" href="/vod/list/6,new/">汽车</a>
+	<a target="_blank" href="/vod/list/7,new/">房产</a>
+	<a target="_blank" href="/vod/list/8,new/">美食</a>
+	<a target="_blank" href="/vod/list/9,new/">搞笑</a>
+	<a target="_blank" href="/vod/list/10,new/">旅游</a>
+	<a target="_blank" href="/vod/list/11,new/">数码</a>
+</nav> 
 
 <div class="wrapper topnews">
 	<div class="slidebox">

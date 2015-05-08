@@ -11,7 +11,7 @@ li {list-style-type:none;}
 fieldset, img {border:0;}
 label,button {cursor: pointer;}
 select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
-body {min-width:1000px;height:100%;background:#fff;font:12px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
+body {min-width:1000px;height:100%;background:#f3f3f3;font:12px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
 a {color:#333;outline:none;text-decoration:none;}
 a:hover {color:#0073c6;}
 /*globel*/
@@ -21,47 +21,33 @@ a:hover {color:#0073c6;}
 .ff_yh {font-family:"Microsoft Yahei";}
 .blue {color:#0073c6;}
 .ico {position:absolute;display:block;width:13px;height:13px;overflow:hidden;}
-/*topbar*/
-.topbar_city_drop .arrow, .topbar_city_tt, .header_app .mobile, .sitenav, .sitenav_channel .hot .ico, .sitenav_more .ico, .sitenav_more li, .logo i {background:url(http://misc.kankancity.com/station/img/sitenav.png) no-repeat 0 0;}
-.topbar {height:35px;background:#f6f6f6;}
-.topbar_con {width:1000px;margin:0 auto;}
-.topbar_city {position: relative; float:left; display: inline; margin-left: 25px;color:#333;z-index: 9;}
-.topbar_city_tt {background-position: 55px -58px; padding-right: 18px; line-height: 35px; cursor: pointer;}
-.topbar_city_drop {position: absolute; left: 0; top: 35px; display: none; width: 180px; background: #fff; padding: 5px 0; border: 1px #ddd solid;}
-.topbar_city_drop a {float: left; display: block; width: 60px; font-size: 14px; line-height: 30px; text-align: center;}
-.topbar_city_drop .arrow {position:absolute;left:18px;top:-8px;width:20px;height:14px;background-position:-21px -47px;}
-.topbar_pannel {float:right;font-size:14px;line-height:35px;}
-.topbar_pannel a {float:left;margin-left:10px;}
-.topbar_pannel img {float:right;display:inline;margin-left:10px;}
-.topbar_link {float: left;line-height: 35px;}
-.topbar .tel {float:left;display:inline;margin:0 0 0 175px;color:#666;line-height:35px;}
-.header {width:1000px;height:63px;margin:20px auto 0;}
-.logo {position:relative;float:left;width:318px;height:46px;}
-.logo a {display:block;height:46px;}
-.logo i {position:absolute;left:0;top:0;display:block;width:318px;height:52px;background: url(http://misc.kankancity.com/www/img/globelnav.png);}
-.site_hb .logo i {width:280px;height:46px;background:url(http://misc.kankancity.com/station/img/sitenav.png) 0 -93px;}
-.site_hn .logo i {width:280px;height:46px;background:url(http://misc.kankancity.com/station/img/sitenav.png) 0 -140px;}
-.site_js .logo i {width:280px;height:46px;background:url(http://misc.kankancity.com/station/img/sitenav.png) 0 -187px;}
-.site_sc .logo i {width:280px;height:46px;background:url(http://misc.kankancity.com/station/img/sitenav.png) 0 -234px;}
-.headersearch {float:right;margin-top:10px;}
-.headersearch input {float:left;width:215px;height:16px;padding:8px 10px;font-size:14px;line-height:16px;font-family:"Microsoft Yahei";border:solid #ccc 1px;}
-.headersearch button {width:80px;height:34px;background:#f4f4f4;font-size:15px;color:#333;font-family:"Microsoft Yahei";border:solid #ccc 1px;border-left:none;}
-.header_app {float: left; display: inline; margin: 10px 0 0 30px; font-size: 14px; line-height: 26px;}
-.header_app a {display: inline-block;}
-.header_app .mobile {background-position: -254px -47px; padding-left: 30px;}
-.sitenav {background-position: 0 -281px; background-repeat: repeat-x; margin:0 auto;}
-.sitenav_list {width: 1000px; height:50px;background:#1887d0; margin: 0 auto;}
+/*header*/
+.logo i, .areabox_city_drop .arrow, .areabox_city_tt, .hico {background: url(http://misc.kankancity.com/www/v3/img/sitenav.png) no-repeat 0 0;}
+.header {width:1000px; height:80px; margin:25px auto 0;}
+.hico {position: absolute; display: block;}
+.logo {position:relative; float:left; width:181px; height:56px;}
+.logo a {display:block; height:56px;}
+.logo i {position:absolute; left:0; top:0; display:block; width:181px; height:56px;}
+.areabox {float: left; height: 36px; padding-left: 15px; margin: 10px 0 0 15px; font-size: 14px; border-left: #f3f3f3 1px solid;}
+.header_pannel {float: right; display: inline; margin: 15px 0 0 30px;}
+.headersearch {float:right; margin: 6px 0 0; >margin: -34px 0 0;}
+.headersearch input {float:left;width:215px;height:16px;padding:8px 10px;font-size:14px;line-height:16px;font-family:"Microsoft Yahei";border:solid #e2e2e2 1px;}
+.headersearch button {float: left; width:70px;height:34px;background:#0c93e1;font-size:15px;color:#fff;line-height:34px;font-family:"Microsoft Yahei";border:none;}
+.areabox_city {position: relative; float:left; display: inline; z-index: 9;}
+.areabox_city_tt {height: 28px; background-position: 60px -56px; padding-right: 18px; color:#309de7; line-height: 20px; cursor: pointer;}
+.areabox_city_drop {position: absolute; left: 0; top: 27px; display: none; width: 180px; background: #fff; padding: 5px 0; border: 1px #ddd solid;}
+.areabox_city_drop a {float: left; display: block; width: 60px; font-size: 14px; line-height: 30px; text-align: center;}
+.areabox_city_drop .arrow {position:absolute;left:54px;top:-9px;width:20px;height:14px;background-position:-17px -57px;}
+.pop_fadein {display:block;-webkit-animation:pop_fadein .5s alternate ease-in-out;-moz-animation:pop_fadein .5s alternate linear;-ms-animation:pop_fadein .5s alternate linear;animation:pop_fadein .5s alternate ease-in-out;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;}@-webkit-keyframes pop_fadein{0%{opacity:0;-webkit-transform:translateY(-30px);}50%{opacity:1;-webkit-transform:translateY(4px);}80%{-webkit-transform:translateY(-2px);}100%{-webkit-transform:translateY(0);}}@-moz-keyframes pop_fadein{0%{opacity:0;-moz-transform:translateY(-30px);}50%{opacity:1;-moz-transform:translateY(4px);}80%{-moz-transform:translateY(-2px);}100%{-moz-transform:translateY(0);}}@-ms-keyframes pop_fadein{0%{opacity:0;-ms-transform:translateY(-30px);}50%{opacity:1;-ms-transform:translateY(4px);}80%{-ms-transform:translateY(-2px);}100%{-ms-transform:translateY(0);}}@keyframes pop_fadein{0%{opacity:0;transform:translateY(-30px);}50%{opacity:1;transform:translateY(4px);}80%{transform:translateY(-2px);}100%{transform:translateY(0);}}
+.sitenav {background: #fff url(http://misc.kankancity.com/www/v3/img/bg_mainnav.png) repeat-x center bottom; padding-bottom: 3px; border-top: #eaeaea 1px solid;}
+.sitenav_list {width: 1000px; height:50px;background:#fff; margin: 0 auto;}
 .sitenav ul, .sitenav li {float:left;}
-.sitenav_list a {position:relative;display:block;width:68px;height:50px;font-size:17px;color:#fff;font-family:"Microsoft Yahei";line-height:50px;text-align:center;}
-.sitenav_list .cur, .sitenav_list a:hover {background:#136daa;text-decoration:none;}
-.sitenav_more li {background-position:0 -372px;padding-left:10px;}
-.sitenav_more .ico {right:-10px;top:8px;width:20px;height:11px;background-position:0 -47px;}
-.sitenav_channel {width: 1000px; height:40px; background: #f6f6f6; margin: 0 auto; line-height:40px;}
+.sitenav_list a {position:relative;display:block;width:68px;height:50px;font-size:17px;line-height:50px;text-align:center;}
+.sitenav_list a:hover {background:#e7f5fd;}
+.sitenav_list .cur, .sitenav_list .cur:hover {background:#0c93e1; color: #fff;}
+.sitenav_channel {width: 1000px; height:40px; background: #f3f3f3; margin: 0 auto 30px; line-height:40px;}
 .sitenav_channel a {margin:0 15px;font-size:14px;}
 .sitenav_channel .on {color: #005ca2; font-weight: bold;}
-.sitenav_channel .hot {position:relative;}
-.sitenav_channel .hot .ico {right:-19px;top:-8px;width:20px;height:11px;background-position:0 -47px;}
-.pop_fadein {display:block;-webkit-animation:pop_fadein .5s alternate ease-in-out;-moz-animation:pop_fadein .5s alternate linear;-ms-animation:pop_fadein .5s alternate linear;animation:pop_fadein .5s alternate ease-in-out;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;}@-webkit-keyframes pop_fadein{0%{opacity:0;-webkit-transform:translateY(-50px);}50%{opacity:1;-webkit-transform:translateY(4px);}80%{-webkit-transform:translateY(-2px);}100%{-webkit-transform:translateY(0);}}@-moz-keyframes pop_fadein{0%{opacity:0;-moz-transform:translateY(-50px);}50%{opacity:1;-moz-transform:translateY(4px);}80%{-moz-transform:translateY(-2px);}100%{-moz-transform:translateY(0);}}@-ms-keyframes pop_fadein{0%{opacity:0;-ms-transform:translateY(-50px);}50%{opacity:1;-ms-transform:translateY(4px);}80%{-ms-transform:translateY(-2px);}100%{-ms-transform:translateY(0);}}@keyframes pop_fadein{0%{opacity:0;transform:translateY(-50px);}50%{opacity:1;transform:translateY(4px);}80%{transform:translateY(-2px);}100%{transform:translateY(0);}}
 
 .bar {height:40px;font-size:16px;color:#333;line-height:40px;overflow:hidden;}
 .bar span {float:left;}
