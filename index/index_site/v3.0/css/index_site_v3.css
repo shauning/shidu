@@ -63,7 +63,7 @@ a:hover {color:#309de7;}
 .sitenav_list a {position:relative;display:block;width:68px;height:50px;font-size:17px;color:#fff;font-family:"Microsoft Yahei";line-height:50px;text-align:center;}
 .sitenav_list .cur, .sitenav_list a:hover {background:#0266a8;text-decoration:none;}
 .sitenav_more li {background-position:0 -372px;padding-left:10px;}
-.sitenav_channel {width: 1370px; height:40px; background: #f6f6f6; margin: 0 auto; font-size: 15px; line-height:40px;}
+.sitenav_channel {width: 1370px; height:40px; background: #f6f6f6; margin: 0 auto; font-size: 15px; line-height:40px; overflow: hidden;}
 .sitenav_channel a {margin:0 15px; color: #666;}
 .sitenav_channel a:hover {color:#309de7;}
 .sitenav_channel .on {color: #005ca2; font-weight: bold;}
