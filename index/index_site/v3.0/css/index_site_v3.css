@@ -92,10 +92,11 @@ a:hover {color:#309de7;}
 .gray {color: #999;}
 .H365 {height: 365px;}
 .H445 {height: 445px;}
-.footer {width:950px;height:65px;margin:30px auto 0;color:#ccc; line-height:24px; text-align:center;}
+.footer {width:950px;height:65px;margin:0 auto;color:#ccc; line-height:24px; text-align:center;}
 .footer a {color: #ccc;}
 .footer span {color: #999;}
 .footer p {font-family:"Arial";}
+.footer_tel {width: 950px; margin: 30px auto 0; color: #ccc; text-align: center;}
 /*floatpannel*/
 .floatpannel {position:fixed;_position:absolute;right:10px;bottom:46px;z-index:999;}
 .floatpannel a {display:block;width:48px;height:48px;margin-top:10px;text-indent:-9999px;overflow:hidden;}

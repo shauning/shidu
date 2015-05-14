@@ -27,6 +27,8 @@ a:hover {color:#309de7;}
 .footer {width:1160px;height:40px;padding-top:20px;margin:40px auto 0;color:#b1b1b1;font-family:"Arial";text-align:center;border-top:solid #f4f4f4 1px;}
 
 h1 {position: absolute; left: -9999px;}
+.wrapper_tt {height: 40px; background: url(../img/dot.png) repeat-x 0 center; font-size: 36px; line-height: 40px; text-align: center; color: #333;}
+.wrapper_tt h2 {background: #fff; width: 200px; margin: 0 auto;}
 .header {height: 204px; background: #000 url(../img/bg_header.png) no-repeat center top;}
 .header_con {width: 1160px; height: 150px; background: url(../img/header.png); margin: 0 auto;}
 .nav {width: 1160px; height: 54px; margin: 0 auto;}
@@ -127,7 +129,7 @@ h1 {position: absolute; left: -9999px;}
 .txtlist li {height: 34px; font-size: 16px; line-height: 34px; overflow: hidden;}
 .replay_img {position: absolute; right: 20px; top: 15px; width: 190px;}
 
-.pandalist {>float: left; margin-left: -40px;}
+.pandalist {>float: left; margin:0 0 30px -40px; overflow: hidden; zoom:1;}
 .pandalist li {float: left; display: inline; width: 200px; margin: 20px 0 0 40px; font-size: 14px; }
 .pandalist img {display: block; width: 200px; height: 200px; margin-bottom: 10px;}
 .pandalist a {display: block; font-size: 18px; text-align: center;}
