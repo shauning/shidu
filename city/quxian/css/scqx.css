@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- vinha
+ * @time   ------- 2015-03-24*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0 auto;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+address, cite, em {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1000px;height:100%;background:#fff;font:12px/1.6em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
+a {color:#333;outline:none;text-decoration:none;}
+a:hover {color:#309de7;}
+/*globle*/
+h2 {position: absolute; left: -9999px;}
+.wrapper {width:1000px;margin:15px auto 0;hidden;zoom:1;}
+.wrapper:after {content:"";display:table;clear:both}
+.main {float:left;width:660px;}
+.side {float:right;width:320px;}
+.footer {width:950px;height:65px;margin:30px auto 0;color:#ccc; line-height:24px; text-align:center;}
+.footer a {color: #ccc;}
+.footer span {color: #999;}
+.footer p {font-family:"Arial";}
+.W320_L {float: left; width: 320px;}
+.W320_R {float: right; width: 320px;}
+/*header*/
+.header {background: url(../img/bg.png) no-repeat center top;}
+.header_con {width: 1000px; height: 225px; margin: 0 auto;}
+h1 {float: left; display: inline; padding-right: 45px;height: 48px;position: relative;}
+.sitenav {background:#0561ad;}
+.sitenav_list {width: 1000px; height:48px;background:#0561ad; margin: 0 auto;}
+.sitenav ul, .sitenav li {float:left;}
+.sitenav_list a {position:relative;float: left;display:block;width:auto;height:48px;font-size:17px;color:#fff;line-height:50px;text-align:center;padding: 0px 10px;}
+.sitenav_list .cur, .sitenav_list li a:hover {background:#00549a;text-decoration:none;}
+.sitenav_list .nav_list{width: 800px;height:auto;position: absolute;left: 150px;top: 48px;z-index: 999;padding:0px 25px;background:#0561ad;border-radius: 0px 0px 10px 10px;display: none;}
+.sitenav_list .nav_list li {float:left;}
+.sitenav_list .nav_list li a{width:auto;height:auto;line-height:normal;padding:4px 10px;color: #FFFFFF;font-size: 13px;margin: 5px 0px; }
+.topbar {background: #000; color: #ccc;}
+.topbar_con {width: 1000px; height: 30px; margin: 0 auto; font-style: 14px; line-height: 30px;}
+.topbar_con a {margin-right: 10px; color: #fff;}
+.topbar_con span {margin-left: 10px;}
+/*topbox*/
+.d1 {position:relative; float: left; width:660px;height:auto;overflow:hidden;background:#000000;}
+.loading{width:660px;color:#999;font-size:16px;height:220px;text-align:center;padding-top:100px;font-weight:bold;}
+.d2{width:100%;height:320px;overflow:hidden;}
+.num_list{position:absolute;width:100%;left:0px;bottom:-1px;background: rgba(0,0,0,0.6); color:#FFFFFF;font-size:20px;padding:4px 0px;height:36px; line-height: 32px; overflow:hidden;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');}
+.num_list span{display:inline-block;height:16px;padding-left:6px;}
+#fade_focus img{display:block;}
+#fade_focus ul{display:none;}
+.button{position:absolute; z-index:1000; right:10px; bottom:16px; font-size:13px; font-weight:bold; font-family:Arial, Helvetica, sans-serif;}
+.b1,.b2{background-color:#fff;display:block;float:left;width: 12px; height: 6px; margin-right:3px;color:#FFFFFF;text-decoration:none;cursor:pointer;text-indent: -9999px;}
+.b2{background-color:#ffe506;}
+.topbox {height:320px;margin-bottom:20px;}
+.topnews {float:right;width:300px;height:325px;background:#f6f6f6;padding:0 20px;}
+.topnews_title {display: block; margin-top: 10px; font-size: 16px; color: #f26c00;}
+.topnews h3 {height:20px;padding-top:11px;margin:8px 0 5px;font-size:16px;font-weight:bold;border-top:solid #ebebeb 1px;overflow:hidden;}
+.topnews .first {padding-top:0; margin-top: 25px; border-top:none;}
+.topnews h3 a {color:#0073c6;}
+.topnews_ul li {height:26px;font-size:13px;line-height:26px;overflow:hidden;}
+.topnews_ul a {color:#555;}
+.topnews_ul span {margin:0 3px;}
+.rolla{color: #fff;}
+/*piclist*/
+.piclist {>float: left; height: 395px; margin:0 0 0 -3px;}
+.piclist li {position: relative; float: left; _display: inline; width: 163px; height: 198px; margin: 3px 0 0 3px;}
+.piclist span {position: absolute; left: 0; bottom: 0; width: 100%; height: 40px; font-size: 16px; color: #fff; line-height: 40px; text-indent: 10px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
+.piclist .piclist_329x198 {width: 329px;}
+/*links*/
+.links {margin: 50px 0 20px; font-size: 16px; text-align: center;}
+.links span {color: #309de7;}
+.links a {margin-left: 10px;}
+/*slide*/
+.slidebox {position:relative;width:320px;height:210px;margin:15px 0 0;overflow:hidden;}
+.slidebox_list li {width:320px;height:210px;}
+.slidebox_list a {position:relative;display:block;height:210px;}
+.slidebox_list img {width:320px;height:210px;}
+.slidebox_list span {position:absolute;left:0;bottom:0;display:block;width:300px;height:40px;padding:0 10px;font-size:16px;color:#fff;line-height:40px;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
+.slidebox_tigger {position:absolute;right:5px;bottom:15px;}
+.slidebox_tigger li {float:left;display:inline;width:7px;height:7px;background:#fff;margin-left:4px;cursor:pointer;text-indent:-9999px;overflow:hidden;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.slidebox_tigger .on {background:#de0909;}
+/*txtlist*/
+.txtlist {margin-top:5px;}
+.txtlist li {height:28px;line-height:28px;font-size:14px;overflow:hidden;}
+/*imglist*/
+.imglist {_float:left;overflow:hidden;zoom:1;}
+.imglist li {float:left;font-size:13px;overflow:hidden;}
+.imglist .pic {position:relative;display:block;margin-bottom:5px;}
+.imglist .title {height:18px;overflow:hidden;}
+.imglist_150x85 {margin-left:-20px;}
+.imglist_150x85 li {width:150px;height:110px;margin:15px 0 0 20px;}
+.imglist_150x85 .pic, .imglist_150x85 img {width:150px;height:85px;}
+.imglist_150x85 .first, .imglist_320x100 li {width:320px;height:125px;font-size:14px;}
+.imglist_150x85 .first .pic, .imglist_320x100 .pic, .imglist_150x85 .first img, .imglist_320x100 img {width:320px;height:100px;}
+.imglist_99x65 {margin-left:-11px;}
+.imglist_99x65 li {width:99px;height:90px;margin:15px 0 0 11px;text-align:center;}
+.imglist_99x65 .pic, .imglist_99x65 img {width:99px;height:65px;font-size:12px}
+/*imgLlist*/
+.imgLlist li {position:relative;height:85px;padding-left:160px;margin-top:15px;overflow:hidden;}
+.imgLlist .pic {position:absolute;left:0;top:0;display:block;width:150px;height:85px;}
+.imgLlist img {width:150px;height:85px;}
+.imgLlist .title {height:18px;margin-bottom:5px;font-size:15px;overflow:hidden;}
+.imgLlist_typeA .title {height:62px;}
+.imgLlist_typeB li {margin-bottom: 20px;}
+.imgLlist_typeB .title {height: 42px;}
+/*box*/
+.wrapper_tt {height:40px; background: url(../img/bg_tt.png) no-repeat 0 -7px; padding-bottom: 2px; margin-bottom:15px;line-height:40px;}
+.wrapper_tt h3 {float:left;font-size:24px;color:#0073c6;}
+.wrapper_tt h3 a {color:#0073c6;}
+.side .wrapper_tt {background-position: 0 -54px;}
+.wrapper_tt_full {background-position: 0 40px;}
+.box {overflow:hidden;zoom;1;}
+.box_tt {overflow:hidden;}
+.box_tt h4 {float:left;display:inline;margin-left:10px;font-size:16px;color:#333;}
+.box_typeA .box_tt {height:35px;background:#f6f6f6;line-height:35px;}
+.box_typeB .box_tt {position:relative;height:26px;line-height:26px;overflow:visible;}
+.box_typeB .box_tt h4 {margin:0;font-size:16px;}
+.box_typeC .box_tt {height:22px;background-position:0 -51px;line-height:22px;}
+.box_typeC .box_tt h4 {background:#fff;padding-right:15px;margin:0;font-size:16px;font-weight: bold;}
+.box_col2_b {margin-top:10px;}
+.box_col2_b .imgLlist li {margin:8px 0 20px;}
+/*weibo*/
+.weib{ height:330px}
+.kct_wb_box{ width:295px; height:auto; overflow:hidden; padding:10px; border:1px solid #d2d2d2; clear:both}
+.kct_wb_left{ width:112px; height:115px;  float:left;border:1px solid #d2d2d2;}
+.kct_wb_right{ width:170px; height:115px;float:right}
+.kct_fontbox{ margin:20px 0px 0px 0px}
+.kct_font{ color:#0073c6; font:normal 15px "微软雅黑";  margin:5px 0px 0px 0px}
+.kct_font a{ color:#333; font:normal 15px "微软雅黑"}
+.kct_font a:hover{color:#0073c6;}
