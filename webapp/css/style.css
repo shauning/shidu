@@ -23,7 +23,7 @@ ins,a{ color: #333; text-decoration:none;}
 .header {height: 72px; background: #0286f6;}
 .logo {float: left; width: 115px; margin: 25px 0 0 0.5rem;}
 .logo a {display: block; height: 27px; background: url(../img/logo.png) no-repeat center center; text-indent: -9999px;background-size: 115px 27px;}
-.city {position: relative; float: right; z-index: 2;}
+.city {position: relative; float: right; margin-right: 10px; z-index: 2;}
 .city span {display: block; padding: 0 15px 0 10px; font-size: 1rem; color: #fff; line-height: 72px;}
 .city span:after {position: absolute; display: inline-block; content: ""; width: 0; height: 0; line-height: 0; margin: 33px 0 0 3px; font-size: 0; color: #0073c6; border-style: solid; border-color: #fff #0286f6 #0286f6 #0286f6; border-width: 5px;}
 .citylist {position: absolute; right: 0; top: 72px; width: 120px; background: #fff; border: 1px #eee solid;}
