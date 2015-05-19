@@ -147,3 +147,7 @@ h1 {position: absolute; left: -9999px;}
 .focus_ul li {float: left; display: inline; width: 800px; margin: 0 10px;}
 .focus_tigger {position: absolute; top: 145px; width: 46px; height: 70px; background: url(../img/focus.png); text-indent: -9999px;}
 .focus_tigger_R {right: 0; background-position: -47px 0;}
+
+/*star*/
+.navigation {height: 70px; font-size: 16px; line-height: 70px;}
+.navigation span {margin: 0 10px;}
