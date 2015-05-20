@@ -42,3 +42,31 @@
 .txtlist_nor {margin-top:15px;}
 .txtlist_nor li {height:28px;font-size:14px;line-height:28px;}
 .txtlist_158 {float:left;width:158px;}
+
+.txtlist li {background: url(http://misc.kankancity.com/station/v3/channel/img/sprite_channel.png) no-repeat 0 0;}
+.movtxt {position: absolute; right: 0; bottom: 0; padding: 0 5px; color: #fff; line-height: 21px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6); cursor: pointer;}
+.pic {position: relative; display: block; overflow: hidden;}
+.box_side .box_tt {height: 20px; margin-top: 7px; line-height: 20px;}
+.hotnews .box_side .box_tt {margin-bottom: 15px;}
+.box_side h3 {float: left; margin: 0; font-size: 18px; color: #333;}
+.box_side .bannerbox_btn {top: -5px;}
+.box_side_marginB {margin-bottom: 30px;}
+.txtlist {height: 268px; overflow: hidden;}
+.txtlist li {height: 20px; background-position: -88px 7px; margin-top: 10px; font-size: 14px; line-height: 20px; overflow: hidden;}
+.txtlist a {margin-left: 10px;}
+.imglist2 {>float: left; margin-left: -20px; overflow: hidden; zoom:1;}
+.imglist2 li {float: left; width: 190px; height: 150px; background: #f5f5f5; margin: 0 0 0 20px; font-size: 14px; overflow: hidden;}
+.imglist2 div, .imgtxt div {padding: 0 10px;}
+.imglist2 .pic, .imglist2 img {width: 190px; height: 106px;}
+.imglist2 .pic {margin-bottom: 3px;}
+.imglist2 .title, .imgtxt .title {display: block;}
+.imglist2_150x85 li {width: 150px; height: 130px; margin-top: 15px;}
+.imglist2_150x85 .pic, .imglist2_150x85 img {width: 150px; height: 85px;}
+.imgtxt {width: 320px; height: 150px; background: #f5f5f5; font-size: 14px; overflow: hidden;}
+.imgtxt .pic, .imgtxt img {width: 320px; height: 106px;}
+.imgtxt .pic {position: relative; margin-bottom: 3px;}
+.imgtxt_125x65 {height: 65px; margin-top: 5px;}
+.imgtxt_125x65 div {margin-top: 13px;}
+.imgtxt_125x65 .pic {float: left; margin: 0 10px 0 0;}
+.imgtxt_125x65 .pic, .imgtxt_125x65 img {width: 125px; height: 65px;}
+.imgtxt_marginT {margin-top: 15px;}
