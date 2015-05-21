@@ -51,7 +51,7 @@
 .box_side h3 {float: left; margin: 0; font-size: 18px; color: #333;}
 .box_side .bannerbox_btn {top: -5px;}
 .box_side_marginB {margin-bottom: 30px;}
-.txtlist {height: 268px; overflow: hidden;}
+.txtlist {overflow: hidden;}
 .txtlist li {height: 20px; background-position: -88px 7px; margin-top: 10px; font-size: 14px; line-height: 20px; overflow: hidden;}
 .txtlist a {margin-left: 10px;}
 .imglist2 {>float: left; margin-left: -20px; overflow: hidden; zoom:1;}
