@@ -30,11 +30,12 @@ h1 {position: absolute; left: -9999px;}
 .wrapper_tt {height: 40px; background: url(../img/dot.png) repeat-x 0 center; font-size: 36px; line-height: 40px; text-align: center; color: #333;}
 .wrapper_tt h2 {background: #fff; width: 200px; margin: 0 auto;}
 .header {height: 204px; background: #000 url(../img/bg_header.png) no-repeat center top;}
-.header_con {width: 1160px; height: 150px; background: url(../img/header.png); margin: 0 auto;}
+.header_con {position: relative; width: 1160px; height: 150px; background: url(../img/header.png); margin: 0 auto;}
 .nav {width: 1160px; height: 54px; margin: 0 auto;}
 .nav li {float: left; width: 114px; font-size: 16px;}
 .nav li a {display: block; color: #fff; line-height: 54px; text-align: center;}
 .nav li a:hover, .nav li .on {background: #0dad51;}
+.header_link {position: absolute; right: 0; top: 50px; font-size: 20px; line-height: 28px;}
 /*box*/
 .box {margin-bottom:30px;overflow:hidden;zoom:1;}
 .box_tt {height:26px;line-height:26px;}
