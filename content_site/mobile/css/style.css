@@ -61,6 +61,7 @@ h1 {font-size: 2rem; font-weight: bold;}
 .artbox strong {font-weight: bold;}
 .artbox table {font-size:1.33rem;color:#333;}
 .statement {color: #666; text-align: center;}
+.artcomment {padding: 0 10px;}
 
 .title_h3, .box_tt h3 {margin-top: 20px; padding-top: 10px; font-size: 1.33rem; border-top: solid #379be9 3px;}
 .imgLlist li {height:75px;margin:15px 0 0 0;border-bottom:solid #e7e7e7 1px;overflow:hidden;}
