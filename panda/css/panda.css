@@ -192,6 +192,6 @@ h1 {position: absolute; left: -9999px;}
 
 .timeline_box_vod_2 img {float: left; width: 150px; height: 85px;}
 .timeline_box_vod_2 .pic {float: left; width: 150px; height: 85px; margin-right: 15px;}
-.timeline_box_vod_2 h3 {height: 45px; background: none; padding: 5px 0 0; margin: 0; font-size: 14px;}
+.timeline_box_vod_2 h3 {height: 45px; background: none; padding: 5px 0 0; margin: 0; font-size: 14px; line-height: 24px;}
 .timeline_box_vod_2 .ico {width: 50px; height: 50px; background: url(../img/play_2.png); margin: -25px 0 0 -25px;}
 .timeline_box_2 .timeline_pannel {margin:10px 0 0;}
