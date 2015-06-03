@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* @author ------- weibo.com/shauning
+ * @design ------- chris
+ * @time   ------- 2015-06-02*/
+/*reset*/
+html {overflow-y: scroll}
+html, body {background: #fff; font:20px/1.5 "Helvetica Neue", Helvetica, STHeiTi, sans-serif; color:#666; -webkit-tap-highlight-color:rgba(0,0,0,0);}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:500; }
+ol,ul { list-style:none; }
+table { border-collapse:collapse; border-spacing:0; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%; color: #000; font-weight:500; }
+abbr,acronym { border:0; }
+del{text-decoration:line-through}
+input, select, textarea{font-size:100%; -webkit-appearance:none;}
+textarea{resize:none;}
+q:before,q:after{content:''}
+ins,a{ color: #333; text-decoration:none;}
+
+.header {position: absolute; left: 0; top: 0; width: 100%; z-index: 2;}
+.header a {color: #fff;}
+.nav {float: left; margin-left: 20px;}
+.nav a {position: relative; display: block; padding-left: 40px; line-height: 36px;}
+.nav .ico {position: absolute; left: 0; top: 0; width: 36px; height: 36px; background: url(../img/nav.png); background-size: 36px 36px;}
+.sitebox {float: right; margin-right: 20px;}
+.sitebox a {position: relative; display: block; padding-right: 28px;}
+.sitebox .ico {position: absolute; right: 0; top: 10px; width: 20px; height: 11px; background: url(../img/sitebox.png); background-size: 20px 11px;}
+
+
+.topic {position: relative; height: 300px; background: #333; overflow: hidden;}
+.topic a {color: #fff;}
+.topic span {position: absolute; left: 0; bottom: 0;}
+
+.wrapper {padding: 0 20px;}
+.page_body {height: 100%; background: #ededed;}
+
+.newslist_div {min-height: 52px; padding:15px 0 13px;border-bottom:solid #d5d5d5 1px;}
+.newslist_div .pic {float:right;width:106px;height:60px;margin:2px 0 0 10px;}
+.newslist_div img {width: 106px; height: 60px;}
+.newslist_div h3 { font-size:0.9rem; line-height: 1.3; font-weight:bold;overflow:hidden;}
+.newslist_div p {margin:3px 0 8px;font-size:0.6rem;color:#999;overflow:hidden;}
+.newslist_info_from {float: left;}
+.newslist_comment {float: right;}
+.newslist_div strong {display: block; margin-bottom: 5px; font-size: 0.7rem;}
+.play {float: left; width: 45px; height: 45px; background: url(../img/play.png); background-size: 45px 45px; margin-right: 10px;}
+.type1 {color: #f00;}
+.type2 {color: #f60;}
+.type3 {color: #00c594;}
+.type4 {color: #6baeff;}
+.type5 {color: #cbe3aa;}
+.type6 {color: #1200ff;}
+
+.imglist {overflow:hidden;}
+.imglist li {float:left;overflow:hidden;}
+.imglist_205x113 li {width:31%;margin:10px 5px 0 0;}
+.imglist_205x113 img {width:100%;min-height:55px;}
+
+.topbar {position: relative; height: 60px; background: #fff; font-size: 1rem; color: #222; line-height: 60px; text-align: center; border-bottom: 1px #aaa solid;}
+.back {position: absolute; right: 10px; top: 15px; width: 34px; height: 28px; background: url(../img/back.png); background-size: 34px 28px; text-indent: -9999px;}
+.close {position: absolute; right: 10px; top: 15px; width: 26px; height: 26px; background: url(../img/close.png); background-size: 26px 26px; text-indent: -9999px;}
+.channelbox {overflow: hidden;}
+.channelbox li {float: left; width: 20%; margin:5% 2.5% 0; font-size: 0.8rem; text-align: center;}
+.channelbox a {display: block; background: #fff; line-height: 40px; border: 1px #ccc solid;}
+.channelbox .cur {background: #008aff; color: #fff; border-color: #008aff;}
