@@ -17,8 +17,8 @@ a:hover {color:#0073c6;}
 /*globel*/
 .floatpannel a, .onmask, .icon {background:url(../img/sprite.png) no-repeat 0 0;}
 .wrapper {width:1170px;margin:0 auto;overflow:hidden;zoom:1;}
-.main {float: left; width: 660px;}
-.side {float: right; width: 490px;}
+.main {float: left; width: 830px;}
+.side {float: right; width: 320px;}
 .footer {width:1000px;height:40px;padding-top:20px;margin:40px auto 0;color:#b1b1b1;font-family:"Arial";text-align:center;border-top:solid #f4f4f4 1px;}
 .blue {color:#0073c6;}
 .ico {position:absolute;display:block;width:13px;height:13px;overflow:hidden;}
@@ -92,14 +92,20 @@ h1 {font-size:20px;color:#333;line-height:60px;}
 
 .funbox {height: 48px; background: #fff;}
 .likebox, .share {float: left; display: inline; margin: 10px 0 0 15px;}
-.likebtn {position: relative; float: left; padding-left: 30px; font-size: 14px; line-height: 22px;}
-.likebtn .icon {left: 0; top: 0; width: 22px; height: 22px; background-position: -51px -69px;}
+.likebtn {position: relative; float: left; padding-left: 45px; font-size: 14px; line-height: 33px;}
+.likebtn .icon {left: 0; top: 0; width: 36px; height: 33px; background: url(../img/likebtn.png);}
+.likebtn:hover .icon {background-position: -37px 0;}
+.likebox {margin-top: 8px; font-size: 14px; line-height: 30px;}
+.likebox em {margin-right: 10px; font-size: 18px; color: #ff7200;}
 /*box*/
 .box {margin-bottom:30px;overflow:hidden;zoom:1;}
 .box_tt {height:24px;line-height:24px;}
 .box_tt h2 {float: left; font-size: 20px; color: #333;}
 .box_tt .tabbox a {height: 20px; font-size: 13px;}
 .box_tt .tabbox .cur {border-bottom:solid #379be9 3px;}
+.fresh {float: left; font-size: 14px;}
+.fresh em {margin: 0 5px; color: #ff7200;}
+.fresh a {margin-left: 5px;}
 /*imglist*/
 .mask, .imgLlist p {position:absolute;right:0;bottom:0;padding:0 5px;color:#fff;font-size:12px;line-height:16px;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
 .onmask {position:absolute;left:-9999px;top:0;display:block;width:120px;height:73px;zoom:1;}
@@ -136,5 +142,6 @@ h1 {font-size:20px;color:#333;line-height:60px;}
 /*other*/
 .box_guess {height: 325px;}
 .w1000 .wrapper, .w1000 .globelnav_con {width: 1000px;}
+.w1000 .main {width: 660px;}
 .w1000 .side {position: relative; width: 320px; overflow: hidden;}
 .w1000 .player, .w1000 .error, .w1000 .playerbox {width: 680px;}
