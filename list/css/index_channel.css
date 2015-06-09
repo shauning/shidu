@@ -99,7 +99,7 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 .newslist_div .pic {position:relative;float:left;display:inline;width:190px;height:106px;margin-right:20px;}
 .newslist_div h3 {height:22px;margin:0 0 10px;font-size:18px;line-height:22px;font-family:"Microsoft Yahei";font-weight:bold;overflow:hidden;}
 .newslist_div p {height:40px;color:#767676;overflow:hidden;}
-.newslist_info {height:21px;margin-top:10px;}
+.newslist_info {height:21px;margin-top:10px;overflow: hidden;}
 .newslist_info_from {float:left;}
 .newslist_div_first .newslist_con {border-top:none;}
 .newslist_div_type1 .newslist_con {height:185px;}
