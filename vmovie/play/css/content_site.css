@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- vinha
+ * @time   ------- 2014-10*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+address, cite, em {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1000px;height:100%;background:#fff;font:12px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
+a {color:#333;outline:none;text-decoration:none;}
+a:hover {color:#249ff1;}
+/*globel*/
+.floatpannel a, .floatpannel .floatpannel_share, .txtlist a, .ico {background:url(../img/sprite_site.png) no-repeat 0 0;}
+.wrapper {width:1160px;margin:25px auto 0;zoom:1;}
+.main {float:left;width:825px;}
+.side {float:right;width:320px;}
+.ff_yh {font-family:"Microsoft Yahei";}
+.wrapper:after {content:"";display:table;clear:both}
+.footer {width:1000px;height:40px;padding-top:20px;margin:40px auto 0;color:#b1b1b1;font-family:"Arial";text-align:center;border-top:solid #f4f4f4 1px;}
+.footer a {color:#b1b1b1;}
+.bannerbox {position:relative;width:1000px;margin:0 auto;overflow:hidden;zoom:1;}
+.bannerbox div {margin-top:4px;}
+.bannerbox_side {width:275px;}
+.bannerbox .bannerbox_inner {height:60px;margin-top:20px;}
+.bannerbox_side .bannerbox_inner {height:275px;}
+.bannerbox a {position:absolute;left:0;top:0;display:block;}
+.bannerbox_300x65 {width:300px;}
+.bannerbox_300x65 div {margin-top:24px;}
+.bannerbox_300x160 {width:300px;}
+.bannerbox .bannerbox_L {float:left;height:60px;margin:4px 0 0;}
+.bannerbox .bannerbox_L div, .bannerbox .bannerbox_R div {margin-top: 0;}
+.bannerbox .bannerbox_R {float:right;height:60px;margin:4px 0 0;}
+.contentbanner {float: left; _display: inline; width: 300px; height: 200px; margin-right: 20px; text-indent: 0;}
+/*globelnav*/
+.globelnav_list .cur, .globelnav_logo a, .channelnav_list .cur {background:url(http://misc.kankancity.com/news/img/globelnav_site.png) no-repeat 0 0;}
+.globelnav {height:48px;background:#0073c6;}
+.globelnav_con {position:relative;width:1160px;margin:0 auto;z-index:9999;}
+.globelnav_logo {float:left;width:125px;height:48px;overflow:hidden;}
+.globelnav_logo a {display:block;height:48px;background-position:0 -59px;text-indent:-9999px;}
+.site_hb .globelnav_logo a {background-position:0 -108px;}
+.site_hn .globelnav_logo a {background-position:0 -157px;}
+.site_js .globelnav_logo a {background-position:0 -206px;}
+.site_sc .globelnav_logo a {background-position:0 -255px;}
+.site_zj .globelnav_logo a {background-position:0 -304px;}
+.globelnav_list {float:left;display:inline;margin-left:15px;}
+.globelnav_list li {float:left;}
+.globelnav_list a {display:block;height:48px;padding:0 10px;font-size:16px;color:#fff;line-height:48px;overflow:hidden;}
+.globelnav_list a:hover, .globelnav_pannel .cur {background-color:#0083db;color:#fff;text-decoration:none;}
+.globelnav_list .cur, .globelnav_list .cur:hover {background-position:-283px 0;color:#fff;}
+.globelnav_pannel {float:right;width:100px;margin:0;}
+.globelnav_pannel a {float:left;font-size:15px;}
+.globelnav_pannel .cur {background:#0083db;}
+.globelnav_login {position:absolute;right:0;top:48px;width:242px;background:#fff;padding:15px 0 0 30px;border:solid #cdcdcd 1px;border-bottom:solid #379be9 3px;}
+.globelnav_login legend {font-size:15px;color:#333;}
+.globelnav_login .text {width:190px;height:16px;padding:6px 8px;margin-top:10px;line-height:16px;border:solid #ddd 1px;}
+.globelnav_login button {width:208px;height:33px;background:#379be9;margin-top:10px;font-size:15px;color:#fff;border:none;}
+.globelnav_login .checkbox {float:left;cursor:pointer;}
+.globelnav_login p {margin-top:10px;color:#a9a9a9;}
+.globelnav_login p a {margin-right:20px;color:#7aa8d9;}
+
+.ico {position:absolute;display:block;width:23px;height:23px;text-indent:-9999px;overflow:hidden;}
+.ico_comment {left:0;top:0;}
+
+.txtlist li {height:32px;font-size:13px;line-height:32px;overflow:hidden;}
+.txtlist a {padding-left:15px;background-position:-30px -4px;}
+
+h1 {font-size:36px;color:#333;line-height:40px;}
+.share, .share span {float:left;}
+.artpannel {height:42px;margin-top:15px;}
+.artpannel_comment {position:relative;float:right;display:block;padding-left:28px;font-size:18px;color:#cc1b1b;font-family:"Microsoft Yahei";line-height:24px;}
+.artbox {min-height:200px;margin:25px 0 0;}
+.artinfo {float:left;font-size:13px;font-family:"Microsoft Yahei";}
+.artbox_img {margin-bottom:30px;text-align:center;}
+.artbox_img img {display:block;max-width:660px;_width:660px;margin:0 auto;}
+.artbox_img span {display:block;margin-top:10px;}
+.artbox p, .artbox .div_p {margin-bottom:25px;font-size:16px;color:#333;font-family:"Microsoft Yahei";line-height:28px;text-indent:2em;}
+.artbox p a, .artbox .div_p a {color: #249ff1; text-decoration: underline;}
+.artbox p em, .artbox .div_p em {margin: 0 5px; font-style: italic;}
+.artbox ul, .artbox ol {margin-bottom: 25px; font-size:16px;color:#333;line-height:28px;font-family:"Microsoft Yahei";}
+.artbox table {font-size:16px;color:#333;font-family:"Microsoft Yahei";}
+.artcomment {margin-top:30px;}
+.artcomment .box_tt span {margin-left: 10px; font-size: 16px;}
+.artcomment .box_tt span em {color: #249ff1;}
+.artpannel_top {border-bottom:solid #dadada 1px;}
+.artpannel_top .share {float:right;}
+.statement {margin-bottom:10px;font-size:14px;font-family:"Microsoft Yahei";text-align:center;}
+.statement_qcode {position:relative;height: 180px; margin-top: 20px;}
+.statement_qcode_link {position: absolute; right: 0; top: 0; display: block; width: 175px; height: 180px; text-indent: -9999px;}
+.artbox_player {margin-bottom:30px;}
+.artbox_playerbox {position:relative;width:825px;height:540px;background:#000;}
+.artbox_playertt {display:block;height:40px;background:#f3f3f3;padding:0 10px;font-size:15px;color:#333;font-family:"Microsoft Yahei";line-height:40px;overflow:hidden;}
+/*error*/
+.error {position:absolute;left:0;top:0;width:825px;height:520px;background:#000 url(http://misc.kankancity.com/video/img/error.png) no-repeat center 200px;color:#fff;z-index:999;text-align:center;}
+.error p {padding:300px 0 20px;font-size:14px;color: #666;line-height:24px;}
+.errortxt {position:absolute;left:0;top:0;width:100%;height:100%;background:#000;padding-top:200px;color:#fff;z-index:999;text-align:center;}
+.errortxt p {padding-bottom:20px;font-size:16px;font-family:"Microsoft YaHei";line-height:24px;}
+.errortxt a, .error a {color:#249FF1;text-decoration:underline;}
+.errortxt div {padding:20px 0 0 178px;text-align:left;}
+
+.hotpic {position:relative;height:220px;text-align:center;}
+.hotpic span {position:absolute;left:0;bottom:0;display:block;width:300px;height:30px;font-size:14px;color:#fff;line-height:30px;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
+.hotpic img {width:300px;height:220px;}
+
+#ckepop .jtico_tsina {background:#000;}
+/*floatpannel*/
+.floatpannel {position:fixed;_position:absolute;left:50%;bottom:50px;margin-left:510px;z-index:999;}
+.floatpannel a, .floatpannel .floatpannel_share {display:block;width:48px;height:48px;margin-top:2px;text-indent:-9999px;overflow:hidden;cursor: pointer;}
+.floatpannel .floatpannel_top {background-position:0 -282px;}
+.floatpannel .floatpannel_top:hover {background-position:-49px -282px;}
+.floatpannel .floatpannel_share {background-position:0 -132px;}
+.floatpannel .floatpannel_share:hover {background-position:-49px -132px;}
+.floatpannel .floatpannel_share .bds_more {display: block; width: 48px; height: 48px; background: none !important; margin: 0;}
+.floatpannel .floatpannel_code {background-position:0 -182px;}
+.floatpannel .floatpannel_code:hover {background-position:-49px -182px;}
+.floatpannel .floatpannel_comment {background-position:0 -232px; color: #fff; text-indent: 0; text-align: center; line-height: 75px;}
+.floatpannel .floatpannel_comment:hover {background-position:-49px -232px;}
+.floatpannel_tip {position: relative;}
+.floatpannel_tip_box {position: absolute; right: 48px; top: -50px;}
+.floatpannel_share_box {position: absolute; right: 48px; top: 0; width: 100px; height: 100px; background: #333;}
+
+.comment_input {margin-top: 20px;}
+.t_box {overflow: hidden; zoom:1;}
+.t_box textarea {float: left; width: 538px; height: 36px; border: 1px #dfdfdf solid;}
+.t_box button {float: right; width: 105px; height: 42px; background: #3697e4; font-size: 16px; color: #fff; border: none;}
+.t_funbox {margin-top: 10px; font-size: 14px; color: #ccc;}
+.t_funbox a {margin-right: 10px;}
+.t_funbox .user {color: #249ff1;}
+.commentlist li {position: relative; padding:0 0 20px 50px; margin-top: 20px; border-bottom: 1px #d8d8d8 solid;}
+.commentlist .pic {position: absolute; left: 0; top: 0;}
+.commentlist .user a {margin-right: 10px; color: #249ff1;}
+.commentlist .user .quote {position: relative; padding-left: 18px;}
+.commentlist .txt {margin: 8px 0 5px; font-size: 15px; color: #333; line-height: 24px;}
+.commentlist_funbox a {position: relative; padding-left:18px; margin-right: 10px}
+.commentlist_funbox .ico, .commentlist .user .quote .ico {left: 0; top: 2px; width: 15px; height: 12px;}
+.ico_fav {background-position: 0 -119px;}
+.ico_reply {background-position: -16px -119px;}
+.quote .ico_reply {background-position: -32px -119px;}
+.commentlist li li {padding-bottom: 0; padding-top: 20px; border-bottom: none; border-top: 1px #c7c7c7 dotted;}
+.commentlist li li .pic {top: 20px;}
+.morebtn {position: relative; display: block; height: 40px; background: #ececec; margin-top: 20px; font-size: 14px; color: #999; line-height: 40px; text-align: center;}
+
+.box {overflow: hidden; zoom:1;}
+.box_tt {height: 40px; border-bottom: 4px #e4e4e4 solid;}
+.box_tt h2, .box_tt h3 {float: left; font-size: 20px; color: #333; font-weight: bold; line-height: 40px;}
+.box_tt_tab h3 {margin-right:20px; color: #999;}
+.box_tt_tab .cur {color: #333; border-bottom: 4px #1887d0 solid;}
+.more {float: right; font-size: 14px; line-height: 40px;}
+.box_side {background: #f5f5f5; padding: 0 15px 15px; margin-top: 25px;}
+.box_side .box_tt {margin-top: 15px;}
+
+.hottag ul {_float: left; margin-left: -6px; overflow: hidden; zoom:1;}
+.hottag li {float:left;display:inline;margin:12px 0 0 6px;}
+.hottag a {display:block; width: 65px; background:#fff;font-size:14px;line-height:40px; text-align: center; border: 1px #e4e4e4 solid;}
+
+.imglink {margin-top: 20px; font-size: 14px;}
+.imglink img {display: block; width: 290px; height: 150px; margin-bottom: 5px;}
+
+.qcode {font-size: 14px; color: #333; text-align: center;}
+.qcode p {margin: 10px 0; text-align: left;}

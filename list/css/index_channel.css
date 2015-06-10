@@ -117,7 +117,7 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 .btn_bl {float:right;width:94px;height:33px;background:#f08405;font-size:16px;color:#fff;font-family:"Microsoft Yahei";line-height:33px;text-align:center;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
 .btn_bl:hover {background:#fb8801;color:#fff;}
 /*box*/
-.box {margin-bottom:20px;overflow:hidden;zoom;1;}
+.box {margin-bottom:20px;overflow:hidden;zoom:1;}
 .box_tt {overflow:hidden;}
 .box_tt h3 {float:left;display:inline;margin-left:10px;font-size:16px;color:#333;font-family:"Microsoft Yahei";}
 .act {float:right;}
