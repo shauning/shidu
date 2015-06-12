@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- vinha
+ * @time   ------- 2014-10*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+address, cite, em {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1000px;height:100%;background:#fff;font:12px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
+a {color:#333;outline:none;text-decoration:none;}
+a:hover {color:#249ff1;}
+/*globel*/
+.floatpannel a, .floatpannel .floatpannel_share, .txtlist a, .ico {background:url(../img/sprite_site.png) no-repeat 0 0;}
+.wrapper {width:1160px;margin:25px auto 0;zoom:1;}
+.main {float:left;width:825px;}
+.side {float:right;width:320px;}
+.ff_yh {font-family:"Microsoft Yahei";}
+.wrapper:after {content:"";display:table;clear:both}
+.footer {width:1000px;height:40px;padding-top:20px;margin:40px auto 0;color:#b1b1b1;font-family:"Arial";text-align:center;border-top:solid #f4f4f4 1px;}
+.footer a {color:#b1b1b1;}
+.bannerbox {position:relative;width:1000px;margin:0 auto;overflow:hidden;zoom:1;}
+.bannerbox div {margin-top:4px;}
+.bannerbox_side {width:275px;}
+.bannerbox .bannerbox_inner {height:60px;margin-top:20px;}
+.bannerbox_side .bannerbox_inner {height:275px;}
+.bannerbox a {position:absolute;left:0;top:0;display:block;}
+.bannerbox_300x65 {width:300px;}
+.bannerbox_300x65 div {margin-top:24px;}
+.bannerbox_300x160 {width:300px;}
+.bannerbox .bannerbox_L {float:left;height:60px;margin:4px 0 0;}
+.bannerbox .bannerbox_L div, .bannerbox .bannerbox_R div {margin-top: 0;}
+.bannerbox .bannerbox_R {float:right;height:60px;margin:4px 0 0;}
+.contentbanner {float: left; _display: inline; width: 300px; height: 200px; margin-right: 20px; text-indent: 0;}
+/*globelnav*/
+.globelnav_list .cur, .globelnav_logo a, .channelnav_list .cur {background:url(http://misc.kankancity.com/news/img/globelnav_site.png) no-repeat 0 0;}
+.globelnav {height:48px;background:#0073c6;}
+.globelnav_con {position:relative;width:1160px;margin:0 auto;z-index:9999;}
+.globelnav_logo {float:left;width:125px;height:48px;overflow:hidden;}
+.globelnav_logo a {display:block;height:48px;background-position:0 -59px;text-indent:-9999px;}
+.site_hb .globelnav_logo a {background-position:0 -108px;}
+.site_hn .globelnav_logo a {background-position:0 -157px;}
+.site_js .globelnav_logo a {background-position:0 -206px;}
+.site_sc .globelnav_logo a {background-position:0 -255px;}
+.site_zj .globelnav_logo a {background-position:0 -304px;}
+.globelnav_list {float:left;display:inline;margin-left:15px;}
+.globelnav_list li {float:left;}
+.globelnav_list a {display:block;height:48px;padding:0 10px;font-size:16px;color:#fff;line-height:48px;overflow:hidden;}
+.globelnav_list a:hover, .globelnav_pannel .cur {background-color:#0083db;color:#fff;text-decoration:none;}
+.globelnav_list .cur, .globelnav_list .cur:hover {background-position:-283px 0;color:#fff;}
+.globelnav_pannel {float:right;width:100px;margin:0;}
+.globelnav_pannel a {float:left;font-size:15px;}
+.globelnav_pannel .cur {background:#0083db;}
+.globelnav_login {position:absolute;right:0;top:48px;width:242px;background:#fff;padding:15px 0 0 30px;border:solid #cdcdcd 1px;border-bottom:solid #379be9 3px;}
+.globelnav_login legend {font-size:15px;color:#333;}
+.globelnav_login .text {width:190px;height:16px;padding:6px 8px;margin-top:10px;line-height:16px;border:solid #ddd 1px;}
+.globelnav_login button {width:208px;height:33px;background:#379be9;margin-top:10px;font-size:15px;color:#fff;border:none;}
+.globelnav_login .checkbox {float:left;cursor:pointer;}
+.globelnav_login p {margin-top:10px;color:#a9a9a9;}
+.globelnav_login p a {margin-right:20px;color:#7aa8d9;}
+
+.ico {position:absolute;display:block;width:23px;height:23px;text-indent:-9999px;overflow:hidden;}
+.ico_comment {left:0;top:0;}
+
+.navgation {line-height: 60px; font-size: 14px;}
+.dybox {height: 235px; background: #f2f2f2; padding: 0 15px; margin-bottom: 20px;}
+.dybox_info {float: left; width: 260px; margin-top: 50px;}
+.dybox_info .pic {float: left; display: block; width: 108px; height: 108px; margin-right: 10px; }
+.dybox_info .pic img {border-radius: 50%;}
+.dybox_info h2 {margin-bottom: 10px; font-size: 18px; font-weight: bold;}
+.dybox_info p {font-size: 14px;}
+.dybox_movie_tt {height: 42px;}
+.dybox_movie_tt h3 {float: left; margin-left: 24px; font-size: 16px; color: #333; line-height: 42px;}
+.dybox_movie_tt a {float: right; line-height: 42px;}
+
+.dybox_movie {float: left;}
+.mov_txt {position: absolute; left: 0; bottom:0; width: 100%; height: 36px; font-size: 14px; color: #fff; line-height: 36px; text-indent: 10px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6); }
+.movielist li {float: left; display: inline; width: 262px; height: 175px; margin: 0 0 0 24px;}
+.movielist a {position: relative; display: block; height: 175px;}
