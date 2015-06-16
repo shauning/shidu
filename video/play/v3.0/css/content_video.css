@@ -90,20 +90,21 @@ h1 {font-size:20px;color:#333;line-height:60px;}
 .tabbox_playerbar a {margin:0 20px 0 0;font-size:16px;color:#999;font-family:"Microsoft Yahei";}
 .tabbox_playerbar .on {color:#999}
 
-.funbox {height: 48px; background: #fff;}
-.likebox, .share {float: left; display: inline; margin: 10px 0 0 15px;}
+.funbox {position: relative; height: 48px; background: #fff;}
+.likebox {float: left; display: inline; margin: 10px 0 0 15px;}
 .likebtn {position: relative; float: left; padding-left: 45px; font-size: 14px; line-height: 33px;}
 .likebtn .icon {left: 0; top: 0; width: 36px; height: 33px; background: url(../img/likebtn.png);}
 .likebtn:hover .icon {background-position: -37px 0;}
 .likebox {margin-top: 8px; font-size: 14px; line-height: 30px;}
 .likebox em {margin-right: 10px; font-size: 18px; color: #ff7200;}
+.share {position: absolute; left: 230px; top: 10px;}
 /*box*/
 .box {margin-bottom:30px;overflow:hidden;zoom:1;}
 .box_tt {height:24px;line-height:24px;}
 .box_tt h2 {float: left; font-size: 20px; color: #333;}
 .box_tt .tabbox a {height: 20px; font-size: 13px;}
 .box_tt .tabbox .cur {border-bottom:solid #379be9 3px;}
-.fresh {float: left; font-size: 14px;}
+.fresh {float: left; margin-left: 15px; font-size: 14px;}
 .fresh em {margin: 0 5px; color: #ff7200;}
 .fresh a {margin-left: 5px;}
 /*imglist*/
@@ -132,6 +133,7 @@ h1 {font-size:20px;color:#333;line-height:60px;}
 .imgLlist li {position: relative;}
 .imgLlist p {bottom: 43px;}
 .imgLlist .pic, .imgLlist img {width:150px;height:85px;}
+.main .imgLlist {position: relative; height: 296px; overflow: hidden;}
 /*error*/
 .error {position:absolute;left:0;top:0;width:850px;height:520px;background:#000 url(http://img.kankan.xunlei.com/img/kankan/mp4/error.png) no-repeat center 200px;color:#fff;z-index:999;text-align:center;}
 .error p {padding:300px 0 20px;font-size:14px;line-height:24px;}
