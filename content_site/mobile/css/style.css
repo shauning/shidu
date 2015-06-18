@@ -53,7 +53,7 @@ h1 {font-size: 2rem; font-weight: bold;}
 .wrapper {padding:10px;}
 .artinfo {margin: 1em 0 3em}
 .artbox_img {text-align: center;}
-.artbox_img img {width:100%;height:100%;}
+.artbox_img img {width:100%;height:auto;}
 .artbox p, .artbox .div_p {margin-bottom: 22px; font-size: 1.33rem; color: #333; text-indent: 2em;}
 .artbox p a, .artbox .div_p a {color: #249ff1; text-decoration: underline;}
 .artbox p em, .artbox .div_p em {margin: 0 5px; font-style: italic;}
