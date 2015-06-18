@@ -88,6 +88,7 @@ a:hover {color:#309de7;}
 .mov_txt {position: absolute; left: 0; bottom:0; width: 100%; height: 36px; font-size: 14px; color: #fff; line-height: 36px; text-indent: 10px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6); }
 .movielist li {float: left; display: inline; width: 235px; height: 160px; margin: 10px 0 13px 24px;}
 .movielist a {position: relative; display: block; height: 160px;}
+.movielist img {width: 235px; height: 160px;}
 
 .box {overflow: hidden; zoom:1;}
 .box_tt {height: 40px; border-bottom: 4px #e4e4e4 solid;}
@@ -104,9 +105,9 @@ a:hover {color:#309de7;}
 .dy_title {position:absolute; top:-28px; left: 24px; line-height: 28px;}
 
 /*newslist*/
-.newslist_con {height:200px;padding:20px 15px 20px 0;border-bottom:dotted #e8e8e8 1px;}
+.newslist_con {padding:20px 15px 20px 0;border-bottom:dotted #e8e8e8 1px;}
 .newslist_con:hover {background:#f8f8f8;}
-.newslist_div .pic {position:relative;float:left;display:inline;width:300px;height:200px;margin-right:20px;}
+.newslist_div .pic {position:relative;float:left;display:inline;width:190px;height:106px;margin-right:20px;}
 .newslist_div .pic span {position: absolute; right: 10px; bottom: 10px; font-size: 14px; color: #fff;}
 .newslist_div h3 {height:40px;margin:0 0 10px;font-size:22px;line-height:40px;overflow:hidden;}
 .newslist_div p {font-size: 14px; color:#767676;overflow:hidden;}
@@ -137,3 +138,23 @@ a:hover {color:#309de7;}
 .dymovie .pic {position: relative; display: block; width: 272px; height: 180px; margin-bottom: 5px;}
 .dymovie span {position: absolute; right: 10px; bottom: 10px; color: #fff;}
 .dymovie .title {display: block; height: 18px; font-size: 14px; line-height: 18px; overflow: hidden;}
+
+
+/*recommend drop*/
+.recom_drop {position: relative; float: left; display: block;  z-index: 10;}
+.recom_drop_tigger {right: 8px; top: 22px; width: 80px; height: 6px; background-position: -38px -47px;}
+.recom_drop_con {position: absolute; left: 0; top: 29px; display: none; width: 150px; background: #fff; border: 1px #ccc solid;}
+.recom_drop_con a {display: block; line-height: 24px; text-align: center;}
+
+/*floatpannel*/
+.floatpannel a, .ico, .txtlist li {background: url(../../../station/v3/channel/img/sprite_channel.png) no-repeat 0 0;}
+.floatpannel {position:fixed;_position:absolute;right:10px;bottom:46px;z-index:999;}
+.floatpannel a {display:block;width:50px;height:50px;margin-top:10px;text-indent:-9999px;overflow:hidden;}
+.floatpannel .floatpannel_top {background-position:0 -104px;}
+.floatpannel .floatpannel_code {background-position:0 -185px;}
+.floatpannel .floatpannel_code:hover {background-position:-50px -185px;}
+.floatpannel_tip {position: relative;}
+.floatpannel_tip_box {position: absolute; right: 48px; top: -56px;}
+
+
+
