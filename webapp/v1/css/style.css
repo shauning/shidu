@@ -19,7 +19,7 @@ textarea{resize:none;}
 q:before,q:after{content:''}
 ins,a{ color: #333; text-decoration:none;}
 
-.header {position: absolute; left: 0; top: 0; width: 100%; z-index: 2;}
+.header {position: absolute; left: 0; top: 10px; width: 100%; z-index: 2;}
 .header a {color: #fff;}
 .nav {float: left; margin-left: 20px;}
 .nav a {position: relative; display: block; padding-left: 40px; line-height: 36px;}
@@ -31,7 +31,7 @@ ins,a{ color: #333; text-decoration:none;}
 
 .topic {position: relative; height: 300px; background: #333; overflow: hidden;}
 .topic a {color: #fff;}
-.topic span {position: absolute; left: 0; bottom: 0;}
+.topic span {position: absolute; left: 0; bottom: 0; padding: 0 10px;}
 
 .wrapper {padding: 0 20px;}
 .page_body {height: 100%; background: #ededed;}

@@ -250,3 +250,5 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 .fullscreen .ico_prev, .fullscreen .ico_next {top: 50%; display: block; margin-top: -40px;}
 .fullscreen_close {position: absolute; right: 10px; top: 10px; width: 38px; height: 38px; background: url(../img/fullscreen_close.png); text-indent: -9999px;}
 .fullscreen_close:hover {background-position: 0 -39px;}
+
+#hm_t_56266 {height: 315px; overflow: hidden;}
