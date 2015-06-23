@@ -28,16 +28,16 @@ a:hover {color:#249ff1;text-decoration:underline;}
 .bannerbox_side {width:275px;height:275px;}
 .ico {position:absolute;display:block;width:17px;height:17px;text-indent:-9999px;overflow:hidden;}
 /*globelnav*/
-.globelnav_list .cur, .globelnav_logo a, .channelnav_list .cur {background:url(../img/globelnav_site.png) no-repeat 0 0;}
+.globelnav_list .cur, .channelnav_list .cur {background:url(../img/globelnav_site.png) no-repeat 0 0;}
 .globelnav {height:48px;background:#0073c6;}
 .globelnav_con {position:relative;width:1000px;margin:0 auto;z-index:9999;}
 .globelnav_logo {float:left;width:125px;height:48px;overflow:hidden;}
-.globelnav_logo a {display:block;height:48px;background-position:0 -59px;text-indent:-9999px;}
-.site_cq .globelnav_logo a {background-position:0 -59px;}
+.globelnav_logo a {display:block;height:48px;text-indent:-9999px;}
+/*.site_cq .globelnav_logo a {background-position:0 -59px;}
 .site_hb .globelnav_logo a {background-position:0 -108px;}
 .site_hn .globelnav_logo a {background-position:0 -157px;}
 .site_js .globelnav_logo a {background-position:0 -206px;}
-.site_sc .globelnav_logo a {background-position:0 -255px;}
+.site_sc .globelnav_logo a {background-position:0 -255px;}*/
 .globelnav_list {float:left;display:inline;margin-left:15px;}
 .globelnav_list li {float:left;}
 .globelnav_list a {display:block;height:48px;padding:0 10px;font-size:16px;color:#acd7f6;line-height:48px;overflow:hidden;}
