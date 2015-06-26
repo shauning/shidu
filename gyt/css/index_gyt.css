@@ -32,7 +32,7 @@ a:hover {color:#249ff1;text-decoration:underline;}
 .globelnav {height:48px;background:#0073c6;}
 .globelnav_con {position:relative;width:1000px;margin:0 auto;z-index:9999;}
 .globelnav_logo {float:left;width:125px;height:48px;overflow:hidden;}
-.globelnav_logo a {display:block;height:48px;text-indent:-9999px;}
+.globelnav_logo a {display:block;height:48px;}
 /*.site_cq .globelnav_logo a {background-position:0 -59px;}
 .site_hb .globelnav_logo a {background-position:0 -108px;}
 .site_hn .globelnav_logo a {background-position:0 -157px;}
