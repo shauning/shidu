@@ -108,7 +108,7 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 
 #ckepop .jtico_tsina {background:#000;}
 /*floatpannel*/
-.floatpannel {position:fixed;_position:absolute;left:50%;bottom:50px;margin-left:510px;z-index:999;}
+.floatpannel {position:fixed;_position:absolute;left:50%;bottom:50px;margin-left:590px;z-index:999;}
 .floatpannel a, .floatpannel .floatpannel_share {display:block;width:48px;height:48px;margin-top:2px;text-indent:-9999px;overflow:hidden;cursor: pointer;}
 .floatpannel .floatpannel_top {background-position:0 -282px;}
 .floatpannel .floatpannel_top:hover {background-position:-49px -282px;}
@@ -167,7 +167,7 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 .imgLlist {_float:left;margin-left:-20px;overflow:hidden;zoom:1;}
 .imgLlist li {position:relative;float:left;width:320px;height:80px;margin:15px 0 0 20px;border-bottom:solid #e7e7e7 1px;overflow:hidden;}
 .imgLlist .pic {position: relative; float:left;display:block;width:120px;height:80px;margin-right:10px;}
-.imgLlist .pic span {position: absolute; right: 10px; bottom: 5px; color: #fff;}
+.imgLlist .pic span {position: absolute; right: 0; bottom: 0; padding: 0 5px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6);  color: #fff;}
 .imgLlist img {width:120px;height:80px;}
 .imgLlist .title {height:40px;margin:8px 0 3px;font-size:15px;overflow:hidden;}
 .imgLlist p {height:20px;overflow:hidden;}
