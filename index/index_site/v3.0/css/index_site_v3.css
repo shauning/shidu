@@ -55,7 +55,7 @@ a:hover {color:#309de7;}
 .headersearch button {float: left; width:70px;height:28px;background:#eaeaea;font-size:15px;color:#333;line-height:26px;font-family:"Microsoft Yahei";border:solid #dbdbdb 1px;border-left:none;}
 .areabox_city {position: relative; float:left; display: inline; z-index: 9;}
 .areabox_city_tt {height: 28px; background-position: 60px -65px; padding-right: 18px; color:#309de7; line-height: 20px; cursor: pointer;}
-.areabox_city_drop {position: absolute; left: 0; top: 27px; display: none; width: 180px; background: #fff; padding: 5px 0; border: 1px #ddd solid;}
+.areabox_city_drop {position: absolute; left: 0; top: 27px; display: none; width: 240px; background: #fff; padding: 5px 0; border: 1px #ddd solid;}
 .areabox_city_drop a {float: left; display: block; width: 60px; font-size: 14px; line-height: 30px; text-align: center;}
 .areabox_city_drop .arrow {position:absolute;left:54px;top:-9px;width:20px;height:14px;background-position:-21px -47px;}
 .sitenav {background-position: 0 -281px; background-repeat: repeat-x; margin:0 auto;}
@@ -96,7 +96,7 @@ a:hover {color:#309de7;}
 .footer a {color: #ccc;}
 .footer span {color: #999;}
 .footer p {font-family:"Arial";}
-.footer_tel {width: 950px; margin: 30px auto 0; color: #ccc; text-align: center;}
+.footer_tel {width: 950px; margin: 30px auto 0; color: #999; text-align: center;}
 /*floatpannel*/
 .floatpannel {position:fixed;_position:absolute;right:10px;bottom:46px;z-index:999;}
 .floatpannel a {display:block;width:48px;height:48px;margin-top:10px;text-indent:-9999px;overflow:hidden;}

@@ -76,7 +76,7 @@ a:hover {color:#0073c6;}
 .headersearch button {float: left; width:70px;height:28px;background:#eaeaea;font-size:15px;color:#333;line-height:26px;font-family:"Microsoft Yahei";border:solid #dbdbdb 1px;border-left:none;}
 .areabox_city {position: relative; float:left; display: inline; z-index: 9;}
 .areabox_city_tt {height: 28px; background-position: 60px -65px; padding-right: 18px; color:#309de7; line-height: 20px; cursor: pointer;}
-.areabox_city_drop {position: absolute; left: 0; top: 27px; display: none; width: 180px; background: #fff; padding: 5px 0; border: 1px #ddd solid;}
+.areabox_city_drop {position: absolute; left: 0; top: 27px; display: none; width: 240px; background: #fff; padding: 5px 0; border: 1px #ddd solid;}
 .areabox_city_drop a {float: left; display: block; width: 60px; font-size: 14px; line-height: 30px; text-align: center;}
 .areabox_city_drop .arrow {position:absolute;left:54px;top:-9px;width:20px;height:14px;background-position:-21px -47px;}
 .sitenav {background-position: 0 -281px; background-repeat: repeat-x; margin:0 auto;}
@@ -186,3 +186,4 @@ a:hover {color:#0073c6;}
 .scroll_contain {position: relative; width: 660px; height: 175px; overflow: hidden;}
 .scroll_contain .houselist {width: 3000px; margin-left: 0;}
 .scroll_contain .houselist li {margin: 20px 20px 0 0;}
+.site_zj .header_pannel img {margin-top:-3px}

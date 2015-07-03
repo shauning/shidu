@@ -53,7 +53,7 @@ a:hover {color:#309de7;}
 .headersearch button {float: left; width:70px;height:28px;background:#eaeaea;font-size:15px;color:#333;line-height:26px;font-family:"Microsoft Yahei";border:solid #dbdbdb 1px;border-left:none;}
 .areabox_city {position: relative; float:left; display: inline; z-index: 9;}
 .areabox_city_tt {height: 28px; background-position: 60px -65px; padding-right: 18px; color:#309de7; line-height: 20px; cursor: pointer;}
-.areabox_city_drop {position: absolute; left: 0; top: 27px; display: none; width: 180px; background: #fff; padding: 5px 0; border: 1px #ddd solid;}
+.areabox_city_drop {position: absolute; left: 0; top: 27px; display: none; width: 240px; background: #fff; padding: 5px 0; border: 1px #ddd solid;}
 .areabox_city_drop a {float: left; display: block; width: 60px; font-size: 14px; line-height: 30px; text-align: center;}
 .areabox_city_drop .arrow {position:absolute;left:54px;top:-9px;width:20px;height:14px;background-position:-21px -47px;}
 .sitenav {background-position: 0 -281px; background-repeat: repeat-x; margin:0 auto;}
@@ -218,3 +218,5 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 
 .tagname {height:60px;background:#f6f6f6;padding:0 20px;line-height:60px;border-top:solid #1c8dd5 2px;overflow:hidden;margin-top:25px}
 .tagname h2 {font-size:24px;color:#333;font-family:"Microsoft Yahei";}
+
+.site_zj .header_pannel img {margin-top:-3px}
