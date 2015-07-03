@@ -57,7 +57,7 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 .headersearch {float:right; margin: 6px 0 0; >margin: -34px 0 0;}
 .headersearch input {float:left;width:215px;height:16px;padding:5px 10px;font-size:14px;line-height:16px;font-family:"Microsoft Yahei";border:solid #e8e8e8 1px;}
 .headersearch button {float: left; width:70px;height:28px;background:#eaeaea;font-size:15px;color:#333;line-height:26px;font-family:"Microsoft Yahei";border:solid #dbdbdb 1px;border-left:none;}
-.areabox_city {position: relative; float:left; display: inline; z-index: 9;}
+.areabox_city {position: relative; float:left; display: inline; z-index: 10000;}
 .areabox_city_tt {height: 28px; background-position: 60px -65px; padding-right: 18px; color:#309de7; line-height: 20px; cursor: pointer;}
 .areabox_city_drop {position: absolute; left: 0; top: 27px; display: none; width: 180px; background: #fff; padding: 5px 0; border: 1px #ddd solid;}
 .areabox_city_drop a {float: left; display: block; width: 60px; font-size: 14px; line-height: 30px; text-align: center;}
@@ -209,3 +209,5 @@ h3 .ico {position:static;float:left;margin-right:10px;}
 .txtlist_nor {margin-top:15px;}
 .txtlist_nor li {height:28px;font-size:14px;line-height:28px;}
 .txtlist_158 {float:left;width:158px;}
+
+.site_zj .header_pannel img {margin-top:-3px}
