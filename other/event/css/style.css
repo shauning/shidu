@@ -61,7 +61,7 @@ a:hover {color:#249ff1;}
 .timeline_box_vod img {display: block; width: 538px; height: 240px;}
 .timeline_box_vod .pic {position: relative; display: block; height: 240px;}
 .timeline_box_vod .ico {position: absolute; left: 50%; top: 50%; width: 120px; height: 120px; background: url(../img/play_1.png); margin: -60px 0 0 -60px;}
-.timeline_box_vod h3 {height: 30px; padding: 0 20px; margin: 10px 0; font-size: 24px; line-height: 30px; overflow: hidden;}
+.timeline_box_vod h3 {padding: 0 20px; margin: 10px 0; font-size: 24px; line-height: 30px; overflow: hidden;}
 .timeline_pannel {height: 20px; padding: 0 20px; margin: 15px 0 20px; font-size: 14px; line-height: 20px;}
 .timeline_pannel span {float: right;}
 .fav {position: relative; float: left; padding-left: 27px;}
@@ -69,18 +69,19 @@ a:hover {color:#249ff1;}
 .fav em {position: absolute; left: 30px; top: 25px; font-size: 24px; color: #f00;}
 .fav_mark .ico {background-position: -23px 0;}
 .timeline_box_img {margin: 23px 0 0 23px;}
-.timeline_box_img h3 {height: 37px; margin: 20px 0; font-size: 24px; line-height: 37px;}
+.timeline_box_img h3 {margin: 20px 0; font-size: 24px; line-height: 37px;}
 .timeline_box_img ul {height: 95px;}
 .timeline_box_img li {float: left; width: 150px; height: 85px; margin: 10px 10px 0 0; }
+.timeline_box_img img {width: 150px; height: 85px;}
 .timeline_box_img p {padding-right: 23px; margin-bottom: 20px; font-size: 14px;}
 .dot {position: absolute; left: -74px; top: 10px; width: 12px; height: 16px; background: url(../img/dot.png);}
-.time {position: absolute; left: -195px; top: 8px; font-size: 20px; color: #ff7200;}
+.time {position: absolute; left: -222px; top: 8px; font-size: 20px; color: #ff7200;}
 .first {position: absolute; left: -108px; top: -4px; width: 76px; height: 38px; background: #369ad9; font-size: 16px; color: #fff; line-height: 38px; text-align: center; border-radius: 7px;}
 
 .timeline_box_2 {height: 85px;}
 .timeline_box_vod_2 img {float: left; width: 150px; height: 85px;}
 .timeline_box_vod_2 .pic {float: left; width: 150px; height: 85px; margin-right: 15px;}
-.timeline_box_vod_2 h3 {height: 30px; background: none; padding: 5px 0 0; margin: 0; line-height: 24px;}
+.timeline_box_vod_2 h3 {height: 25px; background: none; padding: 5px 0 0; margin: 0 0 5px; line-height: 24px;}
 .timeline_box_vod_2 .ico {width: 50px; height: 50px; background: url(../img/play_2.png); margin: -25px 0 0 -25px;}
 .timeline_box_2 .timeline_pannel {margin:10px 0 0;}
 
