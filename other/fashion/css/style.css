@@ -70,11 +70,11 @@ a:hover {color:#309de7;}
 .wrapper {width: 1180px; margin: 0 auto 40px; overflow: hidden; zoom:1;}
 .main {float: left; width: 780px;}
 .side {float: right; width: 380px;}
-.footer {width:1000px;height:40px;padding-top:20px;margin:40px auto 0;color:#b1b1b1;font-family:"Arial";text-align:center;border-top:solid #f4f4f4 1px;}
 
 .focus {position: relative; width: 1180px; height: 280px; margin: 0 auto 40px; overflow: hidden;}
 .focus_box {width: 1180px; height: 280px;}
-.focus_txt {position: absolute;	right: 0; top: 0; width: 320px; height: 280px; padding: 0 30px; overflow: hidden; background:#f6f6f6; }
+.focus_box a {color: #fff;}
+.focus_txt {position: absolute;	right: 0; top: 0; width: 320px; height: 280px; padding: 0 30px; overflow: hidden; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6); }
 .focus_txt strong {display: block; margin: 20px 0; font-size: 20px; line-height: 30px; text-align: center;}
 .focus_txt span {display: block; margin-top: 20px; color: #ccc;}
 .focus_txt p {margin-bottom: 30px; text-align: center;}
@@ -110,3 +110,9 @@ a:hover {color:#309de7;}
 .news ul {margin-top: 10px;}
 
 .txtlist li {height: 48px; background: url(../img/ico_1.png) no-repeat left center; padding-left: 15px; font-size: 14px; line-height: 48px; border-bottom: 1px #e8e8e8 solid;}
+
+.footer {width:950px;height:65px;margin:0 auto;color:#ccc; line-height:24px; text-align:center;}
+.footer a {color: #ccc;}
+.footer span {color: #999;}
+.footer p {font-family:"Arial";}
+.footer_tel {width: 950px; margin: 30px auto 0; color: #999; text-align: center;}
