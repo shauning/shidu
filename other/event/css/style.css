@@ -53,8 +53,9 @@ a:hover {color:#249ff1;}
 .newsinfo {height: 220px; background: #f8f8f8; border-bottom: 1px #ccc solid; overflow: hidden;}
 .newsinfo_con {width: 1000px; margin: 45px auto 0;}
 .newsinfo_con p {margin-top: 10px; font-size: 16px; color: #333;}
-.follow {float: right; background: url(../img/ico.png) no-repeat 0 0; padding-left: 40px; font-size: 16px; line-height: 32px;}
+.follow {position: relative; float: right; background: url(../img/ico.png) no-repeat 0 0; padding-left: 40px; font-size: 16px; line-height: 32px;}
 .follow em {color: #ff7200;}
+.follow span {position: absolute; left: 50px; top: -80%; color: #ff7200;}
 
 .timeline {width: 540px; background: url(../img/line.png) repeat-y 0 0; padding-left: 70px; margin: 0 0 0 137px;}
 .timeline_box {position: relative; width: 538px; margin-top: 50px; border: 1px #ccc solid; border-radius: 7px; zoom:1;}
