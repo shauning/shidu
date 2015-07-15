@@ -23,7 +23,7 @@ a:hover {text-decoration: underline;}
 .topbar_inner {width: 1170px; margin: 0 auto;}
 .logo {float: left;}
 .topbar_pannel {float: right; font-size: 14px; line-height: 45px;}
-.topbar_pannel a {font-size: 14px; color: #fff;}
+.topbar_pannel a {font-size: 14px; color: #fff !important;}
 
 .header {height: 465px; margin: 0 auto;}
 
@@ -80,8 +80,8 @@ a:hover {text-decoration: underline;}
 .imglist_120x68 li:hover, .imglist_120x68 .on {background:#4f4f4f;}
 .imglist_120x68 .pic {position:absolute;left:10px;top:8px;width:120px;height:68px;overflow:hidden;}
 .imglist_120x68 img {width:120px;height:68px;}
-.imglist_120x68 p {margin-top:5px;}
-.imglist_120x68 a {color:#ccc;}
+.imglist_120x68 p {margin-top:5px; color: #fff;}
+.imglist_120x68 a {color:#ccc !important;}
 .imglist_120x68 .title {display:block;height:39px;overflow:hidden;}
 .imglist_120x68 .title:hover {text-decoration:none;}
 .imglist_120x68 .mask {bottom:0;height:16px;}
