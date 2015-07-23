@@ -124,7 +124,8 @@ h1 {font-size:36px;color:#333;line-height:40px;}
 /*imgLlist*/
 .imgLlist {_float:left;margin-left:-20px;overflow:hidden;zoom:1;}
 .imgLlist li {position:relative;float:left;width:320px;height:75px;margin:15px 0 0 20px;border-bottom:solid #e7e7e7 1px;overflow:hidden;}
-.imgLlist .pic {float:left;display:block;width:107px;height:60px;margin-right:10px;}
+.imgLlist .pic {position:relative;float:left;display:block;width:107px;height:60px;margin-right:10px;}
+.imgLlist .ico {position: absolute; left: 10px; bottom: 10px; width: 28px; height: 28px; background: url(../img/png24.png);}
 .imgLlist img {width:107px;height:60px;}
 .imgLlist .title {height:40px;margin-bottom:3px;font-size:15px;overflow:hidden;}
 .imgLlist p {height:20px;overflow:hidden;}
