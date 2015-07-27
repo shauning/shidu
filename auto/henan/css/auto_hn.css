@@ -110,7 +110,14 @@ a:hover {color:#1887d0;}
 .autoview_slide_img li {display: none;}
 .autoview_slide_img .on {display: block;}
 .autoview_slide_tigger {position: absolute; left: 0; bottom: 1px; }
-.autoview_slide_tigger li {float: left; display: inline; width: 171px; height: 36px; margin-left: 1px; font-size: 16px; color: #fff; text-align: center;}
+.autoview_slide_tigger li {float: left; display: inline; width: 171px; height: 36px; margin-left: 1px; font-size: 14px; color: #fff; line-height: 36px; text-align: center; cursor: pointer;}
+.autoview_slide_tigger a {color: #fff;}
+.autoview_slide_tigger .on {font-size: 16px; font-weight: bold;}
+.autoview_slide_tigger .item1 {background: #1195de;}
+.autoview_slide_tigger .item2 {background: #25ae39;}
+.autoview_slide_tigger .item3 {background: #efa306;}
+.autoview_slide_tigger .item4 {background: #cc1414;}
+.autoview_slide_tigger .item5 {background: #1edadc;}
 .autoview_pannel {float: right; width: 300px; height: 390px; background: #077ec0; overflow: hidden;}
 .autoview_pannel dt {height: 50px; font-size: 24px; color: #fff; line-height: 50px; text-align: center;}
 .autoview_pannel dd {background: #098cd5; padding: 6px 0 6px 20px; zoom:1;}
@@ -124,8 +131,9 @@ a:hover {color:#1887d0;}
 .hslide {height: 400px;}
 .hslide_div {position: relative; float: left; width: 280px; height: 400px; margin: 25px 13px 0 0; overflow: hidden;}
 .hslide_ul {width: 3000px;}
-.hslide_ul li {float: left; width: 280px; height: 400px;}
-.hslide_tt {position: absolute; left: 0; top: 100px; width: 280px; font-size: 16px; color: #fff; text-align: center;}
+.hslide_ul li {position: relative; float: left; width: 280px; height: 400px;}
+.hslide_ul li span {position: absolute; left: 0; top: 252px; width: 100%; color: #fff; text-align: center;}
+.hslide_tt {position: absolute; left: 0; top: 100px; width: 280px; font-size: 16px; color: #fff; text-align: center; z-index: 2}
 .hslide_tt strong {display: block; width: 126px; height: 126px; background: url(../img/hslide_tt_1.png); margin: 0 auto 10px; font-size: 28px; color: #fff; line-height: 126px;}
 .hslide_tigger {position: absolute; left: 103px; bottom: 25px;}
 .hslide_tigger li {float: left; display: inline; width: 11px; height: 11px; background: #d5d5d5; margin: 0 2px; border-radius: 50%; text-indent: -9999px; cursor: pointer;}
