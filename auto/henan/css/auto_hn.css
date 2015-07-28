@@ -65,7 +65,7 @@ a:hover {color:#1887d0;}
 .sitenav {margin-bottom: 10px;}
 .sitenav ul {max-width: 748px; _width: 748px; height: 50px; overflow: hidden;}
 .sitenav .sitenav_more {width: auto;}
-.sitenav_drop {display: block;}
+.sitenav_drop {display: none;}
 
 .wrapper {width: 1160px; margin: 0 auto 30px; zoom:1;}
 .wrapper:after, .autoview_pannel dd:after {content:""; display:table; clear:both}
@@ -91,6 +91,7 @@ a:hover {color:#1887d0;}
 .txtlist a {margin-left: 15px;}
 
 .today {position: relative; width: 400px; height: 220px;}
+.today {overflow: hidden;}
 .today .mask {position: absolute; right: 0; bottom: 0; width: 336px; font-size: 16px; color: #fff; line-height: 36px; text-indent: 10px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6); }
 .date {position: absolute; left: 0; top: 0; width: 64px; height: 220px; background: url(../img/today.png); font-size: 18px; color: #fff; line-height: 40px; text-align: center;}
 .date em {display: block; margin-top: 110px; font-size: 40px;}
@@ -109,6 +110,7 @@ a:hover {color:#1887d0;}
 .autoview_slide {position: relative; float: left; width: 860px; height: 390px;}
 .autoview_slide_img li {display: none;}
 .autoview_slide_img .on {display: block;}
+.autoview_slide {overflow: hidden;}
 .autoview_slide_tigger {position: absolute; left: 0; bottom: 1px; }
 .autoview_slide_tigger li {float: left; display: inline; width: 171px; height: 36px; margin-left: 1px; font-size: 14px; color: #fff; line-height: 36px; text-align: center; cursor: pointer;}
 .autoview_slide_tigger a {color: #fff;}
@@ -151,5 +153,18 @@ a:hover {color:#1887d0;}
 .scroll_contain {position: relative; width: 1088px; margin: 0 auto; overflow: hidden;}
 .scroll_ul {position: relative; width: 3000px;}
 .scroll_ul li {float: left; display: inline; margin-right: 1px;}
+.box {position: relative; width: 1088px; margin: 0 auto; overflow: hidden;}
+.list {position: relative; width: 3000px;}
+.list li {float: left; display: inline; margin-right: 1px;}
 .scroll .prev, .scroll .next {position: absolute; top: -11px; width: 29px; height: 64px; background: url(../img/btn.png);}
 .scroll .next {background-position: -30px 0;}
+/* 横向滚动参考样式 */
+.cxscroll{position:relative;width:1088;height:85px;padding:0px;background-color:#eee;}
+.cxscroll .box{overflow:hidden;position:relative;width:1088px;height:85px;margin:0 auto;}
+.cxscroll .list{overflow:hidden;width:9999px;}
+.cxscroll .list li{float:left;width:150px;}
+
+.footer {width:1160px;height:65px;margin:30px auto 0;color:#ccc; line-height:24px;text-align: center;}
+.footer a {color: #ccc;}
+.footer span {color: #999;}
+.footer p {font-family:"Arial";}
