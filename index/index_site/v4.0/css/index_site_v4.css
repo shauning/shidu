@@ -119,7 +119,8 @@ a:hover {color:#309de7;}
 /*hotbox*/
 .hotbox {height: 300px; overflow: hidden;}
 .hotbox_txt {float: left; width: 370px;}
-.hotbox_txt h3 {height: 22px; margin: 15px 0 5px; font-size: 18px; line-height: 22px; font-weight: bold; overflow: hidden;}
+.hotbox_txt h3 {height: 22px; margin: 15px 0 5px; font-size: 18px; line-height: 22px; font-weight: bold; text-align: center; overflow: hidden;}
+.hotbox_txt p {text-indent: 2em;}
 .hotbox_txt .txtlist {padding-top: 8px; margin-top: 10px; border-top: 1px #e8e8e8 solid;}
 .hotbox_txt .txtlist li {height: 29px; padding: 0; font-size: 16px; line-height: 29px;}
 .hotbox_txt .txtlist a {margin-left: 12px;}
@@ -129,6 +130,7 @@ a:hover {color:#309de7;}
 /*imgtxt*/
 .ico_play {position: absolute; left: 5px; bottom: 5px; width: 28px; height: 28px; background: url(../img/png24.png);}
 .imglist .title, .imgtxt .title {display: block;}
+.imgtxt .title {text-align: center;}
 .imgtxt {background: #f5f5f5; line-height: 20px; overflow: hidden;}
 .imgtxt .pic, .imgtxt img {display: block;}
 .imgtxt div {padding: 0 10px;}
@@ -148,7 +150,7 @@ a:hover {color:#309de7;}
 .imglist .pic {position: relative; margin-bottom: 3px;}
 .imglist_175x252 li {height: 300px;}
 .imglist_175x252 .pic, .imglist_175x252 img {height: 252px;}
-.imglist_175x252 div {position: relative; padding: 0 30px 0 10px;}
+.imglist_175x252 div {position: relative; padding: 0 10px;}
 .imglist_175x252 em {position: absolute; right: 5px; top: 1px; color: #df2000;}
 .imglist_topnews li {height: 130px;}
 .imglist_585 {float: right; width: 585px; margin: 0;}
@@ -161,6 +163,7 @@ a:hover {color:#309de7;}
 
 .contain {width: 185px; height: 311px; background: #f5f5f5; margin-top: 20px;}
 .contain .txtlist {padding: 5px 10px 0;}
+.contain_topnews .txtlist {padding: 5px 0 0;}
 .contain_topnews {background: none;}
 .contain_topnews .imgtxt {background: none;}
 .contain_topnews .imgtxt div {padding: 0;}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- vinha
+ * @time   ------- 2015-03-24*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+address, cite, em {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1220px;height:100%;background:#c60e4c url(../img/bg.png) repeat-x 0 52px;font:14px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#fff;}
+a {color:#fff;outline:none;text-decoration:none;}
+a:hover {text-decoration: underline;}
+
+.wrapper {width: 1220px; margin: 0 auto;}
+.btn {display: block; background: #ee206a; color: #fff; line-height: 26px; text-align: center; border-radius: 7px;}
+.btn_purple {background: #811bb7;}
+
+.header {height: 52px; background: #480264;}
+.logo {float: left; width: 108px;}
+.logo a {display: block; height: 52px; background: url(../img/logo.png); text-indent: -9999px;}
+.nav {float: left; margin-left: 35px; font-size: 15px; line-height: 52px;}
+.nav li {float: left; display: inline; margin-left: 35px;}
+.pannel {float: right;}
+.pannel .btn {float: right; width: 64px; margin: 12px 0 0 10px;}
+.pannel_login {float: right; display: inline; margin: 13px 10px 0 0;}
+.pannel_login span {float: left; color: #815094;}
+.pannel_login a {float: left; display: block; width: 24px; height: 21px; margin-left: 10px; text-indent: -9999px;}
+.pannel_login .qq {background: url(../img/ico_3.png);}
+.pannel_login .weibo {background: url(../img/ico_2.png);}
+.pannel_login .weixin {background: url(../img/ico_1.png);}
+
+.pannelbar {height: 65px;}
