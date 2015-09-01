@@ -120,7 +120,7 @@ a:hover {color:#309de7;}
 .hotbox {height: 300px; overflow: hidden;}
 .hotbox_txt {float: left; width: 370px;}
 .hotbox_txt h3 {height: 22px; margin: 15px 0 5px; font-size: 18px; line-height: 22px; font-weight: bold; text-align: center; overflow: hidden;}
-.hotbox_txt p {text-indent: 2em;}
+.hotbox_txt p {line-height: 50px; text-indent: 2em; overflow: hidden;}
 .hotbox_txt .txtlist {padding-top: 8px; margin-top: 10px; border-top: 1px #e8e8e8 solid;}
 .hotbox_txt .txtlist li {height: 29px; padding: 0; font-size: 16px; line-height: 29px;}
 .hotbox_txt .txtlist a {margin-left: 12px;}
@@ -150,7 +150,7 @@ a:hover {color:#309de7;}
 .imglist .pic {position: relative; margin-bottom: 3px;}
 .imglist_175x252 li {height: 300px;}
 .imglist_175x252 .pic, .imglist_175x252 img {height: 252px;}
-.imglist_175x252 div {position: relative; padding: 0 10px;}
+.imglist_175x252 div {position: relative; padding: 0;}
 .imglist_175x252 em {position: absolute; right: 5px; top: 1px; color: #df2000;}
 .imglist_topnews li {height: 130px;}
 .imglist_585 {float: right; width: 585px; margin: 0;}
