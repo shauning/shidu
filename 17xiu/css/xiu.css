@@ -129,3 +129,27 @@ a:hover {text-decoration: underline;}
 .sendnum_drop {position: absolute; left: 38px; top: 32px; width: 101px; background: #53033d;}
 .sendnum_drop li {line-height: 30px; text-indent: 25px; cursor: pointer;}
 .sendnum_drop li:hover {background: #6b0e5c;}
+
+.loginbox {width: 560px; background: #fff; border: 6px #340e3c solid;}
+.loginbox_tt {height: 52px; border-bottom: 1px #efefef solid;}
+.loginbox_tt strong {float: left; padding: 0 25px; font-size: 20px; color: #666; line-height: 52px; font-weight: normal; cursor: pointer;}
+.loginbox_tt .cur {color: #fb5470; border-bottom: 1px #ee206a solid;}
+.loginbox_tt .close {float: right; display: block; width: 31px; height: 31px; background: url(../img/loginbox.png) -195px -71px; margin: 10px 20px 0 0; text-indent: -9999px}
+.loginbox_tt .close:hover {background-position: -195px -39px;}
+.loginbox_con {padding: 20px 25px 10px; overflow: hidden; zoom:1;}
+.loginbox_fi {float: left; width: 290px;}
+.loginbox_fi_div {height: 16px; margin-top: 10px; font-size: 13px; color: #333;}
+.loginbox_fi_div .checkbox {float: left; margin-top: 4px;}
+.loginbox_fi_div label {margin-right: 10px; color: #333;}
+.loginbox_fi_div a {color: #333;}
+.loginbox_fi .tip {height: 21px; color: #c10000; font-size: 13px; text-align: right;}
+.loginbox_fi .input {width: 268px; height: 20px; padding: 9px 10px; margin-top: 10px; font-size: 14px; line-height: 20px; border: 1px #d7d7d7 solid;}
+.loginbox_fi .button {width: 290px; height: 40px; background: #ee206a; margin-top: 10px; font-size: 16px; color: #fff; font-family: "Microsoft Yahei"; border: none;}
+.loginbox_code {height: 50px; overflow: hidden;}
+.loginbox_code .input {float: left; width: 140px;}
+.loginbox_code_img {float: left; width: 126px; height: 38px; margin-top: 10px; border: 1px #d7d7d7 solid; border-left: none;}
+.loginbox_code_img img {float: left; width: 80px; height: 38px;}
+.loginbox_code_img .loginbtn {float: left; display: block; width: 37px; height: 38px; background: url(../img/loginbox.png) -195px 0; text-indent: -9999px;}
+.loginbox_more {float: right; width: 161px; background: url(../img/loginbox.png) no-repeat 0 28px; padding-left: 33px;}
+.loginbox_more p {height: 29px; font-size: 13px;}
+.loginbox_more .loginbtn {display: block; width: 161px; height: 40px; margin-bottom: 10px; font-size: 14px; color: #fff; line-height: 40px; text-indent: 52px;}
