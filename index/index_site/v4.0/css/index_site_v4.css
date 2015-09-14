@@ -120,7 +120,7 @@ a:hover {color:#309de7;}
 .hotbox {height: 300px; overflow: hidden;}
 .hotbox_txt {float: left; width: 370px;}
 .hotbox_txt h3 {height: 22px; margin: 15px 0 5px; font-size: 18px; line-height: 22px; font-weight: bold; text-align: center; overflow: hidden;}
-.hotbox_txt p {line-height: 50px; text-indent: 2em; overflow: hidden;}
+.hotbox_txt p {height: 50px; text-indent: 2em; overflow: hidden;}
 .hotbox_txt .txtlist {padding-top: 8px; margin-top: 10px; border-top: 1px #e8e8e8 solid;}
 .hotbox_txt .txtlist li {height: 29px; padding: 0; font-size: 16px; line-height: 29px;}
 .hotbox_txt .txtlist a {margin-left: 12px;}
@@ -130,7 +130,6 @@ a:hover {color:#309de7;}
 /*imgtxt*/
 .ico_play {position: absolute; left: 5px; bottom: 5px; width: 28px; height: 28px; background: url(../img/png24.png);}
 .imglist .title, .imgtxt .title {display: block;}
-.imgtxt .title {text-align: center;}
 .imgtxt {background: #f5f5f5; line-height: 20px; overflow: hidden;}
 .imgtxt .pic, .imgtxt img {display: block;}
 .imgtxt div {padding: 0 10px;}
@@ -168,7 +167,7 @@ a:hover {color:#309de7;}
 .contain_topnews .imgtxt {background: none;}
 .contain_topnews .imgtxt div {padding: 0;}
 .contain_topnews .imgtxt a {border: none;}
-.contain_topnews .imgtxt p {padding-bottom: 10px; font-size: 12px; border-bottom: 1px #e0e0e0 solid;}
+.contain_topnews .imgtxt p {height: 34px; padding-bottom: 10px; font-size: 12px; border-bottom: 1px #e0e0e0 solid; overflow: hidden;}
 /*slide*/
 .slidebox {position:relative;float:right;width:565px;height:300px;overflow:hidden;}
 .slidebox_list li {width:565px;height:300px;}

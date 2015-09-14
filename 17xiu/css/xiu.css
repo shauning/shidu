@@ -23,7 +23,9 @@ a:hover {text-decoration: underline;}
 .leftbar {position: absolute; left: 0; top: 0; width: 250px;}
 .rightbar {float: right; width: 400px;}
 .btn {display: block; background: #ee206a; color: #fff; line-height: 26px; text-align: center; border-radius: 7px;}
+.btn:hover {background: #ff337c; text-decoration: none;}
 .btn_purple {background: #811bb7;}
+.btn_purple:hover {background: #A63DDE;}
 
 .header {height: 52px; background: #480264;}
 .logo {float: left; width: 108px;}
@@ -44,14 +46,26 @@ a:hover {text-decoration: underline;}
 .notice span {color: #ee206a;}
 .notice p {float: left; margin: 0 5px 0 30px;}
 .notice img {float: left;}
+.notice li {float: left;}
 .pannelbar_link {height: 20px; margin-top: 13px; font-size: 15px; line-height: 20px;}
-.pannelbar_link a {float: right; padding-left: 20px; margin-left: 30px;}
+.pannelbar_link a, .pannelbar_link span {float: right; padding-left: 20px; margin-left: 30px;}
 .pannelbar_link_1 {background: url(../img/ico_5.png) no-repeat left center;}
 .pannelbar_link_2 {background: url(../img/ico_6.png) no-repeat left center;}
 .pannelbar_link_3 {background: url(../img/ico_7.png) no-repeat left center;}
 
-.tabbox {height: 40px;}
+.tabbox {position: relative; height: 40px; z-index: 2;}
 .tabbox a {float: left; display: inline; width: 130px; background: #4a0672; margin-left: 2px; font-size: 15px; line-height: 40px; text-align: center;}
+.tabbox a:hover, .tabbox .on {background: #ee206a; color: #fff; text-decoration: none;}
+.tabbox_drop {position: absolute; left: 0; top: 40px; width: 400px; height: 465px; background: #2e013e;}
+
+.ranklist {padding: 0 20px;}
+.ranklist li {position: relative; height: 19px; padding: 0 100px 0 35px; margin-top: 12px; line-height: 19px; overflow: hidden;}
+.ranklist em {position: absolute; left: 0; top: 0; width: 19px; height: 19px; background: #811bb7; color: #fff; text-align: center;}
+.ranklist .star {position: absolute; right: 0; top: 0; background: url(../img/ico_8.png) no-repeat right center; padding-right: 20px; font-size: 12px; color: #ee206a;}
+.ranklist .top {height: 54px;}
+.ranklist .top em {top: 20px; background: #ee206a;}
+.ranklist img {display: block;}
+.ranklist .pic {float: left; margin-right: 10px;}
 
 .infolist li {height: 28px; color: #b598c5; line-height: 28px; overflow: hidden;}
 .infolist .time {font-size: 12px; color: #7f4c99}
@@ -81,6 +95,9 @@ a:hover {text-decoration: underline;}
 
 .hudong_chart .mCSB_scrollTools, .hudong_chart .mCSB_draggerContainer, .hudong_chart .mCSB_draggerRail {height: 400px;}
 .hudong_news .mCSB_scrollTools, .hudong_news .mCSB_draggerContainer, .hudong_news .mCSB_draggerRail {height: 160px;}
+.viewscroll {height: 300px; margin-top: 5px;}
+.viewscroll .mCSB_scrollTools, .viewscroll .mCSB_draggerContainer, .viewscroll .mCSB_draggerRail {height: 300px;}
+.viewscroll .mCustomScrollBox {width: 216px;}
 
 .playerbox {width: 540px; height: 430px; background: #4f0762; overflow: hidden;}
 .player {width: 520px; height: 390px; background: #000; margin: 10px auto 0;}
@@ -104,16 +121,25 @@ a:hover {text-decoration: underline;}
 .fanslist .picimg {display: block; width: 52px; height: 52px; border-radius: 50%;}
 .shouhu {display: block; height: 52px; background: url(../img/shouhu.png); margin-top: 5px;}
 
+.shop {position: relative;}
 .shop_tt {height: 42px; background: #400443;}
 .shop_tt .btn {float: right; display: inline; padding: 0 10px; margin: 8px 10px 0 0;}
 .shop_tab {float: left; display: inline; margin: 2px 0 0 2px;}
 .shop_tab a {float: left; padding: 0 10px; font-size: 15px; line-height: 40px;}
 .shop_tab .on {background: #5e084d;}
 .shop_con {height: 115px; background: #620749; padding-top: 10px;}
+.floattip {position: absolute; left: 0; top: 41px; width: 270px; height: 77px; background: #2e013d;}
+.floattip img {float: left; display: inline; margin: 13px 10px 0 10px;}
+.floattip span {color: #ee206a;}
+.floattip p {margin: 13px 10px 0 0;}
+.floattip .close {position: absolute; right: 0; top: 0; width: 19px; height: 20px; background: url(../img/close.png); text-indent: -9999px;}
+.floattip .close:hover {background: url(../img/close2.png);}
 .goods {position: relative;}
 .goods_scroll {position: relative; width: 540px; height: 50px; overflow: hidden;}
 .goodslist {position: relative; width: 3000px;}
-.goodslist li {float: left; display: inline; margin-right: 1px;}
+.goodslist li {float: left; display: inline; width: 53px; background: #77136b; margin-right: 1px; text-align: center;}
+.goodslist li:hover, .goodslist .selected {background: #ee206a;}
+.goodslist a:hover {text-decoration: none;}
 .prev, .next {position: absolute; top: 0; width: 12px; height: 50px; background: url(../img/scrollbtn.png); text-indent: -9999px;}
 .next {right: -12px;}
 .prev {left: -12px; background: url(../img/scrollbtn_L.png);}
@@ -124,13 +150,16 @@ a:hover {text-decoration: underline;}
 
 .send {position: relative; float: right; display: inline; height: 32px; margin: 15px 10px 0 0; line-height: 32px;}
 .send span {float: left;}
-.sendnum {float: left; width: 100px; height: 32px; background: #941a88 url(../img/sendnum.png) no-repeat 80px center; margin: 0 1px 0 10px; line-height: 32px; text-indent: 15px; cursor: pointer;}
+.sendnum {float: left; width: 100px; height: 32px; background: #941a88 url(../img/sendnum.png) no-repeat 80px center; margin: 1px 1px 0 10px; color: #fff; line-height: 32px; text-indent: 15px; border: none; cursor: pointer;}
+.sendnum_btn {position: absolute; left: 38px; top: 0; width: 100px; height: 32px;}
 .sendbtn {width: 44px; height: 32px; background: #ee206a; color: #fff; border: none;}
-.sendnum_drop {position: absolute; left: 38px; top: 32px; width: 101px; background: #53033d;}
+.sendbtn:hover {background: #ff337c;}
+.sendnum_drop {position: absolute; left: 38px; top: 33px; width: 101px; background: #53033d;}
 .sendnum_drop li {line-height: 30px; text-indent: 25px; cursor: pointer;}
 .sendnum_drop li:hover {background: #6b0e5c;}
 
-.loginbox {width: 560px; background: #fff; border: 6px #340e3c solid;}
+.login_bg {position: fixed; _position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: #000; opacity: 0.6; filter:alpha(opacity=60); z-index: 9;}
+.loginbox {position: absolute; left: 50%; top: 50%; width: 560px; background: #fff; margin: -150px 0 0 -280px; border: 6px #340e3c solid; z-index: 11;}
 .loginbox_tt {height: 52px; border-bottom: 1px #efefef solid;}
 .loginbox_tt strong {float: left; padding: 0 25px; font-size: 20px; color: #666; line-height: 52px; font-weight: normal; cursor: pointer;}
 .loginbox_tt .cur {color: #fb5470; border-bottom: 1px #ee206a solid;}
@@ -153,3 +182,20 @@ a:hover {text-decoration: underline;}
 .loginbox_more {float: right; width: 161px; background: url(../img/loginbox.png) no-repeat 0 28px; padding-left: 33px;}
 .loginbox_more p {height: 29px; font-size: 13px;}
 .loginbox_more .loginbtn {display: block; width: 161px; height: 40px; margin-bottom: 10px; font-size: 14px; color: #fff; line-height: 40px; text-indent: 52px;}
+
+.gift {height: 116px;  background: #580956 url(../img/gift.png); margin-top: 15px;}
+.gift li {float: left; display: inline; width: 75px; height: 70px; margin: 20px 15px 0;}
+.gift a {position: relative; display: block; height: 70px; background: url(../img/shafa.png) 75px 0;}
+.gift a:hover {background-position: 0 0;}
+.gift .mask {display: none;}
+.gift img {position: absolute; left: 10px; top: 5px;}
+.gift .on .mask {position: absolute; left: 0; top: 0; display: block; width: 75px; height: 70px; background: url(../img/shafa_on.png); z-index: 2;}
+
+.view {height: 344px; background: url(../img/view.jpg); margin-top: 15px; overflow: hidden;}
+.view_tab {height: 34px; overflow: hidden;}
+.view_tab a {float: left; display: block; width: 125px; background: #48074c; font-size: 15px; color: #f4d9fe; line-height: 34px; text-align: center;}
+.view_tab a span {font-size: 12px; color: #b151a8;}
+.view_tab .on {background: none;}
+.viewlist li {height: 32px; margin-top: 3px; line-height: 32px; overflow: hidden;}
+.viewlist img {float: left; margin-right: 10px;}
+.viewlist .lv {margin-top: 8px;}

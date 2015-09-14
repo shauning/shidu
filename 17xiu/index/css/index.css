@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- vinha
+ * @time   ------- 2015-03-24*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+address, cite, em {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1220px;height:100%;background:#f6f6f6;font:14px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
+a {color:#333;outline:none;text-decoration:none;}
+a:hover {color: #ee206a;}
+
+.wrapper {width: 1220px; margin: 0 auto; zoom:1;}
+.wrapper:after {content:""; display:table; clear:both}
+.main {float: left; width: 885px;}
+.side {float: right; width: 310px;}
+.leftbar {float: left; width: 345px;}
+.btn {display: block; background: #ee206a; color: #fff; line-height: 26px; text-align: center; border: 1px #ee206a solid; border-radius: 7px;}
+.btn_gray {background: #f6f6f6; color: #333; border: 1px #dfdfdf solid;}
+.btn_orange {background: #f44103;}
+.btn:hover {background: #ee206a; color: #fff;}
+
+.header {height: 67px; background: #fff url(../img/bg_header2.png) repeat-x 0 0; margin-bottom: 30px; border-bottom: 1px #e7e7e7 solid;}
+.header .wrapper {height: 64px; background: url(../img/bg_header.png) no-repeat; padding-top: 3px;}
+.logo {float: left; width: 107px;}
+.nav {float: left; margin: 17px 0 0 40px; font-size: 17px;}
+.nav a {float: left; width: 50px; height: 43px; margin-left: 30px; text-align: center;}
+.nav .on {color: #ee206a; border-bottom: 4px #ee206a solid;}
+.pannel {float: right; margin-top: 15px;}
+.pannel .btn {float: right; width: 64px; margin: 0 0 0 20px;}
+.pannel_user a {float: right;}
+.userpannel {float: right; display: inline; margin: 0 20px; color: #ee206a;}
+.search {float: right; width: 208px; height: 30px; background: url(../img/search.png); margin-top: 15px;}
+.search input {float: left; height: 30px; background: none; padding: 0 15px; border: none;}
+.search button {width: 30px; height: 30px; background: none; border: none;}
+
+.bigpic {position: relative; width: 345px; height: 335px; margin-bottom: 16px; overflow: hidden;}
+.bigpic .mask {position: absolute; left: 0; bottom: 0; width: 345px; height: 50px; background: url(../img/mask.png);}
+.bigpic .txt {position: absolute; left: 0; bottom: 0; width: 325px; height: 45px; padding: 5px 10px 0; color: #fff; line-height: 20px; text-align: right;}
+.bigpic .txt em {float: left; margin-top: 8px; font-size: 20px;}
+
+
+.imglist {margin-left: -15px;}
+.imglist_540 {float: right; width: 540px; margin: -14px 0 0 0;}
+.imglist li {float: left; display: inline; width: 165px; height: 162px; background: #fff; margin: 14px 0 0 15px;}
+.imglist a {position: relative; display: block; height: 160px;}
+.imglist a:hover {border-bottom: 2px #ee206a solid;}
+.imglist img {display: block; width: 165px; height: 110px;}
+.imglist .mask {position: absolute; left: 0; top: 78px; width: 145px; height: 32px; background: url(../img/mask2.png); padding: 0 10px; font-size: 12px; color: #fff; text-align: right; line-height: 40px; overflow: hidden;}
+.imglist strong {display: block; height: 21px; padding: 0 10px; overflow: hidden;}
+.imglist em {background: url(../img/ico_1.png) no-repeat 10px center; padding-left: 23px; font-size: 12px; color: #999;}
+
+.loginbox {width: 282px; height: 156px; margin: 0 auto 15px; border-bottom: 1px #efefef solid; overflow: hidden;}
+.loginmod .btn_gray {width: 170px; height: 34px; margin: 20px auto 0; line-height: 34px;}
+.morelogin {width: 282px; height: 32px; background: url(../img/morelogin.png); margin: 20px auto 0;}
+.morelogin a {float: left; display: block; width: 94px; color: #fff; line-height: 32px; text-indent: 34px;}
+.loginmod p {margin-top: 10px; text-align: center;}
+.userinfo {position: relative; padding: 25px 0 0 95px; font-size: 12px;}
+.userinfo .picimg {position: absolute; left: 0; top: 25px; display: block; width: 73px; height: 73px; margin-bottom: 10px; border-radius: 50%;}
+.userinfo .lv {position: absolute; right: 0; top: 25px;}
+.userinfo strong {font-size: 15px; color: #333; font-weight: normal;}
+.userinfo p {background: url(../img/ico_3.png) no-repeat left center; padding-left: 20px; margin: 5px 0 10px; line-height: 22px;}
+.userinfo .btn {position: absolute; right: 0; bottom: 0; padding: 0 16px;}
+.userinfo .btn_gray {bottom: 34px;}
+.userinfo_lv_bar {height: 6px; background: #e1e1e1; overflow: hidden;}
+.userinfo_lv_bar span {display: block; height: 6px; background: #ee206a;}
+
+.rank_tt {height: 20px; padding: 0 25px; margin-bottom: 15px; line-height: 20px; overflow: hidden;}
+.rank_tt h3 {float: left; font-size: 20px; color: #333;}
+.switch {float: right; margin-top: 3px; font-size: 12px; line-height: 16px;}
+.switch a {float: left; width: 16px; height: 16px; background: url(../img/switch.png); margin-left: 2px; text-indent: -9999px; overflow: hidden;}
+.switch .next {background-position: -18px 0;}
+.switch span {float: left;}
+.ranklist {padding: 0 25px;}
+.ranklist li {position: relative; height: 45px; padding: 0 0 0 75px; margin-top: 10px;}
+.ranklist .pic {position: absolute; left: 0; top: 0;}
+.ranklist div {height: 20px; line-height: 20px; overflow: hidden;}
+.ranklist div a, .ranklist div img {float: left; margin-right: 5px;}
+.ranklist em {background: url(../img/ico_1.png) no-repeat 0 center; padding-left: 13px; font-size: 12px; color: #999;} 
+.ranklist .tj {position: absolute; right: 0; top: 0; width: 49px; height: 47px; background: url(../img/ico_2.png);}
+.ranklist b {position: absolute; left: 57px; top: 0; color: #666; line-height: 20px; font-weight: normal;}
+.ranklist .top b {color: #ee206a;}
+
+.box_tt {height: 30px; line-height: 30px; overflow: hidden;}
+.box_tt h2 {float: left; font-size: 24px; color: #333;}
+.sidebox {margin-bottom: 22px;}
+.sidebox .box_tt {height: 44px;}
+.tabbox {float: left; display: inline; margin-left: 30px;}
+.tabbox a {float: left; background: #f6f6f6; padding: 0 15px; margin-left: 10px; font-size: 18px; color: #333; line-height: 30px; text-align: center; border-radius: 13px;}
+.tabbox .on {background: #ee206a; color: #fff;}
+.sidebox_con {background: #fff; padding-bottom: 10px; border-top: 3px #ee206a solid;}
+.sidebox_con_green {border-color: #2bc683;}
+.sidebox_con_purple {border-color: #c000ff;}
