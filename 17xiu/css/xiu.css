@@ -118,8 +118,14 @@ a:hover {text-decoration: underline;}
 .userfans_tt {height: 32px; background: url(../img/userfans_tt.png) no-repeat left bottom; padding-bottom: 1px; font-size: 13px; color: #a14cce; line-height: 32px;}
 .userfans_tt span {font-size: 15px; color: #fff;}
 .fanslist {height: 170px; margin-left: -3px;}
-.fanslist li {float: left; display: inline; width: 52px; margin: 15px 0 0 3px; color: #b494c1; text-align: center;}
+.fanslist li {position: relative; float: left; display: inline; width: 52px; margin: 15px 0 0 3px; color: #b494c1; text-align: center; cursor: pointer;}
 .fanslist .picimg {display: block; width: 52px; height: 52px; border-radius: 50%;}
+.fanslist .mask {position: absolute; left: 0; top: 0; width: 52px; height: 52px; background: #000; line-height: 18px; opacity: 0.6; filter:alpha(opacity=60); border-radius: 50%;}
+.fanslist em {display: none; margin-top: 10px; font-size: 12px; color: #fff;}
+.fanslist em b {display: block; color: #ffe934;}
+.fanslist li:hover em {display: block;}
+.fanslist .on .mask {display: none;}
+.fanslist .on:hover .mask {display: block;}
 .shouhu {display: block; height: 52px; background: url(../img/shouhu.png); margin-top: 5px;}
 
 .shop {position: relative;}
@@ -185,12 +191,16 @@ a:hover {text-decoration: underline;}
 .loginbox_more .loginbtn {display: block; width: 161px; height: 40px; margin-bottom: 10px; font-size: 14px; color: #fff; line-height: 40px; text-indent: 52px;}
 
 .gift {height: 116px;  background: #580956 url(../img/gift.png); margin-top: 15px;}
-.gift li {float: left; display: inline; width: 75px; height: 70px; margin: 20px 15px 0;}
-.gift a {position: relative; display: block; height: 70px; background: url(../img/shafa.png) 75px 0;}
-.gift a:hover {background-position: 0 0;}
+.gift li {float: left; display: inline; width: 75px; height: 90px; margin: 20px 15px 0;}
+.gift a {position: relative; display: block; height: 90px; background: url(../img/shafa.png) no-repeat -106px 0; line-height: 155px; color: #ae96a9; text-align: center; text-decoration: none;}
+.gift a:hover {background-position: 0 0; color: #fff;}
 .gift .mask {display: none;}
+.gift em {position: absolute; left: 32px; bottom: -47px; display: none; font-size: 10px; z-index: 2;}
 .gift img {position: absolute; left: 10px; top: 5px;}
+.gift .on {color: #fff;}
 .gift .on .mask {position: absolute; left: 0; top: 0; display: block; width: 75px; height: 70px; background: url(../img/shafa_on.png); z-index: 2;}
+.gift .on:hover .mask {background: url(../img/qiang.png);}
+.gift .on:hover em {display: block;}
 
 .view {height: 344px; background: url(../img/view.jpg); margin-top: 15px; overflow: hidden;}
 .view_tab {height: 34px; overflow: hidden;}
@@ -200,3 +210,22 @@ a:hover {text-decoration: underline;}
 .viewlist li {height: 32px; margin-top: 3px; line-height: 32px; overflow: hidden;}
 .viewlist img {float: left; margin-right: 10px;}
 .viewlist .lv {margin-top: 8px;}
+
+.paybox {position: absolute; left: 50%; top: 100px; width: 410px; height: 380px; background: #31023d; margin: 0 0 0 -205px; z-index: 9;}
+.paybox_tt {height: 47px; background: #280031; padding: 0 10px;}
+.paybox_tt strong {float: left; font-size: 18px; color: #fff; line-height: 47px; font-weight: normal;}
+.paybox_tt .close {float: right; display: block; width: 24px; height: 24px; background: url(../img/close3.png); margin: 10px 0 0 0; text-indent: -9999px}
+.paybox_tt .close:hover {background-position: -25px 0;}
+.payintro {width: 260px; height: 90px; background: url(../img/ico_9.png) no-repeat left top; padding-left: 90px; margin: 15px auto 0; border-bottom: 1px #66436f solid;}
+.payintro p {color: #d4d4d4;}
+.payintro a {color: #ee206a;}
+.paylist {width: 350px; margin: 10px auto 0;}
+.payinfo {font-size: 16px;}
+.payinfo span {margin-left: 10px; font-size: 14px; color: #ee206a;}
+.paylist .btn {width: 120px; margin: 15px auto 0; line-height: 38px;}
+.paylist dl {height: 24px; margin-top: 15px; line-height: 24px; overflow: hidden;}
+.paylist dt {width: 70px;}
+.paylist dt, .paylist dd {float: left;}
+.paylist dd a {float: left; height: 22px; padding: 0 5px; margin-right: 10px; font-size: 12px; line-height: 22px; border: 1px #782782 solid;}
+.paylist dd .on {background: #ee206a; border-color: #ee206a;}
+.paylist dd span {color: #ee206a;}

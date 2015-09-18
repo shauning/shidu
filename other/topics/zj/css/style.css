@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- vinha
+ * @time   ------- 2015-03-24*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+address, cite, em {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1000px;height:100%;background:#fff url(../img/bg_side.jpg) no-repeat center top;font:14px/1.6em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
+a {color:#333;outline:none;text-decoration:none;}
+a:hover {color:#dd2f2e;}
+
+.hide {position: absolute; left: -9999px;}
+.wrapper {width: 1000px; margin: 0 auto 30px; zoom:1;}
+.wrapper:after {content:""; display:table; clear:both}
+.wrapper_tt {height: 40px; background: url(../img/wrapper_tt.png) no-repeat left center; font-size: 30px; color: #333; line-height: 40px; text-align: center;}
+.main {float: left; width: 595px;}
+.side {float: right; width: 385px;}
+
+.header {height: 480px; background: url(../img/header.jpg); overflow: hidden;}
+
+.zyz {height: 245px; border: 8px #dd2f2e solid; }
+.zyz_tt {height: 47px; overflow: hidden;}
+.marquee {position: relative; height: 172px; padding: 0 40px; margin-top: 10px; overflow: hidden;}
+
+.imglist {margin-left: -20px; overflow: hidden; zoom:1;}
+.imglist li {float: left; width: 182px; height: 130px; margin-left: 20px; overflow: hidden;}
+.imglist img {display: block; width: 182px; height: 105px;}
+
+/*slide*/
+.slidebox {position:relative;width:595px;height:365px;margin-bottom:30px;overflow:hidden;}
+.slidebox_list li {width:595px;height:365px;}
+.slidebox_list a {position:relative;display:block;height:365px;}
+.slidebox_list img {width:595px;height:365px;}
+.slidebox_list span {position:absolute;left:0;bottom:0;display:block;width:515px;height:40px;padding:0 70px 0 10px;font-size:18px;color:#fff;font-family:"Microsoft Yahei";line-height:40px;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
+.slidebox_tigger {position:absolute;right:10px;bottom:15px;}
+.slidebox_tigger li {float:left;display:inline;width:10px;height:10px;background:#fff;margin-left:6px;cursor:pointer;text-indent:-9999px;overflow:hidden;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;}
+.slidebox_tigger .on {background:#de0909;}
+/*topnews*/
+.topnews {height:220px;padding:0 15px; margin-bottom: 20px; border: 1px #e5e5e5 solid;}
+.topnews h2 {height:20px;padding-top:15px;margin:12px 0 5px;font-size:16px;font-family:"Microsoft Yahei";font-weight:bold;border-top:solid #ebebeb 1px;overflow:hidden;}
+.topnews .first {padding-top:0;border-top:none;}
+.topnews h2 a {color:#dd2f2e;}
+.topnews_ul li {height:26px;font-size:13px;font-family:"Microsoft Yahei";line-height:26px;overflow:hidden;}
+.topnews_ul a {color:#555;}
+.topnews_ul span {margin:0 3px;}
+/*qcode*/
+.qcode {margin-top: 23px;}
+.qcode_tt {height: 44px; background: #dd2f2e; font-size: 16px; color: #fff; line-height: 44px; text-align: center;}
+.qcode_con {height: 215px; text-align: center; border: 1px #e5e5e5 solid; overflow: hidden;}
+.qcode_con img { margin-top: 40px;}
+/*scroll*/
+.scroll {position: relative; margin: 20px 0;}
+.scroll_inner {position: relative; width: 1000px; overflow: hidden;}
+.scroll_inner .movielist {position: relative; width: 3000px;}
+.pre, .next {position: absolute; top: 40px; width: 18px; height: 38px; background: url(../img/scroll_btn.png);}
+.pre {left: -30px;}
+.next {right: -30px; background-position: -19px 0;}
+/*zanzhu*/
+.zanzhu {height: 170px; border: 8px #eaeaea solid; overflow: hidden;}
+.zanzhu dl {margin: 30px 0 0 20px;}
+.zanzhu dt, .zanzhu dd {float: left;}
+/*footer*/
+.footer {width:1000px;height:65px;margin:0 auto;color:#ccc; line-height:24px; text-align:center;}
+.footer a {color: #ccc;}
+.footer span {color: #999;}
+.footer p {font-family:"Arial";}
+.footer_tel {width: 950px; margin: 30px auto 0; color: #999; text-align: center;}
