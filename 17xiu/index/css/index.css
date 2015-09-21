@@ -80,9 +80,10 @@ a:hover {color: #ee206a;}
 .switch span {float: left;}
 .ranklist {padding: 0 25px;}
 .ranklist li {position: relative; height: 45px; padding: 0 0 0 75px; margin-top: 10px;}
-.ranklist .pic {position: absolute; left: 0; top: 0;}
+.ranklist .pic {position: absolute; left: 0; top: 0; width: 44px; height: 44px;}
 .ranklist div {height: 20px; line-height: 20px; overflow: hidden;}
 .ranklist div a, .ranklist div img {float: left; margin-right: 5px;}
+.ranklist div img {width: 16px; height: 19px;}
 .ranklist em {background: url(../img/ico_1.png) no-repeat 0 center; padding-left: 13px; font-size: 12px; color: #999;} 
 .ranklist .tj {position: absolute; right: 0; top: 0; width: 49px; height: 47px; background: url(../img/ico_2.png);}
 .ranklist b {position: absolute; left: 57px; top: 0; color: #666; line-height: 20px; font-weight: normal;}

@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- vinha
+ * @time   ------- 2015-03-24*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+address, cite, em {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1220px;height:100%;background:#f6f6f6;font:14px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#999;}
+a {color:#333;outline:none;text-decoration:none;}
+a:hover {color: #ee206a;}
+
+.wrapper {width: 1220px; margin: 0 auto; zoom:1;}
+.wrapper:after {content:""; display:table; clear:both}
+.main {float: right; width: 918px; background: #fff; padding-bottom: 50px; border: 1px #e2e2e2 solid;}
+.menu {float: left; width: 276px;}
+.leftbar {float: left; width: 345px;}
+.btn {display: block; background: #ee206a; color: #fff; line-height: 26px; text-align: center; border: 1px #ee206a solid; border-radius: 7px;}
+.btn_gray {background: #f6f6f6; color: #333; border: 1px #dfdfdf solid;}
+.btn_orange {background: #f44103;}
+.btn:hover {background: #ee206a; color: #fff;}
+.footer {margin: 30px 0; font-size: 12px; color: #d5d5d5; text-align: center;}
+
+.header {height: 67px; background: #fff url(../img/bg_header2.png) repeat-x 0 0; margin-bottom: 30px; border-bottom: 1px #e7e7e7 solid;}
+.header .wrapper {height: 64px; background: url(../img/bg_header.png) no-repeat; padding-top: 3px;}
+.logo {float: left; width: 107px;}
+.nav {float: left; margin: 17px 0 0 40px; font-size: 17px;}
+.nav a {float: left; width: 50px; height: 43px; margin-left: 30px; text-align: center;}
+.nav .on {color: #ee206a; border-bottom: 4px #ee206a solid;}
+.pannel {float: right; margin-top: 15px;}
+.pannel .btn {float: right; width: 64px; margin: 0 0 0 20px;}
+.pannel_user a {float: right;}
+.userpannel {float: right; display: inline; margin: 0 20px; color: #ee206a;}
+.search {float: right; width: 208px; height: 30px; background: url(../img/search.png); margin-top: 15px;}
+.search input {float: left; height: 30px; background: none; padding: 0 15px; border: none;}
+.search button {width: 30px; height: 30px; background: none; border: none;}
+
+.login_bg {position: fixed; _position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: #000; opacity: 0.6; filter:alpha(opacity=60); z-index: 9;}
+.loginbox {position: absolute; left: 50%; top: 50%; width: 560px; background: #fff; margin: -150px 0 0 -280px; border: 6px #340e3c solid; z-index: 11;}
+.loginbox_tt {height: 52px; border-bottom: 1px #efefef solid;}
+.loginbox_tt strong {float: left; padding: 0 25px; font-size: 20px; color: #666; line-height: 52px; font-weight: normal; cursor: pointer;}
+.loginbox_tt .cur {color: #fb5470; border-bottom: 1px #ee206a solid;}
+.loginbox_tt .close {float: right; display: block; width: 31px; height: 31px; background: url(../img/loginbox.png) -195px -71px; margin: 10px 20px 0 0; text-indent: -9999px}
+.loginbox_tt .close:hover {background-position: -195px -39px;}
+.loginbox_con {padding: 20px 25px 10px; overflow: hidden; zoom:1;}
+.loginbox_fi {float: left; width: 290px;}
+.loginbox_fi_div {height: 16px; margin-top: 10px; font-size: 13px; color: #333;}
+.loginbox_fi_div .checkbox {float: left; margin-top: 4px;}
+.loginbox_fi_div label {margin-right: 10px; color: #333;}
+.loginbox_fi_div a {color: #333;}
+.loginbox_fi .tip {height: 21px; color: #c10000; font-size: 13px; text-align: right;}
+.loginbox_fi .input {width: 268px; height: 20px; padding: 9px 10px; margin-top: 10px; font-size: 14px; line-height: 20px; border: 1px #d7d7d7 solid;}
+.loginbox_fi .button {width: 290px; height: 40px; background: #ee206a; margin-top: 10px; font-size: 16px; color: #fff; font-family: "Microsoft Yahei"; border: none;}
+.loginbox_code {height: 50px; overflow: hidden;}
+.loginbox_code .input {float: left; width: 140px;}
+.loginbox_code_img {float: left; width: 126px; height: 38px; margin-top: 10px; border: 1px #d7d7d7 solid; border-left: none;}
+.loginbox_code_img img {float: left; width: 80px; height: 38px;}
+.loginbox_code_img .loginbtn {float: left; display: block; width: 37px; height: 38px; background: url(../img/loginbox.png) -195px 0; text-indent: -9999px;}
+.loginbox_more {float: right; width: 161px; background: url(../img/loginbox.png) no-repeat 0 28px; padding-left: 33px;}
+.loginbox_more p {height: 29px; font-size: 13px;}
+.loginbox_more .loginbtn {display: block; width: 161px; height: 40px; margin-bottom: 10px; font-size: 14px; color: #fff; line-height: 40px; text-indent: 52px;}
+
+.menu {background: #fff; border: 1px #e2e2e2 solid;}
+.menu dl {border-top: 1px #e2e2e2 solid;}
+.menu .first {border: none;}
+.menu dt {height: 48px; background: url(../img/arrow2.png) no-repeat 60px -5px; padding-left: 85px; font-size: 18px; color: #333; line-height: 48px; cursor: pointer;}
+.menu dd {border-top: 1px #e2e2e2 solid;}
+.menu dd a {display: block; padding-left: 85px; font-size: 15px; line-height: 36px;}
+.menu dd .on {color: #ee206a;}
+
+.userset {padding: 0 30px;}
+.userset h3 {font-size: 20px; color: #333; line-height: 46px; border-bottom: 1px #e2e2e2 solid;}
+.userset_pic {height: 120px; margin-top: 75px; overflow: hidden;}
+.userset_pic_img {float: left; width: 120px; height: 120px; margin-right: 25px;}
+.userset_pic p {margin: 50px 0 10px;}
+.userset .btn {float: left; display: block; height: 30px; background: #fcfcfc; padding: 0 15px; margin-right: 10px; font-size: 15px; color: #333; line-height: 30px; border: 1px #e2e2e2 solid;}
+.userset .button {width: 120px; height: 40px; background: #ee206a; margin-top: 30px; font-size: 14px; color: #fff; border: none; -moz-border-radius:9px;-webkit-border-radius:9px;border-radius:9px;}
+
+.userset_div {position: relative; min-height: 40px; padding-left: 60px; margin-top: 10px; line-height: 40px;}
+.userset_div .input {float: left; width: 300px; height: 20px; padding: 5px 10px; margin-right: 10px; font-size: 14px; line-height: 20px; border: 1px #d7d7d7 solid;}
+.userset_div label {position: absolute; left: 0; top: 0;  color: #333;}
+.userset_div textarea {width: 420px; height: 180px; padding: 9px 10px; font-size: 14px; line-height: 20px; border: 1px #d7d7d7 solid;}
+.userset_div select {margin-right: 10px;}

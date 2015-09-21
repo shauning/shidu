@@ -40,6 +40,9 @@ a:hover {text-decoration: underline;}
 .pannel_login .qq {background: url(../img/ico_3.png);}
 .pannel_login .weibo {background: url(../img/ico_2.png);}
 .pannel_login .weixin {background: url(../img/ico_1.png);}
+.pannel_user {line-height: 52px;}
+.pannel_user a {float: right; margin-left: 10px;}
+.userpannel {float: left;}
 
 .pannelbar {height: 65px; overflow: hidden;}
 .notice {height: 23px; background: url(../img/ico_4.png) no-repeat left center; font-size: 15px; line-height: 23px;}
@@ -65,7 +68,7 @@ a:hover {text-decoration: underline;}
 .ranklist .top {height: 54px;}
 .ranklist .top em {top: 20px; background: #ee206a;}
 .ranklist img {display: block;}
-.ranklist .pic {float: left; margin-right: 10px;}
+.ranklist .pic {float: left; width: 54px; height: 54px; margin-right: 10px;}
 
 .infolist li {color: #b598c5; line-height: 28px; overflow: hidden; word-break:break-all;}
 .infolist .time {font-size: 12px; color: #7f4c99}
@@ -109,7 +112,7 @@ a:hover {text-decoration: underline;}
 .userinfo .pic .picimg {display: block; width: 73px; height: 73px; margin-bottom: 10px; border-radius: 50%;}
 .userinfo strong {font-size: 15px; color: #fff;}
 .userinfo p {color: #ecd0f6; line-height: 22px;}
-.userinfo .btn {float: left; padding: 0 16px; margin:5px 5px 0 0;}
+.userinfo .btn {float: left; padding: 0 14px; margin:5px 5px 0 0;}
 .userinfo_lv {color: #ba61de;}
 .userinfo_lv_bar {height: 3px; background: #7b13a2; overflow: hidden;}
 .userinfo_lv_bar span {display: block; height: 3px; background: #ee206a;}
@@ -117,7 +120,7 @@ a:hover {text-decoration: underline;}
 .userfans {height: 260px; background: #4e065a; padding: 0 16px;}
 .userfans_tt {height: 32px; background: url(../img/userfans_tt.png) no-repeat left bottom; padding-bottom: 1px; font-size: 13px; color: #a14cce; line-height: 32px;}
 .userfans_tt span {font-size: 15px; color: #fff;}
-.fanslist {height: 170px; margin-left: -3px;}
+.fanslist {margin-left: -3px; overflow: hidden; zoom:1;}
 .fanslist li {position: relative; float: left; display: inline; width: 52px; margin: 15px 0 0 3px; color: #b494c1; text-align: center; cursor: pointer;}
 .fanslist .picimg {display: block; width: 52px; height: 52px; border-radius: 50%;}
 .fanslist .mask {position: absolute; left: 0; top: 0; width: 52px; height: 52px; background: #000; line-height: 18px; opacity: 0.6; filter:alpha(opacity=60); border-radius: 50%;}
@@ -150,6 +153,11 @@ a:hover {text-decoration: underline;}
 .prev, .next {position: absolute; top: 0; width: 12px; height: 50px; background: url(../img/scrollbtn.png); text-indent: -9999px;}
 .next {right: -12px;}
 .prev {left: -12px; background: url(../img/scrollbtn_L.png);}
+.scroll_contain {position: relative;}
+.goods_2 .goods_scroll {width: 221px; height: 180px;}
+.goods_2 .prev, .goods_2 .next {top: 73px;}
+.goods_2 .prev {left: -16px;}
+.goods_2 .next {right: -16px;}
 
 .total {float: left; display: inline; margin: 15px 0 0 10px; font-size: 12px; color: #d8ccd4; line-height: 42px;}
 .total img {float: left; margin-right: 10px;}
@@ -158,7 +166,7 @@ a:hover {text-decoration: underline;}
 .send {position: relative; float: right; display: inline; height: 32px; margin: 15px 10px 0 0; line-height: 32px;}
 .send span {float: left;}
 .sendnum {float: left; width: 100px; height: 32px; background: #941a88 url(../img/sendnum.png) no-repeat 80px center; margin: 1px 1px 0 10px; color: #fff; line-height: 32px; text-indent: 15px; border: none; cursor: pointer;}
-.sendnum_btn {position: absolute; left: 38px; top: 0; width: 100px; height: 32px;}
+.sendnum_btn {position: absolute; right: 47px; top: 0; width: 26px; height: 32px;}
 .sendbtn {width: 44px; height: 32px; background: #ee206a; color: #fff; border: none;}
 .sendbtn:hover {background: #ff337c;}
 .sendnum_drop {position: absolute; left: 38px; top: 33px; width: 101px; background: #53033d;}
@@ -196,7 +204,7 @@ a:hover {text-decoration: underline;}
 .gift a:hover {background-position: 0 0; color: #fff;}
 .gift .mask {display: none;}
 .gift em {position: absolute; left: 32px; bottom: -47px; display: none; font-size: 10px; z-index: 2;}
-.gift img {position: absolute; left: 10px; top: 5px;}
+.gift img {position: absolute; left: 10px; top: 5px; width: 52px; height: 52px;}
 .gift .on {color: #fff;}
 .gift .on .mask {position: absolute; left: 0; top: 0; display: block; width: 75px; height: 70px; background: url(../img/shafa_on.png); z-index: 2;}
 .gift .on:hover .mask {background: url(../img/qiang.png);}
